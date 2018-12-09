@@ -50,29 +50,53 @@ function search() {
     return passedColorsSearch;
 }
 
+function buildFlagDomElements(flag, resultRow) {
+        var resultColumn = document.createElement("div");
+        resultColumn.innerText = flag.name;
+        resultColumn.classList.add("col-3");
+        resultRow.appendChild(resultColumn);
+        
+        if (flag.src) {
+            var resultImg = document.createElement("img");
+            resultImg.src = flag.src;
+            resultImg.classList.add("img-fluid");
+            resultColumn.appendChild(resultImg);
+        }
+    
+}
+
 function displaySearchResults(flagList) {
     
     var searchResults = document.querySelector("#searchResults");
     
     searchResults.innerHTML = "";
     
-    flagList.forEach((flag) => {
+    for (var i = 0; i < flagList.length; i += 4) {
         var resultRow = document.createElement("div");
         resultRow.classList.add("row");
         
-        var resultColumn = document.createElement("div");
-        resultColumn.innerText = flag.name;
-        resultColumn.classList.add("col-12");
-        resultRow.appendChild(resultColumn);
+        if (i < flagList.length) {
+            var flagA = flagList[i];
+            buildFlagDomElements(flagA, resultRow);
+        }
         
-        if (flag.src) {
-            var resultImg = document.createElement("img");
-            resultImg.src = flag.src;
-            resultColumn.appendChild(resultImg);
+        if (i + 1 < flagList.length) {
+            var flagB = flagList[i + 1];
+            buildFlagDomElements(flagB, resultRow);
+        }
+        
+        if (i + 2 < flagList.length) {
+            var flagC = flagList[i + 2];
+            buildFlagDomElements(flagC, resultRow);
+        }
+        
+        if (i + 3 < flagList.length) {
+            var flagD = flagList[i + 3];
+            buildFlagDomElements(flagD, resultRow);
         }
         
         searchResults.appendChild(resultRow);
-    });
+    }
 }
 
 function wireEventHooks() {
