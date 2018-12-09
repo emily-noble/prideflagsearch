@@ -116,6 +116,21 @@
             "shapes": true,
             "name": "Lesbian Pride Flag (Labrys)",
             "src": "/static/search/data/img/lesbian_pride_flag_labrys.svg"
+        },
+        {
+            "colors": [
+                "brown",
+                "orange",
+                "yellow",
+                "tan",
+                "white",
+                "grey",
+                "black"
+            ],
+            "stripes": 7,
+            "shapes": true,
+            "name": "Bear Pride Flag",
+            "src": "/static/search/data/img/bear_pride_flag.svg"
         }
     ]
 }
