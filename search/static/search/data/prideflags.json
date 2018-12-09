@@ -2,6 +2,42 @@
     "flags": [
         {
             "colors": [
+                "yellow",
+                "white",
+                "purple",
+                "black"
+            ],
+            "stripes": 4,
+            "shapes": false,
+            "name": "Nonbinary Pride Flag",
+            "src": "/static/search/data/img/nonbinary_pride_flag.svg"
+        },
+        {
+            "colors": [
+                "purple",
+                "white",
+                "green"
+            ],
+            "stripes": 3,
+            "shapes": false,
+            "name": "Genderqueer Pride Flag",
+            "src": "/static/search/data/img/genderqueer_pride_flag.svg"
+        },
+        {
+            "colors": [
+                "pink",
+                "white",
+                "purple",
+                "black",
+                "blue"
+            ],
+            "stripes": 5,
+            "shapes": false,
+            "name": "Genderfluid Pride Flag",
+            "src": "/static/search/data/img/genderfluid_pride_flag.svg"
+        },
+        {
+            "colors": [
                 "red",
                 "orange",
                 "yellow",
@@ -36,6 +72,29 @@
             "shapes": false,
             "name": "Asexual Pride Flag",
             "src": "/static/search/data/img/asexual_pride_flag.svg"
+        },
+        {
+            "colors": [
+                "blue",
+                "pink",
+                "white"
+            ],
+            "stripes": 5,
+            "shapes": false,
+            "name": "Transgender Pride Flag",
+            "src": "/static/search/data/img/transgender_pride_flag.svg"
+        },
+        {
+            "colors": [
+                "black",
+                "grey",
+                "white",
+                "green"
+            ],
+            "stripes": 5,
+            "shapes": false,
+            "name": "Agender Pride Flag",
+            "src": "/static/search/data/img/agender_pride_flag.svg"
         },
         {
             "colors": [
