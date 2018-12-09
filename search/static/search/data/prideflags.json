@@ -33,6 +33,25 @@
             "stripes": 4,
             "shapes": false,
             "name": "Asexual pride flag"
+        },
+        {
+            "colors": [
+                "yellow",
+                "purple"
+            ],
+            "stripes": 1,
+            "shapes": true,
+            "name": "Intersex pride flag"
+        },
+        {
+            "colors": [
+                "purple",
+                "black",
+                "white"
+            ],
+            "stripes": 1,
+            "shapes": true,
+            "name": "Labrys lesbian pride flag"
         }
     ]
 }
