@@ -87,5 +87,8 @@ document.addEventListener("DOMContentLoaded", function() {
     }).then(function(data){
         theData = data.flags;
         wireEventHooks();
+        
+        var results = search();
+        displaySearchResults(results);
     });
 })
