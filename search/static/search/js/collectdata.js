@@ -4,7 +4,7 @@ function collectColors() {
     
     var selectedColors = [];
     for (var i = 0; i < checkedElements.length; i++) {
-       selectedColors.push(checkedElements[i].value); 
+       selectedColors.push(checkedElements[i].value);
     }
     
     return selectedColors;

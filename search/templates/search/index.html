@@ -33,7 +33,13 @@
     </header>
     
     <main role="main" class="container">
-        <div id="searchbar" class="row">
+            <h1>
+                Filter Flags
+            </h1>
+            <p class="lead">
+                Select filters below to search for flags. Search results will update automatically.
+            </p>
+        <div class="row">
             <div class="col-md-12 col-lg-4">
                 Colors
                 <div id="colorFilter">
@@ -52,15 +58,19 @@
             </div>
             <div class="col-md-12 col-lg-4">
                 Stripes
-                <input id="stripesFilter" type="number" step="1"></input>
+                <div>
+                    <input id="stripesFilter" type="number" step="1"></input>
+                </div>
             </div>
             <div class="col-md-12 col-lg-4">
                 Special Shapes
-                <select id="shapesFilter">
-                    <option value="ignore">---</option>
-                    <option value="true">Has Shapes</option>
-                    <option value="false">No Shapes</option>
-                </select>
+                <div>
+                    <select id="shapesFilter">
+                        <option value="ignore">---</option>
+                        <option value="true">Has Shapes</option>
+                        <option value="false">No Shapes</option>
+                    </select>
+                </div>
             </div>
         <!-- TODO: write fuzzy match code-->
 <!--             <div class="col-md-12 col-lg-3">
@@ -73,7 +83,7 @@
             
         </div>
     </main>
-
+<!-- TODO: add sticky footer back-->
 <!--     <footer class="footer">
       <div class="container">
         <span class="text-muted"> <p>This code &copy; Brynne Farrell <a href="mailto:brynne.farrell@gmail.com" target="_blank">brynne.farrell@gmail.com</a>. Code last updated 2018/12/04.</p></span>
