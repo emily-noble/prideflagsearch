@@ -1,0 +1,22 @@
+{
+  "flags": [
+    {
+      "colors": [
+        "red"
+      ],
+      "stripes": 10,
+      "shapes": false,
+      "name": "TEST red 10 stripes no shapes"
+    },
+    {
+      "colors": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "stripes": 4,
+      "shapes": true,
+      "name": "TEST red green blue 4 stripes has shapes"
+    }
+  ]
+}
