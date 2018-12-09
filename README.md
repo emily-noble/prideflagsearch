@@ -19,3 +19,4 @@ Welcome!
 - Add google analitics 
 - Add search indexing
 - Browser compatibility initial review
+- Add feature for flag alternates (like versions of the gay pride flag)
