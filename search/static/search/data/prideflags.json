@@ -11,7 +11,7 @@
             ],
             "stripes": 6,
             "shapes": false,
-            "name": "1979 Pride Flag",
+            "name": "Gay Pride Flag (1979)",
             "src": "/static/search/data/img/gay_pride_1979.png"
         },
         {
@@ -22,7 +22,8 @@
             ],
             "stripes": 3,
             "shapes": false,
-            "name": "Bisexual pride flag"
+            "name": "Bisexual Pride Flag",
+            "src": "/static/search/data/img/bisexual_pride_flag.png"
         },
         {
             "colors": [
@@ -33,7 +34,7 @@
             ],
             "stripes": 4,
             "shapes": false,
-            "name": "Asexual pride flag",
+            "name": "Asexual Pride Flag",
             "src": "/static/search/data/img/asexual_pride_flag.svg"
         },
         {
@@ -43,7 +44,8 @@
             ],
             "stripes": 1,
             "shapes": true,
-            "name": "Intersex pride flag"
+            "name": "Intersex Pride Flag",
+            "src": "/static/search/data/img/intersex_pride_flag.png"
         },
         {
             "colors": [
@@ -53,7 +55,8 @@
             ],
             "stripes": 1,
             "shapes": true,
-            "name": "Labrys lesbian pride flag"
+            "name": "Lesbian Pride Flag (Labrys)",
+            "src": "/static/search/data/img/lesbian_pride_flag_labrys.png"
         }
     ]
 }
