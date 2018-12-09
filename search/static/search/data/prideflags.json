@@ -154,6 +154,76 @@
             "shapes": true,
             "name": "Demisexual Pride Flag",
             "src": "/static/search/data/img/demisexual_pride_flag.svg"
+        },
+        {
+            "colors": [
+                "pink",
+                "yellow",
+                "blue"
+            ],
+            "stripes": 3,
+            "shapes": false,
+            "name": "Pansexual Pride Flag",
+            "src": "/static/search/data/img/pansexual_pride_flag.svg"
+        },
+        {
+            "colors": [
+                "purple",
+                "pink",
+                "white",
+                "red"
+            ],
+            "stripes": 7,
+            "shapes": false,
+            "name": "Lipstick Lesbian Pride Flag (without kiss)",
+            "src": "/static/search/data/img/lipstick_lesbian_pride_flag_without_kiss.svg"
+        },
+        {
+            "colors": [
+                "purple",
+                "pink",
+                "white",
+                "red"
+            ],
+            "stripes": 7,
+            "shapes": true,
+            "name": "Lipstick Lesbian Pride Flag (with kiss)",
+            "src": "/static/search/data/img/lipstick_lesbian_pride_flag_with_kiss.svg"
+        },
+        {
+            "colors": [
+                "red",
+                "orange",
+                "yellow",
+                "green",
+                "blue",
+                "purple"
+            ],
+            "stripes": 6,
+            "shapes": true,
+            "name": "Lesbian Pride Flag (rainbow)",
+            "src": "/static/search/data/img/lesbian_pride_flag_rainbow.svg"
+        },
+        {
+            "colors": [
+                "green",
+                "black"
+            ],
+            "stripes": 1,
+            "shapes": true,
+            "name": "Transgender Pride Flag (Israel Variant)",
+            "src": "/static/search/data/img/transgender_pride_flag_israel.svg"
+        },
+        {
+            "colors": [
+                "pink",
+                "green",
+                "blue"
+            ],
+            "stripes": 3,
+            "shapes": false,
+            "name": "Polysexual Pride Flag",
+            "src": "/static/search/data/img/polysexual_pride_flag.svg"
         }
     ]
 }
