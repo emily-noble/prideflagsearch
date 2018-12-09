@@ -110,6 +110,16 @@ function displaySearchResults(flagList) {
         
         searchResults.appendChild(resultRow);
     }
+    
+    var resultsCount = document.querySelector("#resultsCount");
+    resultsCount.innerText = flagList.length;
+    
+    var resultsPlural = document.querySelector("#resultsPlural");
+    if (1 === flagList.length) {
+        resultsPlural.innerText = '';
+    } else {
+        resultsPlural.innerText = 's';
+    }
 }
 
 function wireEventHooks() {
