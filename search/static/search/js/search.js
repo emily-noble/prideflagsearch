@@ -61,11 +61,17 @@ function displaySearchResults(flagList) {
         resultRow.classList.add("row");
         
         var resultColumn = document.createElement("div");
-        resultColumn.classList.add("col-12");
-        
         resultColumn.innerText = flag.name;
+        resultColumn.classList.add("col-12");
+        resultRow.appendChild(resultColumn);
         
-        searchResults.appendChild(resultColumn);
+        if (flag.src) {
+            var resultImg = document.createElement("img");
+            resultImg.src = flag.src;
+            resultColumn.appendChild(resultImg);
+        }
+        
+        searchResults.appendChild(resultRow);
     });
 }
 

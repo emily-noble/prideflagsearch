@@ -11,7 +11,8 @@
             ],
             "stripes": 6,
             "shapes": false,
-            "name": "1979 Pride Flag"
+            "name": "1979 Pride Flag",
+            "src": "/static/search/data/img/gay_pride_1979.png"
         },
         {
             "colors": [
@@ -32,7 +33,8 @@
             ],
             "stripes": 4,
             "shapes": false,
-            "name": "Asexual pride flag"
+            "name": "Asexual pride flag",
+            "src": "/static/search/data/img/asexual_pride_flag.svg"
         },
         {
             "colors": [
