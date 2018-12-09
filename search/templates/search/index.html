@@ -6,6 +6,7 @@
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="{% static 'search/css/squares.css' %}" />
     <title>Pride Flag Identification Guide</title>
 </head>
 <body>
@@ -33,27 +34,27 @@
     
     <main role="main" class="container">
         <div id="searchbar" class="row">
-            <div class="col-md-12 col-lg-3">
+            <div class="col-md-12 col-lg-4">
                 Colors
-                <select id="colorFilter" multiple size="10">
-                    <option value="red">Red</option>
-                    <option value="orange">Orange</option>
-                    <option value="yellow">Yellow</option>
-                    <option value="green">Green</option>
-                    <option value="blue">Blue</option>
-                    <option value="purple">Purple</option>
-                    <option value="pink">Pink</option>
-                    <option value="black">Black</option>
-                    <option value="grey">Grey</option>
-                    <option value="white">White</option>
-                    <option value="brown">Brown</option>
-                </select>
+                <div id="colorFilter">
+                    <label><input type="checkbox" value="red"><span class="square red"></span></label>
+                    <label><input type="checkbox" value="orange"><span class="square orange"></span></label>
+                    <label><input type="checkbox" value="yellow"><span class="square yellow"></span></label>
+                    <label><input type="checkbox" value="green"><span class="square green"></span></label>
+                    <label><input type="checkbox" value="blue"><span class="square blue"></span></label>
+                    <label><input type="checkbox" value="purple"><span class="square purple"></span></label>
+                    <label><input type="checkbox" value="pink"><span class="square pink"></span></label>
+                    <label><input type="checkbox" value="black"><span class="square black"></span></label>
+                    <label><input type="checkbox" value="grey"><span class="square grey"></span></label>
+                    <label><input type="checkbox" value="white"><span class="square white"></span></label>
+                    <label><input type="checkbox" value="brown"><span class="square brown"></span></label>
+                </div>
             </div>
-            <div class="col-md-12 col-lg-3">
+            <div class="col-md-12 col-lg-4">
                 Stripes
                 <input id="stripesFilter" type="number" step="1"></input>
             </div>
-            <div class="col-md-12 col-lg-3">
+            <div class="col-md-12 col-lg-4">
                 Special Shapes
                 <select id="shapesFilter">
                     <option value="ignore">---</option>

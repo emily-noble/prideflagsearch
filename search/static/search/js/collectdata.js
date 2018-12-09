@@ -1,9 +1,10 @@
 function collectColors() {
-    var selectElement = document.querySelector("#colorFilter");
+    var colorPickElement = document.querySelector("#colorFilter");
+    var checkedElements = colorPickElement.querySelectorAll("input:checked");
     
     var selectedColors = [];
-    for (var i = 0; i < selectElement.selectedOptions.length; i++) {
-       selectedColors.push(selectElement.selectedOptions[i].value); 
+    for (var i = 0; i < checkedElements.length; i++) {
+       selectedColors.push(checkedElements[i].value); 
     }
     
     return selectedColors;
