@@ -20,3 +20,5 @@ Welcome!
 - Add search indexing
 - Browser compatibility initial review
 - Add feature for flag alternates (like versions of the gay pride flag)
+- Update the UK Gay Pride Flag wiki with our scalable version https://commons.wikimedia.org/wiki/File:Gay_Pride_flag_of_the_United_Kingdom.svg
+

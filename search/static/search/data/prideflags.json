@@ -224,6 +224,17 @@
             "shapes": false,
             "name": "Polysexual Pride Flag",
             "src": "/static/search/data/img/polysexual_pride_flag.svg"
+        },
+        {
+            "colors": [
+                "pink",
+                "red",
+                "white"
+            ],
+            "stripes": 1,
+            "shapes": true,
+            "name": "Gay Pride Flag (UK Variant)",
+            "src": "/static/search/data/img/gay_pride_flag_uk.svg"
         }
     ]
 }
