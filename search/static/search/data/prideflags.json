@@ -1,22 +1,38 @@
 {
-  "flags": [
-    {
-      "colors": [
-        "red"
-      ],
-      "stripes": 10,
-      "shapes": false,
-      "name": "TEST red 10 stripes no shapes"
-    },
-    {
-      "colors": [
-        "red",
-        "green",
-        "blue"
-      ],
-      "stripes": 4,
-      "shapes": true,
-      "name": "TEST red green blue 4 stripes has shapes"
-    }
-  ]
+    "flags": [
+        {
+            "colors": [
+                "red",
+                "orange",
+                "yellow",
+                "green",
+                "blue",
+                "purple"
+            ],
+            "stripes": 6,
+            "shapes": false,
+            "name": "1979 Pride Flag"
+        },
+        {
+            "colors": [
+                "pink",
+                "purple",
+                "blue"
+            ],
+            "stripes": 3,
+            "shapes": false,
+            "name": "Bisexual pride flag"
+        },
+        {
+            "colors": [
+                "black",
+                "grey",
+                "white",
+                "purple"
+            ],
+            "stripes": 4,
+            "shapes": false,
+            "name": "Asexual pride flag"
+        }
+    ]
 }
