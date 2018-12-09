@@ -16,3 +16,6 @@ Welcome!
 - Add identity descriptions
 - Add links to "read more" about identities; external links
 - Add contributors guide
+- Add google analitics 
+- Add search indexing
+- Browser compatibility initial review
