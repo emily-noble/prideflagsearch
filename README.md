@@ -11,7 +11,6 @@ Welcome!
   - What counts as a stripe might be subjective
 - Make sure tab accessibility works properly
 - Make sure screen readers work properly
-- Add sticky footer back in
 - Implement a sorting system, or extra filter to distinguish between more and less common flags
 - Add citations
 - Add identity descriptions
