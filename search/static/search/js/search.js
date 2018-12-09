@@ -108,7 +108,14 @@ function wireEventHooks() {
         filteringElement.addEventListener("change", function() {
             var results = search();
             displaySearchResults(results);
-        })
+        });
+        
+        if ("INPUT" === filteringElement.nodeName) {
+            filteringElement.addEventListener("keyup", function() {
+                var results = search();
+                displaySearchResults(results);
+            });
+        }
     }
 }
 
