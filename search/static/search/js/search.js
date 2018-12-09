@@ -53,7 +53,8 @@ function search() {
 function buildFlagDomElements(flag, resultRow) {
         var resultColumn = document.createElement("div");
         resultColumn.innerText = flag.name;
-        resultColumn.classList.add("col-3");
+        resultColumn.classList.add("col-lg-6");
+        resultColumn.classList.add("col-xl-3");
         resultRow.appendChild(resultColumn);
         
         if (flag.src) {
