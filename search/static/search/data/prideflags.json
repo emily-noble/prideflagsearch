@@ -235,6 +235,18 @@
             "shapes": true,
             "name": "Gay Pride Flag (UK Variant)",
             "src": "/static/search/data/img/gay_pride_flag_uk.svg"
+        },
+        {
+            "colors": [
+                "green",
+                "white",
+                "grey",
+                "black"
+            ],
+            "stripes": 5,
+            "shapes": false,
+            "name": "Aromantic Pride Flag",
+            "src": "/static/search/data/img/aromantic_pride_flag.svg"
         }
     ]
 }
