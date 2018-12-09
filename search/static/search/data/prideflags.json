@@ -131,6 +131,29 @@
             "shapes": true,
             "name": "Bear Pride Flag",
             "src": "/static/search/data/img/bear_pride_flag.svg"
+        },
+        {
+            "colors": [
+                "pink",
+                "white",
+                "blue"
+            ],
+            "stripes": 6,
+            "shapes": false,
+            "name": "Bigender Pride Flag",
+            "src": "/static/search/data/img/bigender_pride_flag.svg"
+        },
+        {
+            "colors": [
+                "white",
+                "purple",
+                "grey",
+                "black"
+            ],
+            "stripes": 3,
+            "shapes": true,
+            "name": "Demisexual Pride Flag",
+            "src": "/static/search/data/img/demisexual_pride_flag.svg"
         }
     ]
 }
