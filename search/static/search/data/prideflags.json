@@ -91,7 +91,7 @@
                 "white",
                 "green"
             ],
-            "stripes": 5,
+            "stripes": 7,
             "shapes": false,
             "name": "Agender Pride Flag",
             "src": "/static/search/data/img/agender_pride_flag.svg"
@@ -247,6 +247,22 @@
             "shapes": false,
             "name": "Aromantic Pride Flag",
             "src": "/static/search/data/img/aromantic_pride_flag.svg"
+        },
+        {
+            "colors": [
+                "black",
+                "brown",
+                "red",
+                "orange",
+                "yellow",
+                "green",
+                "blue",
+                "purple"
+            ],
+            "stripes": 8,
+            "shapes": false,
+            "name": "Gay Pride Flag (Philadelphia)",
+            "src": "/static/search/data/img/gay_pride_flag_philadelphia.svg"
         }
     ]
 }
