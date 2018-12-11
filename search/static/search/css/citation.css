@@ -1,0 +1,14 @@
+.flag-col {
+    position: relative;
+}
+
+.citation-reveal {
+    padding-top: 1.5em;
+}
+
+.citation-reveal span{
+    color: blue;
+    position: absolute;
+    bottom: 0;
+/*     padding-top: 1.5em; */
+}

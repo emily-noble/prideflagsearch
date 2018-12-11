@@ -63,19 +63,31 @@ function search() {
 }
 
 function buildFlagDomElements(flag, resultRow) {
-        var resultColumn = document.createElement("div");
-        resultColumn.innerText = flag.name;
-        resultColumn.classList.add("col-lg-6");
-        resultColumn.classList.add("col-xl-3");
-        resultRow.appendChild(resultColumn);
-        
-        if (flag.src) {
-            var resultImg = document.createElement("img");
-            resultImg.src = flag.src;
-            resultImg.classList.add("img-fluid");
-            resultColumn.appendChild(resultImg);
-        }
+    var resultColumn = document.createElement("div");
+    resultColumn.innerText = flag.name;
+    resultColumn.classList.add("col-lg-6");
+    resultColumn.classList.add("col-xl-3");
+    resultColumn.classList.add("flag-col");
+    resultRow.appendChild(resultColumn);
+
+    if (flag.src) {
+        var resultImg = document.createElement("img");
+        resultImg.src = flag.src;
+        resultImg.classList.add("img-fluid");
+        resultColumn.appendChild(resultImg);
+    }
     
+    if (flag.citation) {
+        var resultShowMoreWrapper = document.createElement("div");
+        resultShowMoreWrapper.classList.add("citation-reveal");
+        resultColumn.appendChild(resultShowMoreWrapper);
+        
+        var resultShowMore = document.createElement("span");
+        resultShowMore.innerText = "Show More V";
+        resultShowMore.addEventListener("click", handleShowCitationEvent.bind(null, flag));
+        resultShowMoreWrapper.appendChild(resultShowMore);
+    }
+
 }
 
 function displaySearchResults(flagList) {

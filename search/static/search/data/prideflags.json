@@ -94,7 +94,10 @@
             "stripes": 7,
             "shapes": false,
             "name": "Agender Pride Flag",
-            "src": "/static/search/data/img/agender_pride_flag.svg"
+            "src": "/static/search/data/img/agender_pride_flag.svg",
+            "citation": {
+                "apa": "<test agender citation here>"
+            }
         },
         {
             "colors": [
@@ -246,7 +249,10 @@
             "stripes": 5,
             "shapes": false,
             "name": "Aromantic Pride Flag",
-            "src": "/static/search/data/img/aromantic_pride_flag.svg"
+            "src": "/static/search/data/img/aromantic_pride_flag.svg",
+            "citation": {
+                "apa": "<test aromantic citation here>"
+            }
         },
         {
             "colors": [
