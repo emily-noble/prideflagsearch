@@ -132,6 +132,8 @@ function displaySearchResults(flagList) {
     } else {
         resultsPlural.innerText = 's';
     }
+        
+    fixShowMorePosition();
 }
 
 function wireEventHooks() {

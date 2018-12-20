@@ -71,7 +71,10 @@
             "stripes": 4,
             "shapes": false,
             "name": "Asexual Pride Flag",
-            "src": "/static/search/data/img/asexual_pride_flag.svg"
+            "src": "/static/search/data/img/asexual_pride_flag.svg",
+            "citation": {
+                "apa": "<test asexual citation here>"
+            }
         },
         {
             "colors": [
@@ -133,7 +136,10 @@
             "stripes": 7,
             "shapes": true,
             "name": "Bear Pride Flag",
-            "src": "/static/search/data/img/bear_pride_flag.svg"
+            "src": "/static/search/data/img/bear_pride_flag.svg",
+            "citation": {
+                "apa": "<test bear citation here>"
+            }
         },
         {
             "colors": [
@@ -251,7 +257,7 @@
             "name": "Aromantic Pride Flag",
             "src": "/static/search/data/img/aromantic_pride_flag.svg",
             "citation": {
-                "apa": "<test aromantic citation here>"
+                "apa": "<test aromantic citation here qwertyuiopqwertyuiopqwertyuiop qwertyuiop qwertyuiop qwertyuiopqwertyuiop>"
             }
         },
         {

@@ -1,3 +1,18 @@
+function fixShowMorePosition() {
+    const showMoreList = document.querySelectorAll(".citation-reveal span");
+    
+    showMoreList.forEach((element) => {
+        let parent = element.closest(".flag-col");
+        
+        let parentBottom = parent.getBoundingClientRect().bottom;
+        let elementBottom = element.getBoundingClientRect().bottom;
+        
+        let offset = elementBottom - parentBottom;
+        element.style.position = "relative";
+        element.style.bottom = offset + "px";
+    });
+}
+
 function handleShowCitationEvent(flagData, event) {
     removeAllCitations();
     showCitation(flagData, event.target); 
@@ -20,18 +35,52 @@ function showCitation(flagData, flagElement) {
     
     const citationRow = buildCitationRow(flagData.citation);
     
-    row.after(citationRow);
+    let [leftOffset, width] = calculateBounds(flagElement);
+    console.log(leftOffset, width);
+    
+    citationRow.style.position = "relative";
+    citationRow.style.left = leftOffset + "px";
+    citationRow.style.width = width + "px";
+    citationRow.style.outline = "1px solid black";
+    
+    flagElement.after(citationRow);
 }
 
 function buildCitationRow(flagCitation) {
     const citationRow = document.createElement("div");
-    citationRow.classList.add("row");
     citationRow.classList.add("jx-citation-row");
-    
-    const citationCol = document.createElement("div");
-    citationCol.classList.add("col-12");
-    citationCol.innerText = flagCitation.apa;
-    citationRow.appendChild(citationCol);
+    citationRow.innerText = flagCitation.apa;
     
     return citationRow;
+}
+
+function calculateBounds(element) {
+    const origBounds = element.getBoundingClientRect();
+    const origLeft = origBounds.left;
+    const origRight = origBounds.right;
+    let leftOffset = Infinity;
+    let leftPadding = null;
+    let rightOffset = 0;
+    let rightPadding = null;
+    const flagColList = element.closest(".row").querySelectorAll(".flag-col");
+    
+    flagColList.forEach((flagCol) => {
+        var rect = flagCol.getBoundingClientRect(); 
+        
+        if (rect.left < leftOffset) {
+            leftOffset = rect.left;
+            
+            const rawPaddingLeft = window.getComputedStyle(flagCol, null).paddingLeft;
+            leftPadding = parseInt(rawPaddingLeft.substring(0, rawPaddingLeft.length - 2));
+        }
+        
+        if (rect.right > rightOffset) {
+            rightOffset = rect.right;
+            
+            const rawPaddingRight = window.getComputedStyle(flagCol, null).paddingRight;
+            rightPadding = parseInt(rawPaddingRight.substring(0, rawPaddingRight.length - 2));
+        }
+    });
+    
+    return [leftOffset - origLeft + leftPadding, rightOffset - leftOffset - leftPadding - rightPadding];
 }
