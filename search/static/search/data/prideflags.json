@@ -71,10 +71,7 @@
             "stripes": 4,
             "shapes": false,
             "name": "Asexual Pride Flag",
-            "src": "/static/search/data/img/asexual_pride_flag.svg",
-            "citation": {
-                "apa": "<test asexual citation here>"
-            }
+            "src": "/static/search/data/img/asexual_pride_flag.svg"
         },
         {
             "colors": [
@@ -97,10 +94,7 @@
             "stripes": 7,
             "shapes": false,
             "name": "Agender Pride Flag",
-            "src": "/static/search/data/img/agender_pride_flag.svg",
-            "citation": {
-                "apa": "<test agender citation here>"
-            }
+            "src": "/static/search/data/img/agender_pride_flag.svg"
         },
         {
             "colors": [
@@ -136,10 +130,7 @@
             "stripes": 7,
             "shapes": true,
             "name": "Bear Pride Flag",
-            "src": "/static/search/data/img/bear_pride_flag.svg",
-            "citation": {
-                "apa": "<test bear citation here>"
-            }
+            "src": "/static/search/data/img/bear_pride_flag.svg"
         },
         {
             "colors": [
@@ -279,7 +270,15 @@
             "stripes": 8,
             "shapes": false,
             "name": "Gay Pride Flag (Philadelphia)",
-            "src": "/static/search/data/img/gay_pride_flag_philadelphia.svg"
+            "src": "/static/search/data/img/gay_pride_flag_philadelphia.svg",
+            "citation": {
+                "text": "The More Color More Pride campaign added a black and brown stripe to the iconic pride flag designed by Gilbert Baker in 1978 to recognize people of color in the LGBT community [1]",
+                "sourceList": [
+                    "More Color More Pride. (n.d.). More Color More Pride. Retrieved December 23, 2018, from [morecolormorepride.com](https://morecolormorepride.com/)"
+                ],
+                "flagImageSource": "Philadelphia Pride Flag.svg. (June 15, 2017). In Wikimedia Commons. Retrieved December 23, 2018, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Philadelphia_Pride_Flag.svg&oldid=295701800)",
+                "firstAuthoring": "More Color More Pride. (n.d.). More Color More Pride. Retrieved December 23, 2018, from [morecolormorepride.com](https://morecolormorepride.com/)"
+            }
         }
     ]
 }
