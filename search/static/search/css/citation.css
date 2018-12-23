@@ -22,4 +22,13 @@
     background: white;
     min-height: 10em;
     z-index: 100000;
+    padding: 1em 5vh;
+}
+
+h3.citation-header {
+    font-size: 1.5em;
+}
+
+h4.citation-header {
+    font-size: 1em;
 }

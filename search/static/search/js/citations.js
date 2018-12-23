@@ -55,6 +55,12 @@ function buildCitationRow(flagCitation) {
 
     if (flagCitation.text) {
         hasParts = true;
+        
+        const textHeader = document.createElement("h4");
+        textHeader.classList.add("citation-header");
+        textHeader.innerText = "More about this flag";
+        citationRow.appendChild(textHeader);
+        
         const textDiv = document.createElement("div");
         textDiv.innerText = flagCitation.text;
         citationRow.appendChild(textDiv);
@@ -62,21 +68,70 @@ function buildCitationRow(flagCitation) {
     
     if (flagCitation.sourceList) {
         hasParts = true;
+        
+        const sourceHeader = document.createElement("h4");
+        sourceHeader.classList.add("citation-header");
+        sourceHeader.innerText = "Sources";
+        citationRow.appendChild(sourceHeader);
+        
         const sourceList = document.createElement("ol");
         citationRow.appendChild(sourceList);
 
         flagCitation.sourceList.forEach(function(item, index) {
             const thisSource = document.createElement("li");
-            thisSource.innerText = item;
+            
+            // Attempt to extract an markdown style link from the url
+            const linkText = apaMarkdownLinkToHtmlLink(item);
+            
+            if (linkText) {
+                thisSource.innerHTML = linkText;
+            } else {
+                thisSource.innerText = item;
+            }
+            
             sourceList.appendChild(thisSource);
         });
     }
     
     if (flagCitation.flagImageSource) {
         hasParts = true;
+        
+        const imageSourceHeader = document.createElement("h4");
+        imageSourceHeader.classList.add("citation-header");
+        imageSourceHeader.innerText = "Flag Image Source";
+        citationRow.appendChild(imageSourceHeader);
+        
+        
         const flagSource = document.createElement("div");
-        flagSource.innerText = flagCitation.flagImageSource;
+        const imageLinkText = apaMarkdownLinkToHtmlLink(flagCitation.flagImageSource);
+            
+        if (imageLinkText) {
+            flagSource.innerHTML = imageLinkText;
+        } else {
+            flagSource.innerText = flagCitation.flagImageSource;
+        }
+        
         citationRow.appendChild(flagSource);
+    }
+    
+    if (flagCitation.firstAuthoring) {
+        hasParts = true;
+        
+        const authoringHeader = document.createElement("h4");
+        authoringHeader.classList.add("citation-header");
+        authoringHeader.innerText = "First Authored At";
+        citationRow.appendChild(authoringHeader);
+        
+        const flagAuthoring = document.createElement("div");
+        const authoringLinkText = apaMarkdownLinkToHtmlLink(flagCitation.firstAuthoring);
+            
+        if (authoringLinkText) {
+            flagAuthoring.innerHTML = authoringLinkText;
+        } else {
+            flagAuthoring.innerText = flagCitation.firstAuthoring;
+        }
+        
+        citationRow.appendChild(flagAuthoring);
     }
     
     if (!hasParts) {
@@ -114,4 +169,22 @@ function calculateBounds(element) {
     });
     
     return [leftOffset - origLeft + leftPadding, rightOffset - leftOffset - leftPadding - rightPadding];
+}
+
+function apaMarkdownLinkToHtmlLink(text) {
+    // Attempt to extract an markdown style link from the text
+    const apaCitationPartsRegex = /(.*)from \[(.*)\]\((.*)\)/g;
+    const thisCitationParts = apaCitationPartsRegex.exec(text);
+
+    if (thisCitationParts && 4 <= thisCitationParts.length) {
+        // Add hyperlinked source
+        const firstPart = thisCitationParts[1];
+        const linkText = thisCitationParts[2];
+        const linkUrl = thisCitationParts[3];
+
+        const fullHtml = firstPart + " from <a href='" + linkUrl + "' target='_blank'>" + linkText + "</a>";
+        return fullHtml;
+    }
+    
+    return false; // No link could be found
 }

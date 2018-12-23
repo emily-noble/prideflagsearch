@@ -64,11 +64,15 @@ function search() {
 
 function buildFlagDomElements(flag, resultRow) {
     var resultColumn = document.createElement("div");
-    resultColumn.innerText = flag.name;
     resultColumn.classList.add("col-lg-6");
     resultColumn.classList.add("col-xl-3");
     resultColumn.classList.add("flag-col");
     resultRow.appendChild(resultColumn);
+    
+    const resultHeader = document.createElement("h3");
+    resultHeader.classList.add("citation-header");
+    resultHeader.innerText = flag.name;
+    resultColumn.appendChild(resultHeader);
 
     if (flag.src) {
         var resultImg = document.createElement("img");
