@@ -1,19 +1,20 @@
 .flag-col {
     position: relative;
-}
-
-.citation-reveal {
-    padding-top: 0.5em;
+    padding-bottom: 2em;
 }
 
 .citation-reveal span{
     color: blue;
-    position: relative;
+}
+
+.citation-reveal {
+    position: absolute;
     bottom: 0;
-    padding-top: 1.5em;
+    height: 2em;
 }
 
 .jx-citation-row {
     background: white;
     min-height: 10em;
+    z-index: 100000;
 }

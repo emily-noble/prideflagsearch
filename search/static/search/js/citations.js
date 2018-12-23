@@ -1,18 +1,3 @@
-function fixShowMorePosition() {
-    const showMoreList = document.querySelectorAll(".citation-reveal span");
-    
-    showMoreList.forEach((element) => {
-        let parent = element.closest(".flag-col");
-        
-        let parentBottom = parent.getBoundingClientRect().bottom;
-        let elementBottom = element.getBoundingClientRect().bottom;
-        
-        let offset = elementBottom - parentBottom;
-        element.style.position = "relative";
-        element.style.bottom = offset + "px";
-    });
-}
-
 function handleShowCitationEvent(flagData, event) {
     removeAllCitations();
     showCitation(flagData, event.target); 
