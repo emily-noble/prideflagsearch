@@ -82,9 +82,10 @@ function buildFlagDomElements(flag, resultRow) {
         resultShowMoreWrapper.classList.add("citation-reveal");
         resultColumn.appendChild(resultShowMoreWrapper);
         
-        var resultShowMore = document.createElement("span");
-        resultShowMore.innerText = "Show More V";
+        var resultShowMore = document.createElement("button");
+        resultShowMore.innerText = "> Details";
         resultShowMore.setAttribute("aria-expanded", "false");
+        resultShowMore.setAttribute("role", "button");
         resultShowMore.addEventListener("click", handleShowCitationEvent.bind(null, flag));
         resultShowMoreWrapper.appendChild(resultShowMore);
     }

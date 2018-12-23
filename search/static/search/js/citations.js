@@ -21,18 +21,18 @@ function removeAllCitations() {
 }
 
 function resetAllShowMoreTexts() {
-    const showMoreSpanList = document.querySelectorAll(".citation-reveal span");
+    const showMoreButtonList = document.querySelectorAll(".citation-reveal button");
     
-    for (i = 0; i < showMoreSpanList.length; ++i) {
-        const thisSpan = showMoreSpanList[i];
-        thisSpan.innerText = "Show More V";
-        thisSpan.setAttribute("aria-expanded", "false");
+    for (i = 0; i < showMoreButtonList.length; ++i) {
+        const thisButton = showMoreButtonList[i];
+        thisButton.innerText = "> Details";
+        thisButton.setAttribute("aria-expanded", "false");
     }
 }
 
 function showCitation(flagData, flagElement) {
     // Change show more text
-    flagElement.innerText = "Show Less ^";
+    flagElement.innerText = "V Details";
     flagElement.setAttribute("aria-expanded", "true");
     
     // Add citation content
