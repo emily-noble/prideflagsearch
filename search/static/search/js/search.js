@@ -83,7 +83,7 @@ function buildFlagDomElements(flag, resultRow) {
         resultColumn.appendChild(resultShowMoreWrapper);
         
         var resultShowMore = document.createElement("button");
-        resultShowMore.innerText = "> Details";
+        resultShowMore.innerHTML = "<i class='fas fa-caret-right'></i> Details";
         resultShowMore.setAttribute("aria-expanded", "false");
         resultShowMore.setAttribute("role", "button");
         resultShowMore.addEventListener("click", handleShowCitationEvent.bind(null, flag));

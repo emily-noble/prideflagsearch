@@ -25,14 +25,14 @@ function resetAllShowMoreTexts() {
     
     for (i = 0; i < showMoreButtonList.length; ++i) {
         const thisButton = showMoreButtonList[i];
-        thisButton.innerText = "> Details";
+        thisButton.innerHTML = "<i class='fas fa-caret-right'></i> Details";
         thisButton.setAttribute("aria-expanded", "false");
     }
 }
 
 function showCitation(flagData, flagElement) {
     // Change show more text
-    flagElement.innerText = "V Details";
+    flagElement.innerHTML = "<i class='fas fa-caret-down'></i> Details";
     flagElement.setAttribute("aria-expanded", "true");
     
     // Add citation content
