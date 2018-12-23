@@ -27,8 +27,6 @@ function resetAllShowMoreTexts() {
         const thisSpan = showMoreSpanList[i];
         thisSpan.innerText = "Show More V";
         thisSpan.setAttribute("aria-expanded", "false");
-//         thisSpan.classList.add("jx-citation-show");
-//         thisSpan.classList.remove("jx-citation-hide");
     }
 }
 
@@ -36,14 +34,11 @@ function showCitation(flagData, flagElement) {
     // Change show more text
     flagElement.innerText = "Show Less ^";
     flagElement.setAttribute("aria-expanded", "true");
-//     flagElement.classList.add("jx-citation-hide");
-//     flagElement.classList.remove("jx-citation-show");
     
     // Add citation content
     const citationRow = buildCitationRow(flagData.citation);
     
     let [leftOffset, width] = calculateBounds(flagElement);
-    console.log(leftOffset, width);
     
     citationRow.style.position = "relative";
     citationRow.style.left = leftOffset + "px";

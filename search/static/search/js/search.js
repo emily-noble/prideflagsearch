@@ -85,8 +85,6 @@ function buildFlagDomElements(flag, resultRow) {
         var resultShowMore = document.createElement("span");
         resultShowMore.innerText = "Show More V";
         resultShowMore.setAttribute("aria-expanded", "false");
-//         console.log(resultShowMore);
-//         resultShowMore.classList.add("jx-citation-show");
         resultShowMore.addEventListener("click", handleShowCitationEvent.bind(null, flag));
         resultShowMoreWrapper.appendChild(resultShowMore);
     }
