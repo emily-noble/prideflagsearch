@@ -257,7 +257,11 @@
             "name": "Aromantic Pride Flag",
             "src": "/static/search/data/img/aromantic_pride_flag.svg",
             "citation": {
-                "apa": "<test aromantic citation here qwertyuiopqwertyuiopqwertyuiop qwertyuiop qwertyuiop qwertyuiopqwertyuiop>"
+                "text": "\"An aromantic person is an individual who does not experience romantic love or attraction, although this does not preclude them from feeling other forms of love or attraction, such as platonic love. Keep in mind, aromanticisim is a spectrum, so people may experience different forms of attraction, but still consider themselves to be aromantic.[1]\"",
+                "sourceList": [
+                    "Aromantic. (July 09, 2018). In Aromantics Wiki. Retrieved December 23, 2018, from http://aromantic.wikia.com/wiki/Aromantic?oldid=7321"
+                ],
+                "flagImageSource": "Aromantic Flag.svg. (September 01, 2015). In Wikimedia Commons. Retrieved December 23, 2018, from https://commons.wikimedia.org/w/index.php?title=File:Aromantic_Flag.svg&oldid=296051572"
             }
         },
         {

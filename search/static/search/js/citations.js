@@ -49,10 +49,39 @@ function showCitation(flagData, flagElement) {
 }
 
 function buildCitationRow(flagCitation) {
+    let hasParts = false;
     const citationRow = document.createElement("div");
     citationRow.classList.add("jx-citation-row");
-    citationRow.innerText = flagCitation.apa;
+
+    if (flagCitation.text) {
+        hasParts = true;
+        const textDiv = document.createElement("div");
+        textDiv.innerText = flagCitation.text;
+        citationRow.appendChild(textDiv);
+    }
     
+    if (flagCitation.sourceList) {
+        hasParts = true;
+        const sourceList = document.createElement("ol");
+        citationRow.appendChild(sourceList);
+
+        flagCitation.sourceList.forEach(function(item, index) {
+            const thisSource = document.createElement("li");
+            thisSource.innerText = item;
+            sourceList.appendChild(thisSource);
+        });
+    }
+    
+    if (flagCitation.flagImageSource) {
+        hasParts = true;
+        const flagSource = document.createElement("div");
+        flagSource.innerText = flagCitation.flagImageSource;
+        citationRow.appendChild(flagSource);
+    }
+    
+    if (!hasParts) {
+        citationRow.innerText = "We couldn't find details about this flag in our records. Know something? Help us out!.";
+    }
     return citationRow;
 }
 
