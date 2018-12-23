@@ -1,6 +1,12 @@
 function handleShowCitationEvent(flagData, event) {
+    const shouldShowCitation = ("false" === event.target.getAttribute("aria-expanded"));
+    
     removeAllCitations();
-    showCitation(flagData, event.target); 
+    resetAllShowMoreTexts();
+    
+    if (shouldShowCitation) {
+        showCitation(flagData, event.target); 
+    }
 }
 
 function removeAllCitations() {
@@ -14,10 +20,26 @@ function removeAllCitations() {
     }
 }
 
-function showCitation(flagData, flagElement) {
-    console.log(flagData.name);
-    const row = flagElement.closest("div.row");
+function resetAllShowMoreTexts() {
+    const showMoreSpanList = document.querySelectorAll(".citation-reveal span");
     
+    for (i = 0; i < showMoreSpanList.length; ++i) {
+        const thisSpan = showMoreSpanList[i];
+        thisSpan.innerText = "Show More V";
+        thisSpan.setAttribute("aria-expanded", "false");
+//         thisSpan.classList.add("jx-citation-show");
+//         thisSpan.classList.remove("jx-citation-hide");
+    }
+}
+
+function showCitation(flagData, flagElement) {
+    // Change show more text
+    flagElement.innerText = "Show Less ^";
+    flagElement.setAttribute("aria-expanded", "true");
+//     flagElement.classList.add("jx-citation-hide");
+//     flagElement.classList.remove("jx-citation-show");
+    
+    // Add citation content
     const citationRow = buildCitationRow(flagData.citation);
     
     let [leftOffset, width] = calculateBounds(flagElement);
