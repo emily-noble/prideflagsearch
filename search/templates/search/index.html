@@ -197,30 +197,28 @@
             <div class="col-md-12 col-lg-4">
                 <label for="stripesFilter">Stripes</label>
                 <div>
-                    <input id="stripesFilter" type="number" step="1" min="0"></input>
+                    <input id="stripesFilter" type="number" step="1" min="0" />
                 </div>
             </div>
             <div class="col-md-12 col-lg-4">
                 <label for="shapesFilter">Special Shapes</label>
                 <div>
                     <select id="shapesFilter">
-                        <option value="ignore">---</option>
+                        <option value="ignore">Any Shapes</option>
                         <option value="true">Has Shapes</option>
                         <option value="false">No Shapes</option>
                     </select>
                 </div>
             </div>
-        <!-- TODO: write fuzzy match code-->
-<!--             <div class="col-md-12 col-lg-3">
-                Fuzzy Matches
-                <input type="checkbox"></input>
-            </div> -->
         </div>
         <hr />
         <div>
             <h2>
-                <span id="resultsCount"></span> flag<span id="resultsPlural"></span> found.
+                Search Results
             </h2>
+            <p>
+                <span id="resultsCount"></span> <span id="resultsWord"></span> found.
+            </p>
             <div id="searchResults"></div>
         </div>
     </main>
