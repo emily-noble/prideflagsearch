@@ -50,13 +50,58 @@ The `prideflags.json` file uses the following keys in the `citation` key for eac
 
 `firstAuthoring` - This is a citation in the modified APA format described above. It should be the first published source for the flag, as best you can determine. If this source cannot be determined, the value should be set to false.
 
+# Development Standards
+
+## Accessibility
+
+Accessible web design is not taught as a routine part of formal or informal web development classes, but is absolutely vital. Building a completely and perfectly accessible site will always be a constant work in progress as technologies change, standards are revised, and screen readers interpret code in different ways. However, we want to follow the following principles as we develop:
+
+1. A pull request *will not* be accepted if it breaks tab accessibility.
+1. Custom styling of tab focus *must not* hide tab focus completely, but it can work to improve it for consistency across browsers, or improved visibility
+1. Screen reader usability *must not* be worse than when the branch was started, though it *may* be left unfinished
+
+## Browser Compatibility
+
+This project aims to be compatible with the latest version of the following browsers:
+
+- Chrome
+  - Desktop
+  - Mobile
+- Firefox
+  - Desktop
+  - Mobile
+- Safari 
+  - Desktop
+  - Movile
+- Edge
+  - Desktop
+
 # Planned Features
 
-- Make sure tab accessibility works properly
-- Make sure screen readers work properly
-- Implement a sorting system, or extra filter to distinguish between more and less common flags
-- Browser compatibility initial review
-- Add feature for flag alternates (like versions of the gay pride flag)
+## Accessibility Documentation
+
+Create a document in this project to list tools for web accessibility evaluation and standards to meet. 
+
+## Accessibility Review
+
+Use tools to evaluate and remove barriers on this site.
+
+## Browser Compatibility Review
+
+Review the tool on each of the supported browsers to ensure it functions and renders properly.
+
+## Flag Series
+
+Some flags have undergone a number of revisions. Add a feature that somehow links the flags in a series to each other.
+
+## Fuzzy Matching
+
+Add the ability to automatically loosen search criteria. Someone might mis-remember a color on a flag, the number of stripes, or if it had shapes. This feature would slightly alter criteria to expand the list of possible search results. 
+
+## Rough Sorting
+
+Distinguish between very common flags and less common flags to help bump flags that the user was more likely to see towards the top.
+
 - Flags to Add to WikiMedia
   - Update the UK Gay Pride Flag wiki with our scalable version https://commons.wikimedia.org/wiki/File:Gay_Pride_flag_of_the_United_Kingdom.svg
 
