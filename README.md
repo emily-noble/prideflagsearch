@@ -101,7 +101,3 @@ Add the ability to automatically loosen search criteria. Someone might mis-remem
 ## Rough Sorting
 
 Distinguish between very common flags and less common flags to help bump flags that the user was more likely to see towards the top.
-
-- Flags to Add to WikiMedia
-  - Update the UK Gay Pride Flag wiki with our scalable version https://commons.wikimedia.org/wiki/File:Gay_Pride_flag_of_the_United_Kingdom.svg
-
