@@ -1,3 +1,13 @@
+# About the Pride Flag Identification Guide
+
+This project is attempting to address the difficulty in figuring out just *what* that pride flag was. The queer community has seen a recent explosion of flags and this site should be used as a tool to help identify some of them in the wild. It's an open source project run by Brynne Farrell. Anyone is able to add a flag or features to the website. In short, here's what this project is trying to do:
+
+1. Collect all the (queer) pride flags possbile
+1. Make high quality, automatically scalable svg versions of those flags available on Wikimedia for use across the website
+1. Provide the ability to search through flags by their appearance
+
+This project doesn't seek to decide which identities do and don't belong in queer spaces, so the flags accepted here are queer pride flags and flags that are often adjancent to queer identities; flags you might see at a pride parade. Do not use this site as an authority on which identities do and don't belong in your queer space(s). That discussion is far beyond what we can accomplish here.
+
 # Contributing
 
 ## General Principles
