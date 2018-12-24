@@ -133,11 +133,11 @@ function displaySearchResults(flagList) {
     var resultsCount = document.querySelector("#resultsCount");
     resultsCount.innerText = flagList.length;
     
-    var resultsPlural = document.querySelector("#resultsPlural");
+    var resultsWord = document.querySelector("#resultsWord");
     if (1 === flagList.length) {
-        resultsPlural.innerText = '';
+        resultsWord.innerText = 'flag';
     } else {
-        resultsPlural.innerText = 's';
+        resultsWord.innerText = 'flags';
     }
 }
 
