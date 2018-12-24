@@ -18,8 +18,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="{% static 'search/css/footer.css' %}" />
-    <link rel="stylesheet" href="{% static 'search/css/squares.css' %}" />
     <link rel="stylesheet" href="{% static 'search/css/citation.css' %}" />
+    <link rel="stylesheet" href="{% static 'search/css/filters.css' %}" />
     <title>Pride Flag Identification Guide</title>
 </head>
 <body>
@@ -56,28 +56,152 @@
             <div class="col-md-12 col-lg-4">
                 Colors
                 <div id="colorFilter">
-                    <label><input type="checkbox" value="red"><span class="square red"></span></label>
-                    <label><input type="checkbox" value="orange"><span class="square orange"></span></label>
-                    <label><input type="checkbox" value="yellow"><span class="square yellow"></span></label>
-                    <label><input type="checkbox" value="green"><span class="square green"></span></label>
-                    <label><input type="checkbox" value="blue"><span class="square blue"></span></label>
-                    <label><input type="checkbox" value="purple"><span class="square purple"></span></label>
-                    <label><input type="checkbox" value="pink"><span class="square pink"></span></label>
-                    <label><input type="checkbox" value="black"><span class="square black"></span></label>
-                    <label><input type="checkbox" value="grey"><span class="square grey"></span></label>
-                    <label><input type="checkbox" value="white"><span class="square white"></span></label>
-                    <label><input type="checkbox" value="brown"><span class="square brown"></span></label>
-                    <label><input type="checkbox" value="tan"><span class="square tan"></span></label>
+                    <div class="row">
+                        <div class="col-6 col-sm-3 col-lg-6">
+                            <label>
+                                <input type="checkbox" value="red">
+                                <svg width="20" height="20">
+                                    <rect width="20" height="20" style="fill:red;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
+                                </svg>
+                                <div class="color-text">
+                                    Red
+                                </div>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-3 col-lg-6">
+                            <label>
+                                <input type="checkbox" value="orange">
+                                <svg width="20" height="20">
+                                    <rect width="20" height="20" style="fill:orange;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
+                                </svg>
+                                <div class="color-text">
+                                    Orange
+                                </div>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-3 col-lg-6">
+                            <label>
+                                <input type="checkbox" value="yellow">
+                                <svg width="20" height="20">
+                                    <rect width="20" height="20" style="fill:yellow;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
+                                </svg>
+                                <div class="color-text">
+                                    Yellow
+                                </div>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-3 col-lg-6">
+                            <label>
+                                <input type="checkbox" value="green">
+                                <svg width="20" height="20">
+                                    <rect width="20" height="20" style="fill:green;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
+                                </svg>
+                                <div class="color-text">
+                                    Green
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 col-sm-3 col-lg-6">
+                            <label>
+                                <input type="checkbox" value="blue">
+                                <svg width="20" height="20">
+                                    <rect width="20" height="20" style="fill:blue;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
+                                </svg>
+                                <div class="color-text">
+                                    Blue
+                                </div>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-3 col-lg-6">
+                            <label>
+                                <input type="checkbox" value="purple">
+                                <svg width="20" height="20">
+                                    <rect width="20" height="20" style="fill:purple;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
+                                </svg>
+                                <div class="color-text">
+                                    Purple
+                                </div>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-3 col-lg-6">
+                            <label>
+                                <input type="checkbox" value="pink">
+                                <svg width="20" height="20">
+                                    <rect width="20" height="20" style="fill:pink;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
+                                </svg>
+                                <div class="color-text">
+                                    Pink
+                                </div>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-3 col-lg-6">
+                            <label>
+                                <input type="checkbox" value="black">
+                                <svg width="20" height="20">
+                                    <rect width="20" height="20" style="fill:black;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
+                                </svg>
+                                <div class="color-text">
+                                    Black
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 col-sm-3 col-lg-6">
+                            <label>
+                                <input type="checkbox" value="grey">
+                                <svg width="20" height="20">
+                                    <rect width="20" height="20" style="fill:grey;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
+                                </svg>
+                                <div class="color-text">
+                                    Grey
+                                </div>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-3 col-lg-6">
+                            <label>
+                                <input type="checkbox" value="white">
+                                <svg width="20" height="20">
+                                    <rect width="20" height="20" style="fill:white;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
+                                </svg>
+                                <div class="color-text">
+                                    White
+                                </div>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-3 col-lg-6">
+                            <label>
+                                <input type="checkbox" value="brown">
+                                <svg width="20" height="20">
+                                    <rect width="20" height="20" style="fill:brown;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
+                                </svg>
+                                Brown
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-3 col-lg-6">
+                            <label>
+                                <input type="checkbox" value="tan">
+                                <svg width="20" height="20">
+                                    <rect width="20" height="20" style="fill:tan;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
+                                </svg>
+                                <div class="color-text">
+                                    Tan
+                                </div>
+                            </label>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-12 col-lg-4">
-                Stripes
+                <label for="stripesFilter">Stripes</label>
                 <div>
                     <input id="stripesFilter" type="number" step="1" min="0"></input>
                 </div>
             </div>
             <div class="col-md-12 col-lg-4">
-                Special Shapes
+                <label for="shapesFilter">Special Shapes</label>
                 <div>
                     <select id="shapesFilter">
                         <option value="ignore">---</option>
