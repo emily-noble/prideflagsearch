@@ -1,8 +1,14 @@
-/* Sticky footer styles
--------------------------------------------------- */
 .footer {
     margin-top: 3em;
     padding: 3em 0em;
     width: 100%;
     background-color: #f5f5f5;
+}
+
+.text-muted {
+    color: #42484c !important;
+}
+
+a {
+    color: #004793;
 }

@@ -77,6 +77,7 @@ function buildFlagDomElements(flag, resultRow) {
     if (flag.src) {
         var resultImg = document.createElement("img");
         resultImg.src = flag.src;
+        resultImg.alt = ""; // Because the flag's name is elsewhere on the page, don't need alt text
         resultImg.classList.add("img-fluid");
         resultColumn.appendChild(resultImg);
     }

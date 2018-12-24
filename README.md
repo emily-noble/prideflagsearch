@@ -70,6 +70,15 @@ Accessible web design is not taught as a routine part of formal or informal web 
 1. Custom styling of tab focus *must not* hide tab focus completely, but it can work to improve it for consistency across browsers, or improved visibility
 1. Screen reader usability *must not* be worse than when the branch was started, though it *may* be left unfinished
 
+### Accessibility Evaluation Tools
+
+#### WAVE
+
+[Web Accessiblity Evaluation Tool](http://wave.webaim.org/)
+
+Available as a plugin for Chrome and Firefox. 
+
+
 ## Browser Compatibility
 
 This project aims to be compatible with the latest version of the following browsers:
