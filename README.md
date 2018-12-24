@@ -76,7 +76,7 @@ Accessible web design is not taught as a routine part of formal or informal web 
 
 [Web Accessiblity Evaluation Tool](http://wave.webaim.org/)
 
-Available as a plugin for Chrome and Firefox. Automatically evaluates compliance with WCAG.Available
+Available as a plugin for Chrome and Firefox. Automatically evaluates compliance with WCAG.
 
 #### ChromeVox
 
