@@ -168,7 +168,15 @@
             "stripes": 1,
             "shapes": true,
             "name": "Intersex Pride Flag",
-            "src": "/static/search/data/img/intersex_pride_flag.svg"
+            "src": "/static/search/data/img/intersex_pride_flag.svg",
+            "citation": {
+                "text": "\"Intersex people are born with any of several variations in sex characteristics including chromosomes, gonads, sex hormones, or genitals that, according to the UN Office of the High Commissioner for Human Rights, \"do not fit the typical definitions for male or female bodies\". Such variations may involve genital ambiguity, and combinations of chromosomal genotype and sexual phenotype other than XY-male and XX-female.\" [1]",
+                "sourceList": [
+                    "Intersex. (2018, Sept 11). In Wikipedia. Retrieved December 24, 2018, from [en.wikipedia.org](hhttps://en.wikipedia.org/w/index.php?title=Intersex&oldid=874876499)"
+                ],
+                "flagImageSource": "Intersex flag.svg. (2013, Dec 20). In Wikimedia Commons. Retrieved December 24, 2018, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Intersex_flag.svg&oldid=295700760)",
+                "firstAuthoring": "Intersex Human Rights Australia. (2013, July 5). An intersex flag. Retrieved December 24, 2018, from [ihra.org.au](https://ihra.org.au/22773/an-intersex-flag/)"
+            }
         },
         {
             "colors": [
