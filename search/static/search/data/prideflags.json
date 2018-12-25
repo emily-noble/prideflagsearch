@@ -50,7 +50,15 @@
             "stripes": 5,
             "shapes": false,
             "name": "Genderfluid Pride Flag",
-            "src": "/static/search/data/img/genderfluid_pride_flag.svg"
+            "src": "/static/search/data/img/genderfluid_pride_flag.svg",
+            "citation": {
+                "text": "\"A person who is genderfluid prefers to remain flexible about their gender identity rather than committing to a single gender. They may fluctuate between genders or express multiple genders at the same time.\" [1]",
+                "sourceList": [
+                    "Genderqueer. (2018, July 8). In Wikipedia. Retrieved December 23, 2018, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Genderqueer&oldid=874316981)"
+                ],
+                "flagImageSource": "Genderfluidity Pride-Flag.svg. (2015, Feb 6). In Wikimedia Commons. Retrieved December 24, 2018, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Genderfluidity_Pride-Flag.svg&oldid=296300585)",
+                "firstAuthoring": false
+            }
         },
         {
             "colors": [
