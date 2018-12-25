@@ -29,7 +29,15 @@
             "stripes": 3,
             "shapes": false,
             "name": "Genderqueer Pride Flag",
-            "src": "/static/search/data/img/genderqueer_pride_flag.svg"
+            "src": "/static/search/data/img/genderqueer_pride_flag.svg",
+            "citation": {
+                "text": "\"Genderqueer, also known as non-binary, is a catch-all category for gender identities that are not exclusively masculine or feminine‍—‌identities which are outside the gender binary and cisnormativity. Genderqueer people may express a combination of masculinity and femininity, or neither, in their gender expression.\" [1]",
+                "sourceList": [
+                    "Genderqueer. (2018, July 8). In Wikipedia. Retrieved December 23, 2018, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Genderqueer&oldid=874316981)"
+                ],
+                "flagImageSource": "Genderqueer flag-pride.svg. (2015, Feb 6). In Wikimedia Commons. Retrieved December 24, 2018, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Genderqueer_flag-pride.svg&oldid=296056362)",
+                "firstAuthoring": false
+            }
         },
         {
             "colors": [
