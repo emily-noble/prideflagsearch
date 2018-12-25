@@ -130,7 +130,15 @@
             "stripes": 5,
             "shapes": false,
             "name": "Transgender Pride Flag",
-            "src": "/static/search/data/img/transgender_pride_flag.svg"
+            "src": "/static/search/data/img/transgender_pride_flag.svg",
+            "citation": {
+                "text": "\"Transgender people have a gender identity or gender expression that differs from their assigned sex... Transgender is also an umbrella term: in addition to including people whose gender identity is the opposite of their assigned sex (trans men and trans women), it may include people who are not exclusively masculine or feminine (people who are genderqueer or non-binary, including bigender, pangender, genderfluid, or agender). Other definitions of transgender also include people who belong to a third gender, or else conceptualize transgender people as a third gender.\" [1]",
+                "sourceList": [
+                    "Transgender. (2018, June 14). In Wikipedia. Retrieved December 24, 2018, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Transgender&oldid=874625004)"
+                ],
+                "flagImageSource": "Transgender Pride flag.svg. (2018, April 6). In Wikimedia Commons. Retrieved December 24, 2018, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Transgender_Pride_flag.svg&oldid=295842582)",
+                "firstAuthoring": false
+            }
         },
         {
             "colors": [
