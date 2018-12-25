@@ -91,7 +91,15 @@
             "stripes": 3,
             "shapes": false,
             "name": "Bisexual Pride Flag",
-            "src": "/static/search/data/img/bisexual_pride_flag.svg"
+            "src": "/static/search/data/img/bisexual_pride_flag.svg",
+            "citation": {
+                "text": "\"Bisexuality is romantic attraction, sexual attraction, or sexual behavior toward both males and females, or romantic or sexual attraction to people of any sex or gender identity; this latter aspect is sometimes alternatively termed pansexuality.\" [1]",
+                "sourceList": [
+                    "Bisexuality. (2017, Dec 20). In Wikipedia. Retrieved December 24, 2018, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Bisexuality&oldid=871614738)"
+                ],
+                "flagImageSource": "Bi flag.svg. (2008, Feb 2). In Wikimedia Commons. Retrieved December 24, 2018, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Bi_flag.svg&oldid=322295708)",
+                "firstAuthoring": false
+            }
         },
         {
             "colors": [
