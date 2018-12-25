@@ -10,7 +10,15 @@
             "stripes": 4,
             "shapes": false,
             "name": "Nonbinary Pride Flag",
-            "src": "/static/search/data/img/nonbinary_pride_flag.svg"
+            "src": "/static/search/data/img/nonbinary_pride_flag.svg",
+            "citation": {
+                "text": "\"Genderqueer, also known as non-binary, is a catch-all category for gender identities that are not exclusively masculine or feminine‍—‌identities which are outside the gender binary and cisnormativity. Genderqueer people may express a combination of masculinity and femininity, or neither, in their gender expression.\" [1]",
+                "sourceList": [
+                    "Genderqueer. (2018, July 8). In Wikipedia. Retrieved December 23, 2018, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Genderqueer&oldid=874316981)"
+                ],
+                "flagImageSource": "Nonbinary flag.svg. (2017, April 16). In Wikimedia Commons. Retrieved December 24, 2018, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Nonbinary_flag.svg&oldid=295926833)",
+                "firstAuthoring": "genderweird. (2014, Feb 17). After counting up all the ‘votes’ for each… [Tumblr post]. Retrieved December 24, 2018, from [thejasmineelf.tumblr.com](http://thejasmineelf.tumblr.com/post/77007286542/after-counting-up-all-the-votes-for-each)"
+            }
         },
         {
             "colors": [
@@ -86,7 +94,7 @@
                     "Asexuality. (2018, April 9). In Wikipedia. Retrieved December 23, 2018, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Asexuality&oldid=871893138)"
                 ],
                 "flagImageSource": "Asexual flag.svg. (2010, Sept 18). In Wikimedia Commons. Retrieved December 23, 2018, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Asexual_flag.svg&oldid=326396229)",
-                "firstAuthoring": "bristrek. (2010, Aug 11). Asexual Flag: And the winner is..... [Online discussion group]. Retrieved December 23, 2018, from [http://www.asexuality.org](https://www.asexuality.org/en/topic/53435-asexual-flag-and-the-winner-is/)"
+                "firstAuthoring": "bristrek. (2010, Aug 11). Asexual Flag: And the winner is..... [Online discussion group]. Retrieved December 23, 2018, from [www.asexuality.org](https://www.asexuality.org/en/topic/53435-asexual-flag-and-the-winner-is/)"
             }
         },
         {
@@ -117,7 +125,7 @@
                     "Genderqueer. (2018, July 8). In Wikipedia. Retrieved December 23, 2018, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Genderqueer&oldid=874316981)"
                 ],
                 "flagImageSource": "Agender pride flag.svg. (2015, Feb 6). In Wikimedia Commons. Retrieved December 23, 2018, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Agender_pride_flag.svg&oldid=296272703)",
-                "firstAuthoring": "transrants. (2014, Feb 19). a more pastel version of my agender/genderless… [Tumblr post]. Retrieved December 23, 2018, from [http://batty.co.vu](http://batty.co.vu/post/77148681532/a-more-pastel-version-of-my-agendergenderless)"
+                "firstAuthoring": "transrants. (2014, Feb 19). a more pastel version of my agender/genderless… [Tumblr post]. Retrieved December 23, 2018, from [batty.co.vu](http://batty.co.vu/post/77148681532/a-more-pastel-version-of-my-agendergenderless)"
             }
         },
         {
