@@ -173,7 +173,7 @@ function calculateBounds(element) {
 
 function apaMarkdownLinkToHtmlLink(text) {
     // Attempt to extract an markdown style link from the text
-    const apaCitationPartsRegex = /(.*)from \[(.*)\]\((.*)\)/g;
+    const apaCitationPartsRegex = /(.*)from \[(.*)\]\((.*)\)(.*)/g;
     const thisCitationParts = apaCitationPartsRegex.exec(text);
 
     if (thisCitationParts && 4 <= thisCitationParts.length) {
@@ -181,8 +181,9 @@ function apaMarkdownLinkToHtmlLink(text) {
         const firstPart = thisCitationParts[1];
         const linkText = thisCitationParts[2];
         const linkUrl = thisCitationParts[3];
+        const addendum = thisCitationParts[4];
 
-        const fullHtml = firstPart + " from <a href='" + linkUrl + "' target='_blank'>" + linkText + "</a>";
+        const fullHtml = firstPart + " from <a href='" + linkUrl + "' target='_blank'>" + linkText + "</a>" + addendum;
         return fullHtml;
     }
     
