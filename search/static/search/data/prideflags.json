@@ -10,7 +10,15 @@
             "stripes": 4,
             "shapes": false,
             "name": "Nonbinary Pride Flag",
-            "src": "/static/search/data/img/nonbinary_pride_flag.svg"
+            "src": "/static/search/data/img/nonbinary_pride_flag.svg",
+            "citation": {
+                "text": "\"Genderqueer, also known as non-binary, is a catch-all category for gender identities that are not exclusively masculine or feminine‍—‌identities which are outside the gender binary and cisnormativity. Genderqueer people may express a combination of masculinity and femininity, or neither, in their gender expression.\" [1]",
+                "sourceList": [
+                    "Genderqueer. (2018, July 8). In Wikipedia. Retrieved December 23, 2018, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Genderqueer&oldid=874316981)"
+                ],
+                "flagImageSource": "Nonbinary flag.svg. (2017, April 16). In Wikimedia Commons. Retrieved December 24, 2018, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Nonbinary_flag.svg&oldid=295926833)",
+                "firstAuthoring": "genderweird. (2014, Feb 17). After counting up all the ‘votes’ for each… [Tumblr post]. Retrieved December 24, 2018, from [thejasmineelf.tumblr.com](http://thejasmineelf.tumblr.com/post/77007286542/after-counting-up-all-the-votes-for-each)"
+            }
         },
         {
             "colors": [
@@ -21,7 +29,15 @@
             "stripes": 3,
             "shapes": false,
             "name": "Genderqueer Pride Flag",
-            "src": "/static/search/data/img/genderqueer_pride_flag.svg"
+            "src": "/static/search/data/img/genderqueer_pride_flag.svg",
+            "citation": {
+                "text": "\"Genderqueer, also known as non-binary, is a catch-all category for gender identities that are not exclusively masculine or feminine‍—‌identities which are outside the gender binary and cisnormativity. Genderqueer people may express a combination of masculinity and femininity, or neither, in their gender expression.\" [1]",
+                "sourceList": [
+                    "Genderqueer. (2018, July 8). In Wikipedia. Retrieved December 23, 2018, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Genderqueer&oldid=874316981)"
+                ],
+                "flagImageSource": "Genderqueer flag-pride.svg. (2015, Feb 6). In Wikimedia Commons. Retrieved December 24, 2018, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Genderqueer_flag-pride.svg&oldid=296056362)",
+                "firstAuthoring": false
+            }
         },
         {
             "colors": [
@@ -34,7 +50,15 @@
             "stripes": 5,
             "shapes": false,
             "name": "Genderfluid Pride Flag",
-            "src": "/static/search/data/img/genderfluid_pride_flag.svg"
+            "src": "/static/search/data/img/genderfluid_pride_flag.svg",
+            "citation": {
+                "text": "\"A person who is genderfluid prefers to remain flexible about their gender identity rather than committing to a single gender. They may fluctuate between genders or express multiple genders at the same time.\" [1]",
+                "sourceList": [
+                    "Genderqueer. (2018, July 8). In Wikipedia. Retrieved December 23, 2018, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Genderqueer&oldid=874316981)"
+                ],
+                "flagImageSource": "Genderfluidity Pride-Flag.svg. (2015, Feb 6). In Wikimedia Commons. Retrieved December 24, 2018, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Genderfluidity_Pride-Flag.svg&oldid=296300585)",
+                "firstAuthoring": false
+            }
         },
         {
             "colors": [
@@ -67,7 +91,15 @@
             "stripes": 3,
             "shapes": false,
             "name": "Bisexual Pride Flag",
-            "src": "/static/search/data/img/bisexual_pride_flag.svg"
+            "src": "/static/search/data/img/bisexual_pride_flag.svg",
+            "citation": {
+                "text": "\"Bisexuality is romantic attraction, sexual attraction, or sexual behavior toward both males and females, or romantic or sexual attraction to people of any sex or gender identity; this latter aspect is sometimes alternatively termed pansexuality.\" [1]",
+                "sourceList": [
+                    "Bisexuality. (2017, Dec 20). In Wikipedia. Retrieved December 24, 2018, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Bisexuality&oldid=871614738)"
+                ],
+                "flagImageSource": "Bi flag.svg. (2008, Feb 2). In Wikimedia Commons. Retrieved December 24, 2018, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Bi_flag.svg&oldid=322295708)",
+                "firstAuthoring": false
+            }
         },
         {
             "colors": [
@@ -85,8 +117,8 @@
                 "sourceList": [
                     "Asexuality. (2018, April 9). In Wikipedia. Retrieved December 23, 2018, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Asexuality&oldid=871893138)"
                 ],
-                "flagImageSource": "Asexual flag.svg. (2010, Sept 18). In Wikimedia Commons. Retrieved December 23, 2018, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Asexual_flag.svg&oldid=326396229)",
-                "firstAuthoring": "bristrek. (2010, Aug 11). Asexual Flag: And the winner is..... [Online discussion group]. Retrieved December 23, 2018, from [http://www.asexuality.org](https://www.asexuality.org/en/topic/53435-asexual-flag-and-the-winner-is/)"
+                "flagImageSource": "Asexual flag.svg. (2010, Sep 18). In Wikimedia Commons. Retrieved December 23, 2018, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Asexual_flag.svg&oldid=326396229)",
+                "firstAuthoring": "bristrek. (2010, Aug 11). Asexual Flag: And the winner is..... [Online discussion group]. Retrieved December 23, 2018, from [www.asexuality.org](https://www.asexuality.org/en/topic/53435-asexual-flag-and-the-winner-is/)"
             }
         },
         {
@@ -98,7 +130,15 @@
             "stripes": 5,
             "shapes": false,
             "name": "Transgender Pride Flag",
-            "src": "/static/search/data/img/transgender_pride_flag.svg"
+            "src": "/static/search/data/img/transgender_pride_flag.svg",
+            "citation": {
+                "text": "\"Transgender people have a gender identity or gender expression that differs from their assigned sex... Transgender is also an umbrella term: in addition to including people whose gender identity is the opposite of their assigned sex (trans men and trans women), it may include people who are not exclusively masculine or feminine (people who are genderqueer or non-binary, including bigender, pangender, genderfluid, or agender). Other definitions of transgender also include people who belong to a third gender, or else conceptualize transgender people as a third gender.\" [1]",
+                "sourceList": [
+                    "Transgender. (2018, June 14). In Wikipedia. Retrieved December 24, 2018, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Transgender&oldid=874625004)"
+                ],
+                "flagImageSource": "Transgender Pride flag.svg. (2018, April 6). In Wikimedia Commons. Retrieved December 24, 2018, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Transgender_Pride_flag.svg&oldid=295842582)",
+                "firstAuthoring": false
+            }
         },
         {
             "colors": [
@@ -117,7 +157,7 @@
                     "Genderqueer. (2018, July 8). In Wikipedia. Retrieved December 23, 2018, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Genderqueer&oldid=874316981)"
                 ],
                 "flagImageSource": "Agender pride flag.svg. (2015, Feb 6). In Wikimedia Commons. Retrieved December 23, 2018, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Agender_pride_flag.svg&oldid=296272703)",
-                "firstAuthoring": "transrants. (2014, Feb 19). a more pastel version of my agender/genderless… [Tumblr post]. Retrieved December 23, 2018, from [http://batty.co.vu](http://batty.co.vu/post/77148681532/a-more-pastel-version-of-my-agendergenderless)"
+                "firstAuthoring": "transrants. (2014, Feb 19). a more pastel version of my agender/genderless… [Tumblr post]. Retrieved December 23, 2018, from [batty.co.vu](http://batty.co.vu/post/77148681532/a-more-pastel-version-of-my-agendergenderless)"
             }
         },
         {
@@ -128,7 +168,15 @@
             "stripes": 1,
             "shapes": true,
             "name": "Intersex Pride Flag",
-            "src": "/static/search/data/img/intersex_pride_flag.svg"
+            "src": "/static/search/data/img/intersex_pride_flag.svg",
+            "citation": {
+                "text": "\"Intersex people are born with any of several variations in sex characteristics including chromosomes, gonads, sex hormones, or genitals that, according to the UN Office of the High Commissioner for Human Rights, \"do not fit the typical definitions for male or female bodies\". Such variations may involve genital ambiguity, and combinations of chromosomal genotype and sexual phenotype other than XY-male and XX-female.\" [1]",
+                "sourceList": [
+                    "Intersex. (2018, Sep 11). In Wikipedia. Retrieved December 24, 2018, from [en.wikipedia.org](hhttps://en.wikipedia.org/w/index.php?title=Intersex&oldid=874876499)"
+                ],
+                "flagImageSource": "Intersex flag.svg. (2013, Dec 20). In Wikimedia Commons. Retrieved December 24, 2018, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Intersex_flag.svg&oldid=295700760)",
+                "firstAuthoring": "Intersex Human Rights Australia. (2013, July 5). An intersex flag. Retrieved December 24, 2018, from [ihra.org.au](https://ihra.org.au/22773/an-intersex-flag/)"
+            }
         },
         {
             "colors": [
@@ -138,8 +186,16 @@
             ],
             "stripes": 1,
             "shapes": true,
-            "name": "Lesbian Pride Flag (Labrys)",
-            "src": "/static/search/data/img/lesbian_pride_flag_labrys.svg"
+            "name": "Lesbian Feminism Pride Flag (Labrys)",
+            "src": "/static/search/data/img/lesbian_pride_flag_labrys.svg",
+            "citation": {
+                "text": "\"Lesbian feminism is a cultural movement and critical perspective, most influential in the 1970s and early 1980s (primarily in North America and Western Europe), that encourages women to direct their energies toward other women rather than men, and often advocates lesbianism as the logical result of feminism. In the words of lesbian feminist Sheila Jeffreys, \"Lesbian feminism emerged as a result of two developments: lesbians within the WLM (Women's Liberation Movement) began to create a new, distinctively feminist lesbian politics, and lesbians in the GLF (Gay Liberation Front) left to join up with their sisters\". According to Judy Rebick, a leading Canadian journalist and feminist activist, lesbians were and always have been at the heart of the women's movement, while their issues were invisible in the same movement. Lesbian feminism of color emerged as a response to lesbian feminism thought that failed to incorporate the issues of class and race as sources of oppression along with heterosexuality.\" [1]",
+                "sourceList": [
+                    "Lesbian feminism. (2018, Feb 16). In Wikipedia. Retrieved January 1, 2019, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Lesbian_feminism&oldid=874775222)"
+                ],
+                "flagImageSource": "Lesbian pride flag.svg. (2018, Jan 22). In Wikimedia Commons. Retrieved January 1, 2019, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Lesbian_pride_flag.svg&oldid=332125792)",
+                "firstAuthoring": "Campbell, S. (2000, June). Palm Springs Gay and Lesbian Times. based on information from [The Queerstory Files](http://queerstoryfiles.blogspot.com/2012/06/putting-out-sean-campbells-flags.html), but not confirmed independently."
+            }
         },
         {
             "colors": [
@@ -154,7 +210,15 @@
             "stripes": 7,
             "shapes": true,
             "name": "Bear Pride Flag",
-            "src": "/static/search/data/img/bear_pride_flag.svg"
+            "src": "/static/search/data/img/bear_pride_flag.svg",
+            "citation": {
+                "text": "\"In male gay culture, a bear is often a larger or obese hairier man who projects an image of rugged masculinity. Bears are one of many LGBT communities with events, codes, and a culture-specific identity. However, in San Francisco in the 1970s any hairy man of whatever shape was referred to as a 'bear' until the term was appropriated by larger men and other words had to be used to describe hairy other-shaped men such as otter (slim), cub (young bear on the way), or wolf (hairy, medium build).\" [1]",
+                "sourceList": [
+                    "Bear (gay culture). (2018, June 20). In Wikipedia. Retrieved January 1, 2019, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Bear_(gay_culture)&oldid=875877600)"
+                ],
+                "flagImageSource": "Bear Brotherhood flag.svg. (2007, April 29). In Wikimedia Commons. Retrieved January 1, 2019, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Bear_Brotherhood_flag.svg&oldid=296224792)",
+                "firstAuthoring": false
+            }
         },
         {
             "colors": [
@@ -165,7 +229,15 @@
             "stripes": 6,
             "shapes": false,
             "name": "Bigender Pride Flag",
-            "src": "/static/search/data/img/bigender_pride_flag.svg"
+            "src": "/static/search/data/img/bigender_pride_flag.svg",
+            "citation": {
+                "text": "\"Bigender, bi-gender or dual gender is a gender identity that includes any two gender identities and behaviors. Some bigender individuals express two distinct personas, which may be feminine, masculine, agender, androgyne, or other gender identities; others find that they identify as two genders simultaneously. A 1999 survey conducted by the San Francisco Department of Public Health observed that, among the transgender community, less than 3% of those who were assigned male at birth and less than 8% of those who were assigned female at birth identified as bigender.\" [1]",
+                "sourceList": [
+                    "Bigender. (2018, Feb 28). In Wikipedia. Retrieved January 1, 2019, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Bigender&oldid=875947825)"
+                ],
+                "flagImageSource": "Bigender pride flag.svg. (2015, Feb 22). In Wikimedia Commons. Retrieved January 1, 2019, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Bigender_pride_flag.svg&oldid=323639719)",
+                "firstAuthoring": false
+            }
         },
         {
             "colors": [
@@ -177,7 +249,15 @@
             "stripes": 3,
             "shapes": true,
             "name": "Demisexual Pride Flag",
-            "src": "/static/search/data/img/demisexual_pride_flag.svg"
+            "src": "/static/search/data/img/demisexual_pride_flag.svg",
+            "citation": {
+                "text": "\"Demisexuality is a sexual orientation in which someone feels sexual attraction only to people with whom they have an emotional bond. Most demisexuals feel sexual attraction rarely compared to the general population, and some have little to no interest in sexual activity.\" [1]",
+                "sourceList": [
+                    "What is Demisexuality?. (n.d.). Demisexuality Resource Center. Retrieved January 1, 2019, from [demisexuality.org](http://demisexuality.org/articles/what-is-demisexuality/)"
+                ],
+                "flagImageSource": "Demisexual Flag.svg. (2013 June 22). In Wikimedia Commons. Retrieved January 1, 2019, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Demisexual_Flag.svg&oldid=327397892)",
+                "firstAuthoring": false
+            }
         },
         {
             "colors": [
@@ -188,7 +268,15 @@
             "stripes": 3,
             "shapes": false,
             "name": "Pansexual Pride Flag",
-            "src": "/static/search/data/img/pansexual_pride_flag.svg"
+            "src": "/static/search/data/img/pansexual_pride_flag.svg",
+            "citation": {
+                "text": "\"Pansexuality, or omnisexuality, is the sexual, romantic or emotional attraction towards people regardless of their sex or gender identity. Pansexual people may refer to themselves as gender-blind, asserting that gender and sex are not determining factors in their romantic or sexual attraction to others. Pansexuality may be considered a sexual orientation in its own right or a branch of bisexuality, to indicate an alternative sexual identity. Because pansexual people are open to relationships with people who do not identify as strictly men or women, and pansexuality therefore rejects the gender binary, it is often considered a more inclusive term than bisexual. To what extent the term bisexual is inclusive when compared with the term pansexual is debated within the LGBT community, especially the bisexual community.\" [1]",
+                "sourceList": [
+                    "Pansexuality. (2017, Sep 20). In Wikipedia. Retrieved January 1, 2019, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Pansexuality&oldid=868395019)"
+                ],
+                "flagImageSource": "Pansexuality flag.svg. (2013, Jul 14). In Wikimedia Commons. Retrieved January 1, 2019, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Pansexuality_flag.svg&oldid=295842422)",
+                "firstAuthoring": "Pansexual Pride Flag. (2010, Oct 8). Hex Color Codes You don’t have to use these exact… [Tumblr post]. Retrieved January 1, 2019, from [web.archive.org](https://web.archive.org/web/20111103184455/http://pansexualflag.tumblr.com/post/1265215452/hex-color-codes-you-dont-have-to-use-these-exact)"
+            }
         },
         {
             "colors": [
@@ -200,7 +288,15 @@
             "stripes": 7,
             "shapes": false,
             "name": "Lipstick Lesbian Pride Flag (without kiss)",
-            "src": "/static/search/data/img/lipstick_lesbian_pride_flag_without_kiss.svg"
+            "src": "/static/search/data/img/lipstick_lesbian_pride_flag_without_kiss.svg",
+            "citation": {
+                "text": "\"A lipstick lesbian is slang for a lesbian who exhibits a greater amount of feminine gender attributes relative to other gender expressions, such as wearing make-up (thus, lipstick), wearing dresses or skirts and having other characteristics associated with feminine women. In popular usage, the term lipstick lesbian is also used to characterize the feminine gender expression of bisexual women who are romantically or sexually interested in other women, or to the broader topic of female-female sexual activity among feminine women.\" [1]",
+                "sourceList": [
+                    "Lipstick lesbian. (2017, Mar 14). In Wikipedia. Retrieved January 1, 2019, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Lipstick_lesbian&oldid=865976807)"
+                ],
+                "flagImageSource": "Lipstick Lesbian flag without lips.svg. (2018, Oct 27). In Wikimedia Commons. Retrieved January 1, 2019, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Lipstick_Lesbian_flag_without_lips.svg&oldid=328162613)",
+                "firstAuthoring": "Lipstick Lesbian Pride!!!. (2010, Jul 28). This Lesbian Life. Retrieved January 1, 2019, from [thislesbianlife.wordpress.com](https://thislesbianlife.wordpress.com/2010/07/28/lipstick-lesbian-pride/)"
+            }
         },
         {
             "colors": [
@@ -212,7 +308,15 @@
             "stripes": 7,
             "shapes": true,
             "name": "Lipstick Lesbian Pride Flag (with kiss)",
-            "src": "/static/search/data/img/lipstick_lesbian_pride_flag_with_kiss.svg"
+            "src": "/static/search/data/img/lipstick_lesbian_pride_flag_with_kiss.svg",
+            "citation": {
+                "text": "\"A lipstick lesbian is slang for a lesbian who exhibits a greater amount of feminine gender attributes relative to other gender expressions, such as wearing make-up (thus, lipstick), wearing dresses or skirts and having other characteristics associated with feminine women. In popular usage, the term lipstick lesbian is also used to characterize the feminine gender expression of bisexual women who are romantically or sexually interested in other women, or to the broader topic of female-female sexual activity among feminine women.\" [1]",
+                "sourceList": [
+                    "Lipstick lesbian. (2017, Mar 14). In Wikipedia. Retrieved January 1, 2019, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Lipstick_lesbian&oldid=865976807)"
+                ],
+                "flagImageSource": "Lipstick lesbian flag.svg. (2015, Jul 7). In Wikimedia Commons. Retrieved January 1, 2019, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Lipstick_lesbian_flag.svg&oldid=295923882)",
+                "firstAuthoring": "Lipstick Lesbian Pride!!!. (2010, Jul 28). This Lesbian Life. Retrieved January 1, 2019, from [thislesbianlife.wordpress.com](https://thislesbianlife.wordpress.com/2010/07/28/lipstick-lesbian-pride/)"
+            }
         },
         {
             "colors": [
@@ -226,7 +330,15 @@
             "stripes": 6,
             "shapes": true,
             "name": "Lesbian Pride Flag (rainbow)",
-            "src": "/static/search/data/img/lesbian_pride_flag_rainbow.svg"
+            "src": "/static/search/data/img/lesbian_pride_flag_rainbow.svg",
+            "citation": {
+                "text": "\"A lesbian is a homosexual woman. The word lesbian is also used for women in relation to their sexual identity or sexual behavior regardless of sexual orientation, or as an adjective to characterize or associate nouns with female homosexuality or same-sex attraction.\" [1]",
+                "sourceList": [
+                    "Lesbian. (2018, Jul 20). In Wikipedia. Retrieved January 1, 2019, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Lesbian&oldid=875106427)"
+                ],
+                "flagImageSource": "Lesbian Pride rainbow flag.svg. (2011, Jun 29). In Wikimedia Commons. Retrieved January 1, 2019, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Lesbian_Pride_rainbow_flag.svg&oldid=329223630)",
+                "firstAuthoring": false
+            }
         },
         {
             "colors": [
@@ -236,7 +348,15 @@
             "stripes": 1,
             "shapes": true,
             "name": "Transgender Pride Flag (Israel Variant)",
-            "src": "/static/search/data/img/transgender_pride_flag_israel.svg"
+            "src": "/static/search/data/img/transgender_pride_flag_israel.svg",
+            "citation": {
+                "text": "\"Transgender people have a gender identity or gender expression that differs from their assigned sex... Transgender is also an umbrella term: in addition to including people whose gender identity is the opposite of their assigned sex (trans men and trans women), it may include people who are not exclusively masculine or feminine (people who are genderqueer or non-binary, including bigender, pangender, genderfluid, or agender). Other definitions of transgender also include people who belong to a third gender, or else conceptualize transgender people as a third gender.\" [1]",
+                "sourceList": [
+                    "Transgender. (2018, June 14). In Wikipedia. Retrieved December 24, 2018, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Transgender&oldid=874625004)"
+                ],
+                "flagImageSource": "Israeli Transgender Flag.svg. (2017, Jul 12). In Wikimedia Commons. Retrieved January 1, 2019, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Israeli_Transgender_Flag.svg&oldid=297332168)",
+                "firstAuthoring": false
+            }
         },
         {
             "colors": [
@@ -247,7 +367,15 @@
             "stripes": 3,
             "shapes": false,
             "name": "Polysexual Pride Flag",
-            "src": "/static/search/data/img/polysexual_pride_flag.svg"
+            "src": "/static/search/data/img/polysexual_pride_flag.svg",
+            "citation": {
+                "text": "\"Polysexuality is sexual attraction to multiple, but not all, genders. A polysexual person is one \"encompassing or characterized by many different kinds of sexuality.\" Authors Linda Garnets and Douglas Kimmel state that polysexual is a sexual identity \"used by people who recognize that the term bisexual reifies the gender dichotomy that underlies the distinction between heterosexuality and homosexuality, implying that bisexuality is nothing more than a hybrid combination of these gender and sexual dichotomies\". However, bisexual people and scholars may object to the notion that bisexuality means sexual attraction to only two genders, arguing that since bisexual is not simply about attraction to two sexes and encompasses attraction to different genders as well, it includes attraction to more than two genders.\" [1]",
+                "sourceList": [
+                    "Polysexuality. (2018, Jan 14). In Wikipedia. Retrieved January 1, 2019, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Polysexuality&oldid=874707552)"
+                ],
+                "flagImageSource": "Polysexuality flag.svg. (2015, Feb 6). In Wikimedia Commons. Retrieved January 1, 2019, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Polysexuality_flag.svg&oldid=296225063)",
+                "firstAuthoring": false
+            }
         },
         {
             "colors": [
@@ -258,7 +386,15 @@
             "stripes": 1,
             "shapes": true,
             "name": "Gay Pride Flag (UK Variant)",
-            "src": "/static/search/data/img/gay_pride_flag_uk.svg"
+            "src": "/static/search/data/img/gay_pride_flag_uk.svg",
+            "citation": {
+                "text": "\"Gay is a term that primarily refers to a homosexual person or the trait of being homosexual. The term was originally used to mean \"carefree\", \"cheerful\", or \"bright and showy\". The term's use as a reference to homosexuality may date as early as the late 19th century, but its use gradually increased in the mid-20th century. In modern English, gay has come to be used as an adjective, and as a noun, referring to the community, practices and cultures associated with homosexuality. In the 1960s, gay became the word favored by homosexual men to describe their sexual orientation. By the end of the 20th century, the word gay was recommended by major LGBT groups and style guides to describe people attracted to members of the same sex.\" [1]",
+                "sourceList": [
+                    "Gay. (2018, Apr 16). In Wikipedia. Retrieved January 1, 2019, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Gay&oldid=876173653)"
+                ],
+                "flagImageSource": "Gay Pride flag of the United Kingdom.svg. (2013, Apr 20). In Wikimedia Commons. Retrieved January 1, 2019, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Gay_Pride_flag_of_the_United_Kingdom.svg&oldid=332170224)",
+                "firstAuthoring": false
+            }
         },
         {
             "colors": [
@@ -276,7 +412,7 @@
                 "sourceList": [
                     "Aromantic. (2018, July 9). In Aromantics Wiki. Retrieved December 23, 2018, from [aromantic.wikia.com](http://aromantic.wikia.com/wiki/Aromantic?oldid=7321)"
                 ],
-                "flagImageSource": "Aromantic Flag.svg. (2015, September 1). In Wikimedia Commons. Retrieved December 23, 2018, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Aromantic_Flag.svg&oldid=296051572)",
+                "flagImageSource": "Aromantic Flag.svg. (2015, Sep 1). In Wikimedia Commons. Retrieved December 23, 2018, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Aromantic_Flag.svg&oldid=296051572)",
                 "firstAuthoring": "sporbts. (2014, Feb 7). i’ve been reading up on a lot of the discussion… [Tumblr post]. Retrieved December 23, 2018, from [cameronwhimsy.tumblr.com](http://cameronwhimsy.tumblr.com/post/75868343112/ive-been-reading-up-on-a-lot-of-the-discussion)"
             }
         },
