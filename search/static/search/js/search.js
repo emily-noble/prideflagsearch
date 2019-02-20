@@ -161,7 +161,7 @@ function wireEventHooks() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    fetch('static/search/data/prideflags.min.json.gz').then(function(data) {
+    fetch('static/search/data/prideflags.json').then(function(data) {
         return data.json();
     }).then(function(data){
         theData = data.flags;
