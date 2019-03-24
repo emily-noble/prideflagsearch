@@ -1,4 +1,6 @@
 var theData = null;
+const citationFactory = new PFS.CitationFactory();
+const disclosureList = [];
 
 function search() {
     // Search by shapes
@@ -91,10 +93,24 @@ function buildFlagDomElements(flag, resultRow) {
         resultShowMore.innerHTML = "<i class='fas fa-caret-right'></i> Details";
         resultShowMore.setAttribute("aria-expanded", "false");
         resultShowMore.setAttribute("role", "button");
-        resultShowMore.addEventListener("click", handleShowCitationEvent.bind(null, flag));
+        
+        const disclosure = new PFS.Disclosure(resultShowMore, () => {return citationFactory.buildCitation(flag.citation)});
+        disclosureList.push(disclosure);
+        resultShowMore.addEventListener("click", () => {
+            if (!disclosure.isShown()) {
+                hideAllDisclosures(); 
+            }
+            disclosure.toggle();
+        });
         resultShowMoreWrapper.appendChild(resultShowMore);
     }
 
+}
+
+function hideAllDisclosures() {
+    disclosureList.forEach((disclosure) => {
+        disclosure.hide();
+    })
 }
 
 function displaySearchResults(flagList) {
