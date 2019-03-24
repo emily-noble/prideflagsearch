@@ -5,9 +5,12 @@ document.addEventListener("DOMContentLoaded", function() {
         return data.json();
     }).then(function(data){
         theData = data.flags;
-        wireEventHooks();
-        
-        var results = search();
+    });
+    
+    new PFS.SearchForm();
+    
+    document.addEventListener("filter", (event) => {
+        const results = search(event.detail);
         displaySearchResults(results);
     });
 })

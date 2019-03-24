@@ -1,9 +1,9 @@
 const citationFactory = new PFS.CitationFactory();
 const disclosureList = [];
 
-function search() {
+function search(filters) {
     // Search by shapes
-    var shouldHaveShapes = collectShapes();
+    var shouldHaveShapes = filters.shapeFilter;
     var passedShapesSearch = [];
     
     if (null === shouldHaveShapes) {
@@ -18,7 +18,7 @@ function search() {
     }
     
     // Search by stripes
-    var numberOfStripes = collectStripes();
+    var numberOfStripes = filters.stripeFilter;
     var passedStripesSearch = [];
     
     if (isNaN(numberOfStripes) || 0 >= numberOfStripes) {
@@ -33,7 +33,7 @@ function search() {
     }
     
     // Search by colors
-    var requiredColors = collectColors();
+    var requiredColors = filters.colorFilter;
     var passedColorsSearch = [];
     
     if (0 === requiredColors.length) {
@@ -153,24 +153,5 @@ function displaySearchResults(flagList) {
         resultsWord.innerText = 'flag';
     } else {
         resultsWord.innerText = 'flags';
-    }
-}
-
-function wireEventHooks() {
-    var filteringElementList = document.querySelectorAll("#colorFilter,#stripesFilter,#shapesFilter");
-    
-    for (var i = 0; i < filteringElementList.length; i++) {
-        var filteringElement = filteringElementList[i];
-        filteringElement.addEventListener("change", function() {
-            var results = search();
-            displaySearchResults(results);
-        });
-        
-        if ("INPUT" === filteringElement.nodeName) {
-            filteringElement.addEventListener("keyup", function() {
-                var results = search();
-                displaySearchResults(results);
-            });
-        }
     }
 }
