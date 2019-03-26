@@ -3,9 +3,7 @@
 (() => {
     /**
      * Converts a text APA citation into a linked APA style citation
-     *
      * @param {string} text The APA style citation
-     *
      * @returns {string} The APA style citation with HTML markdown for the link, if found. 
      *   Otherwise returns what was provided.
      */
@@ -28,16 +26,17 @@
         return text; // No link could be found
     }
 
+    /**
+     * Generate citation DOM Elements
+     */
     class CitationFactory {
         /**
          * Returns a citation DOM element.
-         * 
          * @param {Object} citation An object with the following optional properties:
          *   text
          *   sourceList
          *   imageSource
          *   firstAuthoring
-         * 
          * @returns {DOMElement} 
          */
         buildCitation(citation) {
@@ -114,6 +113,12 @@
             return citationRow;
         }
 
+        /**
+         * Determines if a citation has any of the fields used in generating a DOM representation.
+         * @private 
+         * @param citation
+         * @returns {boolean}
+         */
         isUsableCitation(citation) {
             return citation.text ||
                 citation.sourceList ||

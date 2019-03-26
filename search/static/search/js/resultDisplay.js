@@ -1,13 +1,25 @@
 "use strict";
 
 (() => {
+    /**
+     * Manage the display of a list of flags
+     */
     class ResultDisplay {
+        /**
+         * Create a ResultDisplay.
+         * @param {DOMElement} container - Element to put results in
+         * @param {int} flagsPerRow - The number of flags per result row
+         */
         constructor(container, flagsPerRow = 4) {
             this.container = container;
             this.flagsPerRow = flagsPerRow;
             this.flagFactory = new PFS.FlagCardFactory();
         }
 
+        /**
+         * Update the display to show the provided flag list.
+         * @param {array} flagList - List of flag objects
+         */
         update(flagList) {
             // Clear existing display
             this.container.innerHTML = "";

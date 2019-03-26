@@ -1,6 +1,11 @@
 "use strict";
 
 (() => {
+    /**
+     * Converts a text APA citation into a linked APA style citation
+     * @param {DOMElement} element The disclosure content element
+     * @returns {array} The bounds of the disclosure content
+     */
     function calculateBounds(element) {
         const origBounds = element.getBoundingClientRect();
         const origLeft = origBounds.left;
@@ -36,7 +41,15 @@
         ];
     }
 
+    /**
+     * A Disclosure element.
+     */
     class Disclosure {
+        /**
+         * Create a Disclosure.
+         * @param {DOMElement} toggleElement - The element controlling the disclosure.
+         * @param {Function} contentCallback - The function to call to get the disclosure's content.
+         */
         constructor(toggleElement, contentCallback) {
             this.toggleElement = toggleElement;
 
@@ -46,6 +59,11 @@
             this.hide();
         }
 
+        /**
+         * Toggles the disclosure's visibility.
+         *      If it was hidden, shows the disclosure.
+         *      If it was shown, hides the disclosure.
+         */
         toggle() {
             if (!this.isShown()) {
                 this.show();
@@ -54,6 +72,9 @@
             }
         }
 
+        /**
+         * Shows the disclosure
+         */
         show() {
             // Get content if not already populated
             if (null === this.content) {
@@ -75,6 +96,9 @@
             this.toggleElement.after(this.content);
         }
 
+        /**
+         * Hides the disclosure
+         */
         hide() {
             // Change disclosure caret
             this.toggleElement.innerHTML = "<i class='fas fa-caret-right'></i> Details";
@@ -86,6 +110,10 @@
             }
         }
 
+        /**
+         * Returns true if the disclosure is shown
+         * @returns {boolean}
+         */
         isShown() {
             return "true" === this.toggleElement.getAttribute("aria-expanded");
         }

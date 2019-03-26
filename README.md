@@ -94,11 +94,12 @@ This project aims to be compatible with the latest version of the following brow
 - Firefox
   - Desktop
   - Mobile
-- Safari 
-  - Desktop
-  - Movile
 - Edge
   - Desktop
+  
+## Javascript Documentation
+
+Follow the JSDoc standard at http://usejsdoc.org/
 
 # Planned Features
 

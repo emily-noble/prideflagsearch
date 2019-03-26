@@ -1,16 +1,20 @@
 "use strict";
 
 (() => {
+    /**
+     * A factory to generate flag card DOM elements
+     */
     class FlagCardFactory {
+        /**
+         * Create a FlagCardFactory.
+         */
         constructor() {
             this.citationFactory = new PFS.CitationFactory();
         }
 
         /**
          * Returns a flag card DOM element.
-         * 
          * @param {Object} flag
-         * 
          * @returns {DOMElement} 
          */
         buildFlagCard(flag) {
@@ -37,6 +41,12 @@
             return resultColumn;
         }
 
+        /**
+         * Builds the image DOM elements
+         * @private
+         * @param {string} source - The URL for the image
+         * @returns {DOMElement} 
+         */
         buildImageElement(source) {
             if (!source) {
                 return null;
@@ -50,6 +60,12 @@
             return resultImage;
         }
 
+        /**
+         * Builds the citation disclosure DOM elements
+         * @private
+         * @param {Object} citation
+         * @returns {DOMElement} 
+         */
         buildCitationElement(citation) {
             if (!citation) {
                 return null;

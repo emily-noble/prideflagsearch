@@ -1,12 +1,27 @@
 "use strict";
 
 (() => {
+    /**
+     * A flag searching application
+     */
     class FlagSearchApp {
+        /**
+         * Create a FlagSearchApp.
+         * @param {array} flagList - List of flag objects
+         * @param {PFS.ResultDisplay} flagDisplay
+         */
         constructor(flagList, flagDisplay) {
             this.flagList = flagList;
             this.flagDisplay = flagDisplay;
         }
 
+        /**
+         * Run a search using the provided filters and display the results
+         * @param {Object} filters - Object with the following optional values:
+         *      shapeFilter {boolean|null}
+         *      stripeFilter {int|null}
+         *      colorFilter {array} - List of color names
+         */
         search(filters) {
             const defaultFilters = {
                 shapeFilter: null,
@@ -51,6 +66,12 @@
             this.flagDisplay.update(filteredFlagList);
         }
 
+        /**
+         * Sorts a list of flags alphabetically
+         * @private
+         * @param {array} flagList
+         * @returns {array}
+         */
         sortFlagList(flagList) {
             const sortedFlagList = flagList.sort((a, b) => {
                 if (a.name < b.name) {
