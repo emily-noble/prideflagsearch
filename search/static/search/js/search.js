@@ -1,7 +1,12 @@
-const citationFactory = new PFS.CitationFactory();
+// const citationFactory = new PFS.CitationFactory();
+const flagFactory = new PFS.FlagCardFactory();
 const disclosureList = [];
 
 function search(filters) {
+    if (!filters) {
+        return theData;
+    }
+    
     // Search by shapes
     var shouldHaveShapes = filters.shapeFilter;
     var passedShapesSearch = [];

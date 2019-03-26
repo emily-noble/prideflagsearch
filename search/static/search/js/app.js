@@ -5,6 +5,8 @@ document.addEventListener("DOMContentLoaded", function() {
         return data.json();
     }).then(function(data){
         theData = data.flags;
+        const results = search();
+        displaySearchResults(results);
     });
     
     new PFS.SearchForm();
