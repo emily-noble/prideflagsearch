@@ -12,7 +12,6 @@
    - [ ] Mobile
    - [ ] Desktop
  - [ ] Edge
-   - [ ] Mobile
-   - D[ ] esktop
+   - [ ] Desktop
 - [ ] WAVE reports no issues
 - [ ] ChromeVox can read and interact with the whole page
