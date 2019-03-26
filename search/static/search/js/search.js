@@ -68,49 +68,6 @@ function search(filters) {
     return sortedFlagList;
 }
 
-function buildFlagDomElements(flag, resultRow) {
-    var resultColumn = document.createElement("div");
-    resultColumn.classList.add("col-lg-6");
-    resultColumn.classList.add("col-xl-3");
-    resultColumn.classList.add("flag-col");
-    resultRow.appendChild(resultColumn);
-    
-    const resultHeader = document.createElement("h3");
-    resultHeader.classList.add("citation-header");
-    resultHeader.innerText = flag.name;
-    resultColumn.appendChild(resultHeader);
-
-    if (flag.src) {
-        var resultImg = document.createElement("img");
-        resultImg.src = flag.src;
-        resultImg.alt = ""; // Because the flag's name is elsewhere on the page, don't need alt text
-        resultImg.classList.add("img-fluid");
-        resultColumn.appendChild(resultImg);
-    }
-    
-    if (flag.citation) {
-        var resultShowMoreWrapper = document.createElement("div");
-        resultShowMoreWrapper.classList.add("citation-reveal");
-        resultColumn.appendChild(resultShowMoreWrapper);
-        
-        var resultShowMore = document.createElement("button");
-        resultShowMore.innerHTML = "<i class='fas fa-caret-right'></i> Details";
-        resultShowMore.setAttribute("aria-expanded", "false");
-        resultShowMore.setAttribute("role", "button");
-        
-        const disclosure = new PFS.Disclosure(resultShowMore, () => {return citationFactory.buildCitation(flag.citation)});
-        disclosureList.push(disclosure);
-        resultShowMore.addEventListener("click", () => {
-            if (!disclosure.isShown()) {
-                hideAllDisclosures(); 
-            }
-            disclosure.toggle();
-        });
-        resultShowMoreWrapper.appendChild(resultShowMore);
-    }
-
-}
-
 function hideAllDisclosures() {
     disclosureList.forEach((disclosure) => {
         disclosure.hide();
@@ -129,22 +86,26 @@ function displaySearchResults(flagList) {
         
         if (i < flagList.length) {
             var flagA = flagList[i];
-            buildFlagDomElements(flagA, resultRow);
+            const flagColumn = flagFactory.buildFlagCard(flagA);
+            resultRow.appendChild(flagColumn);
         }
         
         if (i + 1 < flagList.length) {
             var flagB = flagList[i + 1];
-            buildFlagDomElements(flagB, resultRow);
+            const flagColumn = flagFactory.buildFlagCard(flagB);
+            resultRow.appendChild(flagColumn);
         }
         
         if (i + 2 < flagList.length) {
             var flagC = flagList[i + 2];
-            buildFlagDomElements(flagC, resultRow);
+            const flagColumn = flagFactory.buildFlagCard(flagC);
+            resultRow.appendChild(flagColumn);
         }
         
         if (i + 3 < flagList.length) {
             var flagD = flagList[i + 3];
-            buildFlagDomElements(flagD, resultRow);
+            const flagColumn = flagFactory.buildFlagCard(flagD);
+            resultRow.appendChild(flagColumn);
         }
         
         searchResults.appendChild(resultRow);
