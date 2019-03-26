@@ -1,30 +1,38 @@
 (() => {
     class SearchForm {
         constructor() {
+            this.formChangeCallbackList = [];
+            
             const filteringElementList = document.querySelectorAll("#colorFilter,#stripesFilter,#shapesFilter");
 
             for (var i = 0; i < filteringElementList.length; i++) {
                 const filteringElement = filteringElementList[i];
                 filteringElement.addEventListener("change", () => {
-                    this.emitFilterEvent();
+                    this.callFormChangeCallbacks();
                 });
 
                 if ("INPUT" === filteringElement.nodeName) {
                     filteringElement.addEventListener("keyup", () => {
-                        this.emitFilterEvent();
+                        this.callFormChangeCallbacks();
                     });
                 }
             }
         }
         
-        emitFilterEvent() {
-            const detail = {
+        addFormChangeCallback(callback) {
+            this.formChangeCallbackList.push(callback);
+        }
+        
+        callFormChangeCallbacks() {
+            const filter = {
                 colorFilter: this.collectColors(),
                 shapeFilter: this.collectShapes(),
                 stripeFilter: this.collectStripes(),
             };
-            const event = new CustomEvent('filter', { detail: detail });
-            document.dispatchEvent(event);
+            
+            this.formChangeCallbackList.forEach((callback) => {
+                callback(filter);
+            });
         }
         
         collectColors() {
