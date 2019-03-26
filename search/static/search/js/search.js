@@ -4,7 +4,11 @@ const disclosureList = [];
 
 function search(filters) {
     if (!filters) {
-        return theData;
+        filters = {
+            shapeFilter: null,
+            stripeFilter: null,
+            colorFilter: [],
+        };
     }
     
     // Search by shapes
