@@ -68,12 +68,6 @@ function search(filters) {
     return sortedFlagList;
 }
 
-function hideAllDisclosures() {
-    disclosureList.forEach((disclosure) => {
-        disclosure.hide();
-    })
-}
-
 function displaySearchResults(flagList) {
     
     var searchResults = document.querySelector("#searchResults");

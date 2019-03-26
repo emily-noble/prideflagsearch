@@ -63,14 +63,15 @@
             resultShowMore.setAttribute("aria-expanded", "false");
             resultShowMore.setAttribute("role", "button");
 
-            const disclosure = new PFS.Disclosure(resultShowMore, () => {return this.citationFactory.buildCitation(citation)});
-//                 disclosureList.push(disclosure);
+            const disclosure = new PFS.ExclusiveDisclosure(
+                resultShowMore, 
+                () => this.citationFactory.buildCitation(citation),
+                "citations"
+            );
             resultShowMore.addEventListener("click", () => {
-//                     if (!disclosure.isShown()) {
-//                         hideAllDisclosures(); 
-//                     }
                 disclosure.toggle();
             });
+            
             resultShowMoreWrapper.appendChild(resultShowMore);
             
             return resultShowMoreWrapper;
