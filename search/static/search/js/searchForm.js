@@ -1,11 +1,14 @@
+"use strict";
+
 (() => {
     class SearchForm {
         constructor() {
             this.formChangeCallbackList = [];
             
-            const filteringElementList = document.querySelectorAll("#colorFilter,#stripesFilter,#shapesFilter");
+            const selectorString = "#colorFilter,#stripesFilter,#shapesFilter";
+            const filteringElementList = document.querySelectorAll(selectorString);
 
-            for (var i = 0; i < filteringElementList.length; i++) {
+            for (let i = 0; i < filteringElementList.length; i++) {
                 const filteringElement = filteringElementList[i];
                 filteringElement.addEventListener("change", () => {
                     this.callFormChangeCallbacks();
@@ -40,7 +43,7 @@
             const checkedElements = colorPickElement.querySelectorAll("input:checked");
 
             const selectedColors = [];
-            for (var i = 0; i < checkedElements.length; i++) {
+            for (let i = 0; i < checkedElements.length; i++) {
                selectedColors.push(checkedElements[i].value);
             }
 

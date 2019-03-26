@@ -1,11 +1,14 @@
+"use strict";
+
 (() => {
     /**
-    * Converts a text APA citation into a linked APA style citation
-    *
-    * @param {string} text The APA style citation
-    *
-    * @returns {string} The APA style citation with HTML markdown for the link, if found. Otherwise returns what was provided.
-    */
+     * Converts a text APA citation into a linked APA style citation
+     *
+     * @param {string} text The APA style citation
+     *
+     * @returns {string} The APA style citation with HTML markdown for the link, if found. 
+     *   Otherwise returns what was provided.
+     */
     function apaMarkdownLinkToHtmlLink(text) {
         // Attempt to extract an markdown style link from the text
         const apaCitationPartsRegex = /(.*)from \[(.*)\]\((.*)\)(.*)/g;
@@ -18,32 +21,34 @@
             const linkUrl = thisCitationParts[3];
             const addendum = thisCitationParts[4];
 
-            const fullHtml = firstPart + " from <a href='" + linkUrl + "' target='_blank'>" + linkText + "</a>" + addendum;
+            const fullHtml = `${firstPart} from <a href='${linkUrl}' target='_blank'>${linkText}</a>${addendum}`;
             return fullHtml;
         }
 
         return text; // No link could be found
     }
-    
+
     class CitationFactory {
         /**
-        * Returns a citation DOM element.
-        * 
-        * @param {Object} citation An object with the following optional properties:
-        *   text
-        *   sourceList
-        *   imageSource
-        *   firstAuthoring
-        * 
-        * @returns {DOMElement} 
-        */
+         * Returns a citation DOM element.
+         * 
+         * @param {Object} citation An object with the following optional properties:
+         *   text
+         *   sourceList
+         *   imageSource
+         *   firstAuthoring
+         * 
+         * @returns {DOMElement} 
+         */
         buildCitation(citation) {
             const citationRow = document.createElement("div");
             citationRow.classList.add("jx-citation-row");
 
             // Early exit if citation is missing information
-            if (!citation.text && !citation.sourceList && !citation.imageSource && !citation.firstAuthoring) {
-                citationRow.innerText = "We couldn't find details about this flag in our records. Know something? Help us out!.";
+            if (!this.isUsableCitation(citation)) {
+                citationRow.innerText = "We couldn't find details about this flag in our records." +
+                    " Know something? Help us out!.";
+
                 return citationRow;
             }
 
@@ -67,7 +72,7 @@
                 const sourceList = document.createElement("ol");
                 citationRow.appendChild(sourceList);
 
-                citation.sourceList.forEach(function(item, index) {
+                citation.sourceList.forEach(function(item) {
                     const thisSource = document.createElement("li");
 
                     // Attempt to extract an markdown style link from the url
@@ -107,6 +112,13 @@
             }
 
             return citationRow;
+        }
+
+        isUsableCitation(citation) {
+            return citation.text ||
+                citation.sourceList ||
+                citation.imageSource ||
+                citation.firstAuthoring;
         }
     }
 
