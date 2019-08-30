@@ -1,3 +1,23 @@
 .hidden {
     display: none;
 }
+
+#searchResults {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.flag-card {
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+@media (min-width: 1200px) {
+    .flag-card {
+        width: 23%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+}

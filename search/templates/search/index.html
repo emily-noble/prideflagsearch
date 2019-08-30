@@ -51,12 +51,12 @@
     </header>
     
     <main role="main" class="container">
-        <p class="alert alert-warning jx-javascript-required" role="alert">
-            It looks like JavaScript might not be running on your computer. JavaScript is required to use the interactive search features.
-        </p>
-        <h2 class="jx-javascript-required hidden">
+        <h2>
             Filter Flags
         </h2>
+        <p class="alert alert-warning jx-javascript-required">
+            It looks like JavaScript might not be running on your computer. JavaScript is required to use the interactive search features.
+        </p>
         <p class="lead jx-javascript-required hidden">
             Select filters below to search for flags. Search results will update automatically.
         </p>
@@ -224,19 +224,20 @@
             <h2 class="jx-javascript-required hidden">
                 Search Results
             </h2>
+            <h2 class="jx-javascript-required">
+                All Pride Flags
+            </h2>
             <p>
                 <span id="resultsCount">{{ flagCount }}</span> <span id="resultsWord">{{ flagWord }}</span> found.
             </p>
             <div id="searchResults">
                 {% for flagRow in flagData %}
-                    <div class="row">
-                        {% for flag in flagRow %}
-                            <div class="col-lg-6 col-xl-3 flag-col">
-                                <h3 class="citation-header">{{ flag.name }}</h3>
-                                <img src="{{ flag.src }}" alt="" class="img-fluid">
-                            </div>
-                        {% endfor %}
-                    </div>
+                    {% for flag in flagRow %}
+                        <div class="flag-card">
+                            <h3 class="citation-header">{{ flag.name }}</h3>
+                            <img src="{{ flag.src }}" alt="" class="img-fluid">
+                        </div>
+                    {% endfor %}
                 {% endfor %}
             </div>
         </div>

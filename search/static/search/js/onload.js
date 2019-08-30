@@ -10,9 +10,9 @@ document.addEventListener("DOMContentLoaded", function() {
         const searchApp = new PFS.FlagSearchApp(flagList, display);
 
         const searchForm = new PFS.SearchForm();
-        searchForm.addFormChangeCallback((filter) => searchApp.search(filter));
+//         searchForm.addFormChangeCallback((filter) => searchApp.search(filter));
 
-        searchApp.search();
+//         searchApp.search();
         
         const javaScriptRequiredList = document.querySelectorAll(".jx-javascript-required");
         
