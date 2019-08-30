@@ -51,13 +51,19 @@
 //                 });
             }
 
-//             // Search by stripes
-//             const numberOfStripes = filters.stripeFilter;
-//             if (numberOfStripes && !isNaN(numberOfStripes)) {
+            // Search by stripes
+            const numberOfStripes = filters.stripeFilter;
+            if (numberOfStripes && !isNaN(numberOfStripes)) {
+                this.flagList.forEach((flagElement) => {
+                    const stripeCount = parseInt(flagElement.dataset.stripes, 10);
+                    if (numberOfStripes !== stripeCount && !isNaN(stripeCount)) {
+                        flagElement.classList.add("hidden");
+                    }
+                });
 //                 filteredFlagList = filteredFlagList.filter((flag) => {
 //                     return flag.stripes === numberOfStripes;
 //                 });
-//             }
+            }
 
 //             // Search by colors
 //             const requiredColors = filters.colorFilter;
