@@ -233,7 +233,7 @@
             <div id="searchResults">
                 {% for flagRow in flagData %}
                     {% for flag in flagRow %}
-                        <div class="flag-card">
+                        <div class="flag-card" data-colors="{{ flag.colors }}" data-stripes="{{ flag.stripes }}" data-shapes="{{ flag.shapes }}">
                             <h3 class="citation-header">{{ flag.name }}</h3>
                             <img src="{{ flag.src }}" alt="" class="img-fluid">
                         </div>
