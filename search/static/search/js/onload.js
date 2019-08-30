@@ -7,10 +7,10 @@ document.addEventListener("DOMContentLoaded", function() {
         const flagList = data.flags;
 
         const display = new PFS.ResultDisplay(document.querySelector("#searchResults"));
-        const searchApp = new PFS.FlagSearchApp(flagList, display);
+        const searchApp = new PFS.FlagSearchApp(document.querySelectorAll(".flag-card"), display);
 
         const searchForm = new PFS.SearchForm();
-//         searchForm.addFormChangeCallback((filter) => searchApp.search(filter));
+        searchForm.addFormChangeCallback((filter) => searchApp.search(filter));
 
 //         searchApp.search();
         

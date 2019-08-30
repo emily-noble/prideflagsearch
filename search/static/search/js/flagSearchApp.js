@@ -30,40 +30,50 @@
             }
 
             filters = filters || defaultFilters;
+            
+            this.flagList.forEach((flagElement) => {
+                flagElement.classList.remove("hidden");
+            });
 
             let filteredFlagList = this.flagList;
 
             // Search by shapes
             const shouldHaveShapes = filters.shapeFilter;
             if (null !== shouldHaveShapes) {
-                filteredFlagList = filteredFlagList.filter((flag) => {
-                    return flag.shapes === shouldHaveShapes;
+                this.flagList.forEach((flagElement) => {
+                    const hasShapes = flagElement.dataset.shapes === "True";
+                    if (shouldHaveShapes !== hasShapes) {
+                        flagElement.classList.add("hidden");
+                    }
                 });
+//                 filteredFlagList = filteredFlagList.filter((flag) => {
+//                     return flag.shapes === shouldHaveShapes;
+//                 });
             }
 
-            // Search by stripes
-            const numberOfStripes = filters.stripeFilter;
-            if (numberOfStripes && !isNaN(numberOfStripes)) {
-                filteredFlagList = filteredFlagList.filter((flag) => {
-                    return flag.stripes === numberOfStripes;
-                });
-            }
+//             // Search by stripes
+//             const numberOfStripes = filters.stripeFilter;
+//             if (numberOfStripes && !isNaN(numberOfStripes)) {
+//                 filteredFlagList = filteredFlagList.filter((flag) => {
+//                     return flag.stripes === numberOfStripes;
+//                 });
+//             }
 
-            // Search by colors
-            const requiredColors = filters.colorFilter;
-            if (requiredColors.length) {
-                filteredFlagList = filteredFlagList.filter((flag) => {
-                    const differenceList = requiredColors.filter((i) => {
-                        return flag.colors.indexOf(i) < 0;
-                    });
+//             // Search by colors
+//             const requiredColors = filters.colorFilter;
+//             if (requiredColors.length) {
+//                 filteredFlagList = filteredFlagList.filter((flag) => {
+//                     const differenceList = requiredColors.filter((i) => {
+//                         return flag.colors.indexOf(i) < 0;
+//                     });
 
-                    return 0 === differenceList.length;
-                });
-            }
+//                     return 0 === differenceList.length;
+//                 });
+//             }
 
-            filteredFlagList = this.sortFlagList(filteredFlagList);
+//             filteredFlagList = this.sortFlagList(filteredFlagList);
 
-            this.flagDisplay.update(filteredFlagList);
+//             this.flagDisplay.update(filteredFlagList);
         }
 
         /**
