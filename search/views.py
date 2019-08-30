@@ -18,6 +18,7 @@ def index(request):
         thisRow = []
         for j in range(0, 4):
             if (flagCount > i + j):
+                sourceData['flags'][i + j]['colors'] = json.dumps(sourceData['flags'][i + j]['colors']);
                 thisRow.append(sourceData['flags'][i + j])
         cleanedData.append(thisRow)
         

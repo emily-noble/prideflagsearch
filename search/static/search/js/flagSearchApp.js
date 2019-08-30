@@ -65,9 +65,19 @@
 //                 });
             }
 
-//             // Search by colors
-//             const requiredColors = filters.colorFilter;
-//             if (requiredColors.length) {
+            // Search by colors
+            const requiredColors = filters.colorFilter;
+            if (requiredColors.length) {
+                this.flagList.forEach((flagElement) => {
+                    const colorList = JSON.parse(flagElement.dataset.colors);
+                    const differenceList = requiredColors.filter((i) => {
+                        return colorList.indexOf(i) < 0;
+                    });
+                    
+                    if (differenceList.length) {
+                        flagElement.classList.add("hidden");
+                    }
+                });
 //                 filteredFlagList = filteredFlagList.filter((flag) => {
 //                     const differenceList = requiredColors.filter((i) => {
 //                         return flag.colors.indexOf(i) < 0;
@@ -75,7 +85,7 @@
 
 //                     return 0 === differenceList.length;
 //                 });
-//             }
+            }
 
 //             filteredFlagList = this.sortFlagList(filteredFlagList);
 
