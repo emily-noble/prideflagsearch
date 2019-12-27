@@ -439,6 +439,32 @@
                 "imageSource": "Philadelphia Pride Flag.svg. (2017, June 15). In Wikimedia Commons. Retrieved December 23, 2018, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Philadelphia_Pride_Flag.svg&oldid=295701800)",
                 "firstAuthoring": "More Color More Pride. (n.d.). More Color More Pride. Retrieved December 23, 2018, from [morecolormorepride.com](https://morecolormorepride.com/)"
             }
+        },
+        {
+            "colors": [
+                "black",
+                "brown",
+                "red",
+                "orange",
+                "yellow",
+                "green",
+                "blue",
+                "purple",
+                "pink",
+                "white"
+            ],
+            "stripes": 8,
+            "shapes": false,
+            "name": "Trans Queer PoC New Pride Flag",
+            "src": "/static/search/data/img/new_queer_trans_pride_flag.svg",
+            "citation": {
+                "text": "\"This new Pride flag highlights the beginning of the LGBTQIA+ Pride Movement in the US led by Black Trans women/MaGe like Marsha P. Johnson and Ms Major, as well as Trans PoC like Sylvia Rivera and Victoria Cruz. The flags center Trans and Queer Black, Brown, and Indigenous people, who endure disproportionate murder rates and other transphobic targeting.\" [1]",
+                "sourceList": [
+                    "About the Flag - New Pride Flag. (n.d.). New Pride Flag. Retrieved December 26, 2019, from [newprideflag.com/about](https://www.newprideflag.com/about/)"
+                ],
+                "imageSource": "qtpocflaghalf.png. (n.d.). New Pride Flag. Retrieved December 26, 2019, from [newprideflag.com/about](https://www.newprideflag.com/wp-content/uploads/2018/06/qtpocflaghalf.png)",
+                "firstAuthoring": "qtpocflaghalf.png. (n.d.). New Pride Flag. Retrieved December 26, 2019, from [newprideflag.com/about](https://www.newprideflag.com/wp-content/uploads/2018/06/qtpocflaghalf.png)"
+            }
         }
     ]
 }
