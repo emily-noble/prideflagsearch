@@ -439,6 +439,26 @@
                 "imageSource": "Philadelphia Pride Flag.svg. (2017, June 15). In Wikimedia Commons. Retrieved December 23, 2018, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Philadelphia_Pride_Flag.svg&oldid=295701800)",
                 "firstAuthoring": "More Color More Pride. (n.d.). More Color More Pride. Retrieved December 23, 2018, from [morecolormorepride.com](https://morecolormorepride.com/)"
             }
+        },
+        {
+            "colors": [
+                "green",
+                "white",
+                "grey",
+                "black"
+            ],
+            "stripes": 3,
+            "shapes": true,
+            "name": "Demiromantic Pride Flag",
+            "src": "/static/search/data/img/demiromantic_pride_flag.svg",
+            "citation": {
+                "text": "\"Demiromantic is a romantic orientation on the aromantic spectrum defined as someone who does not experience romantic attraction until they have formed a deep emotional connection with someone.\" [1]",
+                "sourceList": [
+                    "Demiromantic. (2018, July 1). In LGBTA Wiki. Retrieved June 26, 2020, from [lgbta.wikia.org](https://lgbta.wikia.org/wiki/Demiromantic?oldid=113)"
+                ],
+                "imageSource": "Demiromantic Pride Flag.svg. (2019, Nov 11). In Wikimedia Commons. Retrieved June 26, 2020, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Demiromantic_Pride_Flag.svg)",
+                "firstAuthoring": false
+            }
         }
     ]
 }
