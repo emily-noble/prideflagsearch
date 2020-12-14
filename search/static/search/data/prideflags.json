@@ -486,6 +486,32 @@
                 "imageSource": "PNG.png. (n.d.). New Pride Flag. Retrieved December 26, 2019, from [newprideflag.com](https://www.newprideflag.com/wp-content/uploads/2019/08/PNG.png)",
                 "firstAuthoring": "PNG.png. (n.d.). New Pride Flag. Retrieved December 26, 2019, from [newprideflag.com](https://www.newprideflag.com/wp-content/uploads/2019/08/PNG.png)"
             }
+        },
+        {
+            "colors": [
+                "black",
+                "brown",
+                "pink",
+                "white",
+                "blue",
+                "red",
+                "orange",
+                "yellow",
+                "green",
+                "purple"
+            ],
+            "stripes": 11,
+            "shapes": true,
+            "name": "\"Progress\" Pride Flag",
+            "src": "/static/search/data/img/progress_pride_flag.svg",
+            "citation": {
+                "text": "\"When the Pride flag was recreated in 2017 and 2018 to include both black/brown stripes, as well as the trans stripes, I wanted to see if there could be more emphasis in the design of the flag to elevate its message. This new design forces the viewer to reflect on their own feelings towards the original Pride flag and its meaning as well as the differing opinions on who that flag really represents, while also bringing into clear focus the current needs within our community. You can’t avoid the message as it is right there in front of you.\" [1]",
+                "sourceList": [
+                    "Progress Initiative. (n.d.). Quasar Digital. Retrieved December 13, 2020, from [quasar.digital](https://quasar.digital/progress-initiative/?v=a284e24d5f46)"
+                ],
+                "imageSource": "\"Progress\" Design Terms of Use. (n.d.). Quasar Digital. Retrieved December 13, 2020, from [quasar.digital](https://quasar.digital/terms/?v=a284e24d5f46)",
+                "firstAuthoring":"\"Progress\" Design Terms of Use. (n.d.). Quasar Digital. Retrieved December 13, 2020, from [quasar.digital](https://quasar.digital/terms/?v=a284e24d5f46)"
+            }
         }
     ]
 }
