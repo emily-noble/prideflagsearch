@@ -512,6 +512,26 @@
                 "imageSource": "\"Progress\" Design Terms of Use. (n.d.). Quasar Digital. Retrieved December 13, 2020, from [quasar.digital](https://quasar.digital/terms/?v=a284e24d5f46)",
                 "firstAuthoring":"\"Progress\" Design Terms of Use. (n.d.). Quasar Digital. Retrieved December 13, 2020, from [quasar.digital](https://quasar.digital/terms/?v=a284e24d5f46)"
             }
+        },
+        {
+            "colors": [
+                "green",
+                "white",
+                "grey",
+                "black"
+            ],
+            "stripes": 3,
+            "shapes": true,
+            "name": "Demiromantic Pride Flag",
+            "src": "/static/search/data/img/demiromantic_pride_flag.svg",
+            "citation": {
+                "text": "\"Demiromantic is a romantic orientation on the aromantic spectrum defined as someone who does not experience romantic attraction until they have formed a deep emotional connection with someone.\" [1]",
+                "sourceList": [
+                    "Demiromantic. (2018, July 1). In LGBTA Wiki. Retrieved June 26, 2020, from [lgbta.wikia.org](https://lgbta.wikia.org/wiki/Demiromantic?oldid=113)"
+                ],
+                "imageSource": "Demiromantic Pride Flag.svg. (2019, Nov 11). In Wikimedia Commons. Retrieved June 26, 2020, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Demiromantic_Pride_Flag.svg)",
+                "firstAuthoring": false
+            }
         }
     ]
 }
