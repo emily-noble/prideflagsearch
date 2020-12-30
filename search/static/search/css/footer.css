@@ -1,6 +1,7 @@
 .footer {
+    box-sizing: border-box;
     margin-top: 3em;
-    padding: 3em 0em;
+    padding: 1em 10em;
     width: 100%;
     background-color: #f5f5f5;
 }

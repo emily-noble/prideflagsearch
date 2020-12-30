@@ -1,23 +1,77 @@
+body {
+    margin: 0;
+}
+
+.main {
+    margin: 0 10em;
+}
+
 .hidden {
     display: none;
 }
 
-#searchResults {
+.flag-card-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
+    align-content: flex-start;
 }
 
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default */
 .flag-card {
-    width: 48%;
-    margin-left: 1%;
-    margin-right: 1%;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 0 0.5em;
 }
 
-@media (min-width: 1200px) {
+.flag-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.flag-card-citation {
+    box-sizing: border-box;
+    position: absolute;
+    outline: black solid 1px;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.41);
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.41);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.41);
+    width: 90%;
+    left: 5%;
+    background: white;
+    padding: 0.25em;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
     .flag-card {
-        width: 23%;
-        margin-left: 1%;
-        margin-right: 1%;
+        width: 25%;
+        padding: 0 0.25em;
+    }
+    
+    .flag-card-citation {
+        width: 80%;
+        left: 10%;
+        background: white;
+        padding: 0.5em;
     }
 }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}
+
+
+
