@@ -4,6 +4,7 @@ body {
 
 .main {
     margin: 0 10em;
+    background-color: #f5f5f5;
 }
 
 .hidden {
@@ -15,6 +16,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-content: flex-start;
+    align-items: stretch;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -22,12 +24,23 @@ body {
 .flag-card {
     box-sizing: border-box;
     width: 50%;
-    padding: 0 0.5em;
+    padding: 0.5em;
+    background-color: white;
+    border-radius: 2px;
 }
 
-.flag-card img {
+.flag-card-title {
+    font-size: 1em;
+    height: 2em;
+    border-bottom: 1px solid lightgray;
+    margin: 0 0 .5em 0;
+    padding: 0 0 .5em 0;
+}
+
+.flag-img {
     max-width: 100%;
     height: auto;
+    margin-bottom: .5em;
 }
 
 .flag-card-citation {
@@ -43,6 +56,21 @@ body {
     padding: 0.25em;
 }
 
+.disclosure-control {
+    background-color: white;
+    border: none;
+}
+
+.citation-reveal {
+    margin-top: auto;
+}
+
+.flag-card-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     
@@ -51,8 +79,8 @@ body {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .flag-card {
-        width: 25%;
-        padding: 0 0.25em;
+        width: 23%;
+        margin: 0 1% 2em 1%;
     }
     
     .flag-card-citation {
