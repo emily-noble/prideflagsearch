@@ -5,6 +5,16 @@ document.addEventListener("DOMContentLoaded", function() {
         new PFS.ExclusiveDisclosure(disclosureButton);
     });
     
+    const javaScriptRequiredList = document.querySelectorAll(".jx-javascript-required");
+    
+    javaScriptRequiredList.forEach((element) => {
+            if (element.classList.contains("hidden")) {
+                element.classList.remove("hidden");
+            } else {
+                element.classList.add("hidden");
+            }
+        });
+    
 //     fetch("static/search/data/prideflags.json").then(function(data) {
 //         return data.json();
 //     }).then(function(data) {

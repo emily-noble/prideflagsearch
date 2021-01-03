@@ -36,8 +36,73 @@ def index(request):
         'flagData': cleanedData,
         'flagCount': flagCount,
         'flagWord': flagWord,
+        'colorList': getColorFilters()
     }
     return render(request, 'search/index.html', context)
+
+def getColorFilters():
+    return [
+        {
+            'value': 'red',
+            'fill': 'red',
+            'label': 'Red'
+        },
+        {
+            'value': 'orange',
+            'fill': 'orange',
+            'label': 'Orange'
+        },
+        {
+            'value': 'yellow',
+            'fill': 'yellow',
+            'label': 'Yellow'
+        },
+        {
+            'value': 'green',
+            'fill': 'green',
+            'label': 'Green'
+        },
+        {
+            'value': 'blue',
+            'fill': 'blue',
+            'label': 'Blue'
+        },
+        {
+            'value': 'purple',
+            'fill': 'purple',
+            'label': 'Purple'
+        },
+        {
+            'value': 'pink',
+            'fill': 'pink',
+            'label': 'Pink'
+        },
+        {
+            'value': 'black',
+            'fill': 'black',
+            'label': 'Black'
+        },
+        {
+            'value': 'grey',
+            'fill': 'grey',
+            'label': 'Grey'
+        },
+        {
+            'value': 'white',
+            'fill': 'white',
+            'label': 'White'
+        },
+        {
+            'value': 'brown',
+            'fill': 'brown',
+            'label': 'Brown'
+        },
+        {
+            'value': 'tan',
+            'fill': 'tan',
+            'label': 'Tan'
+        }
+    ];
 
 def createCitationStructure(rawCitation): 
     if False == rawCitation:

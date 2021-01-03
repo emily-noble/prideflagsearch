@@ -27,8 +27,8 @@
     <link rel="stylesheet" href="{% static 'search/css/header.css' %}" />
     <link rel="stylesheet" href="{% static 'search/css/general.css' %}" />
     <link rel="stylesheet" href="{% static 'search/css/footer.css' %}" />
-<!--     <link rel="stylesheet" href="{% static 'search/css/citation.css' %}" />
-    <link rel="stylesheet" href="{% static 'search/css/filters.css' %}" /> -->
+<!--     <link rel="stylesheet" href="{% static 'search/css/citation.css' %}" /> -->
+    <link rel="stylesheet" href="{% static 'search/css/filters.css' %}" />
     <title>Pride Flag Identification Guide</title>
 </head>
 <body>
@@ -39,7 +39,7 @@
     </header>
     
     <main role="main" class="main">
-<!--         <h2>
+        <h2>
             Filter Flags
         </h2>
         <p class="alert alert-warning jx-javascript-required">
@@ -48,155 +48,30 @@
         <p class="lead jx-javascript-required hidden">
             Select filters below to search for flags. Search results will update automatically.
         </p>
-        <div class="row jx-javascript-required hidden"> -->
-<!--             <div class="col-md-12 col-lg-4">
+        <div class="jx-javascript-required hidden filter-card-container">
+            <div class="filter-card">
                 Colors
-                <div id="colorFilter">
-                    <div class="row">
-                        <div class="col-6 col-sm-3 col-lg-6">
+                <div id="colorFilter" class="color-card-container">
+                    {% for color in colorList %}
+                        <div class="color-card">
                             <label>
-                                <input type="checkbox" value="red">
+                                <input type="checkbox" value="{{ color.value }}">
                                 <svg width="20" height="20">
-                                    <rect width="20" height="20" style="fill:red;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
+                                    <rect width="20" height="20" style="fill:{{ color.fill }};stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
                                 </svg>
-                                <div class="color-text">
-                                    Red
-                                </div>
+                                {{ color.label }}
                             </label>
                         </div>
-                        <div class="col-6 col-sm-3 col-lg-6">
-                            <label>
-                                <input type="checkbox" value="orange">
-                                <svg width="20" height="20">
-                                    <rect width="20" height="20" style="fill:orange;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
-                                </svg>
-                                <div class="color-text">
-                                    Orange
-                                </div>
-                            </label>
-                        </div>
-                        <div class="col-6 col-sm-3 col-lg-6">
-                            <label>
-                                <input type="checkbox" value="yellow">
-                                <svg width="20" height="20">
-                                    <rect width="20" height="20" style="fill:yellow;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
-                                </svg>
-                                <div class="color-text">
-                                    Yellow
-                                </div>
-                            </label>
-                        </div>
-                        <div class="col-6 col-sm-3 col-lg-6">
-                            <label>
-                                <input type="checkbox" value="green">
-                                <svg width="20" height="20">
-                                    <rect width="20" height="20" style="fill:green;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
-                                </svg>
-                                <div class="color-text">
-                                    Green
-                                </div>
-                            </label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6 col-sm-3 col-lg-6">
-                            <label>
-                                <input type="checkbox" value="blue">
-                                <svg width="20" height="20">
-                                    <rect width="20" height="20" style="fill:blue;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
-                                </svg>
-                                <div class="color-text">
-                                    Blue
-                                </div>
-                            </label>
-                        </div>
-                        <div class="col-6 col-sm-3 col-lg-6">
-                            <label>
-                                <input type="checkbox" value="purple">
-                                <svg width="20" height="20">
-                                    <rect width="20" height="20" style="fill:purple;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
-                                </svg>
-                                <div class="color-text">
-                                    Purple
-                                </div>
-                            </label>
-                        </div>
-                        <div class="col-6 col-sm-3 col-lg-6">
-                            <label>
-                                <input type="checkbox" value="pink">
-                                <svg width="20" height="20">
-                                    <rect width="20" height="20" style="fill:pink;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
-                                </svg>
-                                <div class="color-text">
-                                    Pink
-                                </div>
-                            </label>
-                        </div>
-                        <div class="col-6 col-sm-3 col-lg-6">
-                            <label>
-                                <input type="checkbox" value="black">
-                                <svg width="20" height="20">
-                                    <rect width="20" height="20" style="fill:black;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
-                                </svg>
-                                <div class="color-text">
-                                    Black
-                                </div>
-                            </label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6 col-sm-3 col-lg-6">
-                            <label>
-                                <input type="checkbox" value="grey">
-                                <svg width="20" height="20">
-                                    <rect width="20" height="20" style="fill:grey;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
-                                </svg>
-                                <div class="color-text">
-                                    Grey
-                                </div>
-                            </label>
-                        </div>
-                        <div class="col-6 col-sm-3 col-lg-6">
-                            <label>
-                                <input type="checkbox" value="white">
-                                <svg width="20" height="20">
-                                    <rect width="20" height="20" style="fill:white;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
-                                </svg>
-                                <div class="color-text">
-                                    White
-                                </div>
-                            </label>
-                        </div>
-                        <div class="col-6 col-sm-3 col-lg-6">
-                            <label>
-                                <input type="checkbox" value="brown">
-                                <svg width="20" height="20">
-                                    <rect width="20" height="20" style="fill:brown;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
-                                </svg>
-                                Brown
-                            </label>
-                        </div>
-                        <div class="col-6 col-sm-3 col-lg-6">
-                            <label>
-                                <input type="checkbox" value="tan">
-                                <svg width="20" height="20">
-                                    <rect width="20" height="20" style="fill:tan;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
-                                </svg>
-                                <div class="color-text">
-                                    Tan
-                                </div>
-                            </label>
-                        </div>
-                    </div>
+                    {% endfor %}
                 </div>
             </div>
-            <div class="col-md-12 col-lg-4">
+            <div class="filter-card">
                 <label for="stripesFilter">Stripes</label>
                 <div>
                     <input id="stripesFilter" type="number" step="1" min="0" />
                 </div>
             </div>
-            <div class="col-md-12 col-lg-4">
+            <div class="filter-card">
                 <label for="shapesFilter">Special Shapes</label>
                 <div>
                     <select id="shapesFilter">
@@ -206,10 +81,10 @@
                     </select>
                 </div>
             </div>
-        </div> -->
+        </div>
         <hr />
         <div>
-<!--             <h2 class="jx-javascript-required hidden">
+            <h2 class="jx-javascript-required hidden">
                 Search Results
             </h2>
             <h2 class="jx-javascript-required">
@@ -217,7 +92,7 @@
             </h2>
             <p>
                 <span id="resultsCount">{{ flagCount }}</span> <span id="resultsWord">{{ flagWord }}</span> found.
-            </p> -->
+            </p>
             <div id="searchResults" class="flag-card-container">
                 {% for flag in flagData %}
                     <div class="flag-card" data-colors="{{ flag.colors }}" data-stripes="{{ flag.stripes }}" data-shapes="{{ flag.shapes }}">
