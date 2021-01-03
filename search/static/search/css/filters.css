@@ -2,6 +2,11 @@
     display: inline;
 } */
 
+.shape-select, .stripe-filter {
+    width: 50%;
+    margin: 0.5em;
+}
+
 .filter-card-container {
     width: 100%;
     display: flex;
