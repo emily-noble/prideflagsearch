@@ -8,18 +8,7 @@
     <meta name="theme-color" content="#343a40"/>
     <meta name="Description" content="Filter a database of pride flags by color, number of stripes, and special shapes. This ever growing list will help you identify and learn about flags you see at pride festivals and in the lesbian, gay, bisexual, and transgender community.">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-<!--     <link rel="stylesheet" href="{% static 'search/css/normalize.css' %}" /> -->
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            border: 0;
-            outline: 0;
-            font-size: 100%;
-            vertical-align: baseline;
-            background: transparent;
-        }
-    </style>
+    <link rel="stylesheet" href="{% static 'search/css/normalize.css' %}" />
     <link rel="stylesheet" href="{% static 'search/css/header.css' %}" />
     <link rel="stylesheet" href="{% static 'search/css/general.css' %}" />
     <link rel="stylesheet" href="{% static 'search/css/footer.css' %}" />
@@ -46,13 +35,15 @@
         </p>
         <div class="jx-javascript-required hidden filter-card-container">
             <div class="filter-card">
-                Colors
+                <p>
+                    <strong>Colors</strong>
+                </p>
                 <div id="colorFilter" class="color-card-container">
                     {% for color in colorList %}
                         <div class="color-card">
                             <label>
                                 <input type="checkbox" value="{{ color.value }}">
-                                <svg width="20" height="20">
+                                <svg viewbox="0 0 20 20">
                                     <rect width="20" height="20" style="fill:{{ color.fill }};stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
                                 </svg>
                                 {{ color.label }}
@@ -62,13 +53,21 @@
                 </div>
             </div>
             <div class="filter-card">
-                <label for="stripesFilter">Stripes</label>
+                <p>
+                    <label for="stripesFilter">
+                        <strong>Stripes</strong>
+                    </label>
+                </p>
                 <div>
                     <input id="stripesFilter" type="number" step="1" min="0" />
                 </div>
             </div>
             <div class="filter-card">
-                <label for="shapesFilter">Special Shapes</label>
+                <p>
+                    <label for="shapesFilter">
+                        <strong>Special Shapes</strong>
+                    </label> 
+                </p>
                 <div>
                     <select id="shapesFilter">
                         <option value="ignore">Any Shapes</option>

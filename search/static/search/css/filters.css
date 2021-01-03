@@ -28,7 +28,7 @@
 /*     align-items: stretch; */
     background-color: white;
     border-radius: 2px;
-    max-height: 120px;
+    max-height: calc(2em * 6);
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -36,9 +36,14 @@
 .color-card {
     box-sizing: border-box;
     width: 49%;
-    max-height: 20px;
-/*     padding: 0.5em; */
+    max-height: 2em;
+    padding: 0.5em;
 /*     display: inline; */
+}
+
+.color-card input, .color-card svg {
+    width: 1em;
+    height: 1em;
 }
 
 /* Small devices (landscape phones, 576px and up) */
