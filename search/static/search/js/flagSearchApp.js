@@ -8,11 +8,11 @@
         /**
          * Create a FlagSearchApp.
          * @param {array} flagList - List of flag objects
-         * @param {PFS.ResultDisplay} flagDisplay
          */
-        constructor(flagList, flagDisplay) {
+        constructor(flagList, countElement, wordElement) {
             this.flagList = flagList;
-            this.flagDisplay = flagDisplay;
+            this.countElement = countElement;
+            this.wordElement = wordElement;
         }
 
         /**
@@ -28,7 +28,9 @@
                 stripeFilter: null,
                 colorFilter: [],
             }
-
+        
+            let visibleCards = 0;
+            
             filters = filters || defaultFilters;
             
             this.flagList.forEach((flagElement) => {
@@ -39,6 +41,8 @@
                     const hasShapes = flagElement.dataset.shapes === "True";
                     if (filters.shapeFilter !== hasShapes) {
                         flagElement.classList.add("hidden");
+                        
+                        return;
                     }
                 }
 
@@ -47,6 +51,8 @@
                     const stripeCount = parseInt(flagElement.dataset.stripes, 10);
                     if (filters.stripeFilter !== stripeCount && !isNaN(stripeCount)) {
                         flagElement.classList.add("hidden");
+                        
+                        return;
                     }
                 }
 
@@ -59,10 +65,18 @@
 
                     if (differenceList.length) {
                         flagElement.classList.add("hidden");
+                        
+                        return;
                     }
                 }
+                
+                visibleCards += 1;
             });
 
+            
+            console.log(`Found ${visibleCards} flags that match.`);
+            this.countElement.innerText = visibleCards;
+            this.wordElement.innerText = 1 === visibleCards ? "flag" : "flags";
         }
     }
 
