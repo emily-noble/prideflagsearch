@@ -73,8 +73,6 @@
                 visibleCards += 1;
             });
 
-            
-            console.log(`Found ${visibleCards} flags that match.`);
             this.countElement.innerText = visibleCards;
             this.wordElement.innerText = 1 === visibleCards ? "flag" : "flags";
         }
