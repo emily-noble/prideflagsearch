@@ -13,7 +13,7 @@
     box-sizing: border-box;
     background-color: white;
     border-radius: 2px;
-    width: 49%;
+    width: 100%;
     margin-top: 2em;
     
     /* Properties for nested child flexbox */
@@ -22,8 +22,7 @@
 }
 
 .flag-card-title {
-    min-height: 2.4em;
-    overflow: hidden;
+    min-height: calc(1em * 2 + 0.5em);
     margin: 0 0 1em 0;
 }
 
@@ -56,7 +55,9 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    
+    .flag-card {
+        width: 49%;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */

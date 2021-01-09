@@ -29,15 +29,15 @@
 }
 
 .filter-card:nth-child(1) {
-    width: 50%;
+    width: 100%;
 }
 
 .filter-card:nth-child(2) {
-    width: 24%;
+    width: 49%;
 }
 
 .filter-card:nth-child(3) {
-    width: 24%;
+    width: 49%;
 }
 
 
@@ -50,6 +50,7 @@
     background-color: white;
     border-radius: 2px;
     max-height: calc(2em * 6);
+    margin-bottom: 0.5em;
 }
 
 .color-card {
