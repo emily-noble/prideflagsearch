@@ -3,7 +3,7 @@
 
 /* Control properties */
 .filter-card input, .filter-card select {
-    width: 50%;
+    width: 90%;
     margin: 0.5em 0;
 }
 
@@ -19,13 +19,25 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .filter-card {
     box-sizing: border-box;
-    width: calc(100% / 3);
     background-color: white;
     border-radius: 2px;
+}
+
+.filter-card:nth-child(1) {
+    width: 50%;
+}
+
+.filter-card:nth-child(2) {
+    width: 24%;
+}
+
+.filter-card:nth-child(3) {
+    width: 24%;
 }
 
 
@@ -61,10 +73,20 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    .filter-card input, .filter-card select {
+        width: 65%;
+        margin: 0.5em 0;
+    }
     
+    .filter-card:nth-child(1n) {
+        width: 32%;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    
+    .filter-card input, .filter-card select {
+        width: 40%;
+        margin: 0.5em 0;
+    }
 }

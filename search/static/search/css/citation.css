@@ -1,13 +1,12 @@
 ol { 
-    list-style-type: decimal; 
-    list-style-position: inside;
-    
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 1.5em;
 }
-
-ol li {
-    padding-left: 0.5em;
-}
-
 
 .flag-card-citation {
     box-sizing: border-box;
@@ -16,8 +15,30 @@ ol li {
     box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.41);
     -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.41);
     -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.41);
-    width: calc(100vw - 20em);
+    width: calc(100vw - 4em);
     background: white;
     padding: 0.5em;
-    min-height: 60vh;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .flag-card-citation {
+        width: calc(100vw - 20em);
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
 }

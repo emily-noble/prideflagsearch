@@ -13,7 +13,7 @@
     box-sizing: border-box;
     background-color: white;
     border-radius: 2px;
-    width: 23%;
+    width: 49%;
     margin-top: 2em;
     
     /* Properties for nested child flexbox */
@@ -22,9 +22,9 @@
 }
 
 .flag-card-title {
-    height: 2em;
-    margin: 0 0 .5em 0;
-    padding: 0 0 .5em 0;
+    min-height: 2.4em;
+    overflow: hidden;
+    margin: 0 0 1em 0;
 }
 
 .flag-img {
@@ -48,12 +48,14 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
+    
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    
+    .flag-card {
+        width: 32%;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
