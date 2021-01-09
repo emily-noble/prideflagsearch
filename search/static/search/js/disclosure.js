@@ -49,8 +49,10 @@
             // Set the content element's offset so it aligns with everything else
             const mainElement = document.getElementsByTagName("main")[0];
             const leftOffset = this.toggleElement.offsetLeft - mainElement.offsetLeft;
+            const width = mainElement.offsetWidth;
             
             this.contentElement.style.left = `-${leftOffset}px`;
+            this.contentElement.style.width = `${width}px`;
             
         }
 
