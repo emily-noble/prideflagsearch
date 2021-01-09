@@ -7,3 +7,17 @@ ol {
 ol li {
     padding-left: 0.5em;
 }
+
+
+.flag-card-citation {
+    box-sizing: border-box;
+    position: relative;
+    outline: black solid 1px;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.41);
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.41);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.41);
+    width: calc(100vw - 20em);
+    background: white;
+    padding: 0.5em;
+    min-height: 60vh;
+}
