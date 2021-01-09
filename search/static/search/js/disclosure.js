@@ -39,15 +39,19 @@
             // Change disclosure caret
             this.toggleElement.innerHTML = "Details <i class='fas fa-caret-down'></i>";
             this.toggleElement.setAttribute("aria-expanded", "true");
+            
+            // Manually set the toggle element's top margin so it doesn't move
+            this.toggleElement.style.marginTop = window.getComputedStyle(this.toggleElement).marginTop;
 
             // Show disclosure content
             this.contentElement.classList.remove("hidden");
             
-            // Calculate the element's offset
+            // Set the content element's offset so it aligns with everything else
             const mainElement = document.getElementsByTagName("main")[0];
             const leftOffset = this.toggleElement.offsetLeft - mainElement.offsetLeft;
             console.log(this.contentElement, leftOffset);
             this.contentElement.style.left = `-${leftOffset}px`;
+            
         }
 
         /**
@@ -57,6 +61,9 @@
             // Change disclosure caret
             this.toggleElement.innerHTML = "Details <i class='fas fa-caret-right'></i>";
             this.toggleElement.setAttribute("aria-expanded", "false");
+            
+            // Clear manually set margin top
+            this.toggleElement.style.marginTop = "";
 
             // Hide disclosure content
             this.contentElement.classList.add("hidden");
