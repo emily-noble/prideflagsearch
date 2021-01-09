@@ -26,5 +26,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Create search form (listens to and emits filter changes)
     const searchForm = new PFS.SearchForm();
-    searchForm.addFormChangeCallback((filter) => searchApp.search(filter));
+    searchForm.addFormChangeCallback(
+        (filter) => 
+        {
+            // Close any open disclosures
+            const event = new CustomEvent("PFS.ExclusiveDisclosure.hide.default");
+            document.dispatchEvent(event);
+            
+            // Update search results
+            searchApp.search(filter);
+        }
+    );
 })
