@@ -15,6 +15,10 @@
     border-radius: 2px;
     width: 23%;
     margin-top: 2em;
+    
+    /* Properties for nested child flexbox */
+    display: flex;
+    flex-direction: column;
 }
 
 .flag-card-title {
@@ -29,20 +33,12 @@
     margin-bottom: .5em;
 }
 
-.disclosure-control {
+.flag-citation-control {
+    margin-top: auto;
     background-color: white;
     border: none;
     padding-bottom: 0.5em;
-}
-
-.citation-reveal {
-    margin-top: auto;
-}
-
-.flag-card-content {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+    text-align: left;
 }
 
 /* Small devices (landscape phones, 576px and up) */

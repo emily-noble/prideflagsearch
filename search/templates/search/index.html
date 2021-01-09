@@ -91,56 +91,54 @@
             </p>
             <div id="searchResults" class="flag-card-container">
                 {% for flag in flagData %}
-                    <div class="flag-card jx-flag-card" data-colors="{{ flag.colors }}" data-stripes="{{ flag.stripes }}" data-shapes="{{ flag.shapes }}">
-                        <div class="flag-card-content">
-                            <h3 class="flag-card-title">{{ flag.name }}</h3>
-                            <img class="flag-img" src="{{ flag.src }}" alt="">
-                            <div class="jx-javascript-required hidden citation-reveal">
-                                <button 
-                                        class="jx-disclosure disclosure-control" 
-                                        aria-expanded="false" 
-                                        aria-controls="jx-flag-card-disclosure-{{ forloop.counter }}"
-                                >
-                                    Details
-                                    <i class="fas fa-caret-right"></i> 
-                                </button>
-                                
-                                <div id="jx-flag-card-disclosure-{{ forloop.counter }}" class="flag-card-citation hidden">
-                                    <h4>About the {{ flag.name }}</h4>
-                                    <div>{{ flag.citation.text }}</div>
-                                    <h4>Description Sources</h4>
-                                    <ol>
-                                        {% for source in flag.citation.sourceList %}
-                                            {% if "simple" == source.type %}
-                                                <li>{{ source.value }}</li>
-                                            {% else %}
-                                                <li>
-                                                    {{ source.firstPart }} from <a href='{{ source.linkUrl }}' target='_blank'>{{ source.linkText }}</a>{{ source.addendum }}
-                                                </li>
-                                            {% endif %}
-                                        {% endfor %}
-                                    </ol>
-                                    <h4>Flag Image Source</h4>
-                                    <div>
-                                        {% if "simple" == flag.citation.imageSource.type %}
-                                            {{ flag.citation.imageSource.value }}
-                                        {% else %}
-                                            {{ flag.citation.imageSource.firstPart }} from <a href='{{ flag.citation.imageSource.linkUrl }}' target='_blank'>{{ flag.citation.imageSource.linkText }}</a>{{ flag.citation.imageSource.addendum }}
-                                        {% endif %}
-                                    </div>
-                                    <h4>First Authored At</h4>
-                                    <div>
-                                        {% if "simple" == flag.citation.firstAuthoring.type %}
-                                            {{ flag.citation.firstAuthoring.value }}
-                                        {% else %}
-                                            {{ flag.citation.firstAuthoring.firstPart }} from <a href='{{ flag.citation.firstAuthoring.linkUrl }}' target='_blank'>{{ flag.citation.firstAuthoring.linkText }}</a>{{ flag.citation.firstAuthoring.addendum }}
-                                        {% endif %}
-                                    </div>
-                                </div>
+                    <div 
+                         class="flag-card jx-flag-card" 
+                         data-colors="{{ flag.colors }}" 
+                         data-stripes="{{ flag.stripes }}" 
+                         data-shapes="{{ flag.shapes }}"
+                     >
+                        <h3 class="flag-card-title">{{ flag.name }}</h3>
+                        <img class="flag-img" src="{{ flag.src }}" alt="">
+                        <button 
+                            class="jx-disclosure flag-citation-control" 
+                            aria-expanded="false" 
+                            aria-controls="jx-flag-card-disclosure-{{ forloop.counter }}"
+                        >
+                            Details
+                            <i class="fas fa-caret-right"></i> 
+                        </button>
+                        <div id="jx-flag-card-disclosure-{{ forloop.counter }}" class="flag-card-citation hidden">
+                            <h4>About the {{ flag.name }}</h4>
+                            <div>{{ flag.citation.text }}</div>
+                            <h4>Description Sources</h4>
+                            <ol>
+                                {% for source in flag.citation.sourceList %}
+                                    {% if "simple" == source.type %}
+                                        <li>{{ source.value }}</li>
+                                    {% else %}
+                                        <li>
+                                            {{ source.firstPart }} from <a href='{{ source.linkUrl }}' target='_blank'>{{ source.linkText }}</a>{{ source.addendum }}
+                                        </li>
+                                    {% endif %}
+                                {% endfor %}
+                            </ol>
+                            <h4>Flag Image Source</h4>
+                            <div>
+                                {% if "simple" == flag.citation.imageSource.type %}
+                                    {{ flag.citation.imageSource.value }}
+                                {% else %}
+                                    {{ flag.citation.imageSource.firstPart }} from <a href='{{ flag.citation.imageSource.linkUrl }}' target='_blank'>{{ flag.citation.imageSource.linkText }}</a>{{ flag.citation.imageSource.addendum }}
+                                {% endif %}
                             </div>
-                        </div>
-                        
-                        
+                            <h4>First Authored At</h4>
+                            <div>
+                                {% if "simple" == flag.citation.firstAuthoring.type %}
+                                    {{ flag.citation.firstAuthoring.value }}
+                                {% else %}
+                                    {{ flag.citation.firstAuthoring.firstPart }} from <a href='{{ flag.citation.firstAuthoring.linkUrl }}' target='_blank'>{{ flag.citation.firstAuthoring.linkText }}</a>{{ flag.citation.firstAuthoring.addendum }}
+                                {% endif %}
+                            </div>
+                        </div>   
                     </div>
                 {% endfor %}
             </div>
