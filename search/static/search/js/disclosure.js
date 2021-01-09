@@ -42,6 +42,12 @@
 
             // Show disclosure content
             this.contentElement.classList.remove("hidden");
+            
+            // Calculate the element's offset
+            const mainElement = document.getElementsByTagName("main")[0];
+            const leftOffset = this.toggleElement.offsetLeft - mainElement.offsetLeft;
+            console.log(this.contentElement, leftOffset);
+            this.contentElement.style.left = `-${leftOffset}px`;
         }
 
         /**

@@ -31,15 +31,17 @@
 
 .flag-card-citation {
     box-sizing: border-box;
-    position: absolute;
+    position: relative;
     outline: black solid 1px;
     box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.41);
     -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.41);
     -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.41);
-    width: 80%;
-    left: 10%;
+    width: calc(100vw - 20em);
+/*     left: 15vw; */
+/*     top: 5vh; */
     background: white;
     padding: 0.5em;
+    min-height: 60vh;
 }
 
 .disclosure-control {

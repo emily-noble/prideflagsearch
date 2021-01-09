@@ -108,7 +108,7 @@ def createCitationStructure(rawCitation):
     if False == rawCitation:
         return {
             "type": "simple",
-            "value": ""
+            "value": "Unknown"
         }
     
     apaCitationPartsRegex = re.compile('^(.*) from \[(.*)\]\((.*)\)(.*)$');
