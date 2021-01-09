@@ -31,6 +31,12 @@ h3 {
     font-size: 1.2em;
 }
 
+h4 {
+    font-size: 1em;
+    margin-top: 0.5em;
+    font-weight: bolder;
+}
+
 input {
     border: 1px solid #444444;
 }
@@ -48,99 +54,7 @@ p {
     display: none;
 }
 
-.flag-card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: flex-start;
-    align-items: stretch;
+a {
+    color: #004793;
 }
-
-/* Extra small devices (portrait phones, less than 576px) */
-/* No media query since this is the default */
-.flag-card {
-    box-sizing: border-box;
-    width: 50%;
-/*     padding: 0.5em; */
-    background-color: white;
-    border-radius: 2px;
-}
-
-.flag-card-title {
-/*     font-size: 1em; */
-    height: 2em;
-/*     border-bottom: 1px solid lightgray; */
-    margin: 0 0 .5em 0;
-    padding: 0 0 .5em 0;
-}
-
-.flag-img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: .5em;
-}
-
-.flag-card-citation {
-    box-sizing: border-box;
-    position: absolute;
-    outline: black solid 1px;
-    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.41);
-    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.41);
-    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.41);
-    width: 90%;
-    left: 5%;
-    background: white;
-    padding: 0.25em;
-}
-
-.disclosure-control {
-    background-color: white;
-    border: none;
-    padding-bottom: 0.5em;
-}
-
-.citation-reveal {
-    margin-top: auto;
-}
-
-.flag-card-content {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-    
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-    .flag-card {
-        width: 23%;
-        margin-top: 2em;
-/*         border-bottom: 1px solid #444444; */
-/*         border-left: 1px solid #444444; */
-/*         padding: 0 1% 2em 1%; */
-    }
-    
-    .flag-card-citation {
-        width: 80%;
-        left: 10%;
-        background: white;
-        padding: 0.5em;
-    }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-    
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    
-}
-
-
 

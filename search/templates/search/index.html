@@ -9,11 +9,12 @@
     <meta name="Description" content="Filter a database of pride flags by color, number of stripes, and special shapes. This ever growing list will help you identify and learn about flags you see at pride festivals and in the lesbian, gay, bisexual, and transgender community.">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="{% static 'search/css/normalize.css' %}" />
-    <link rel="stylesheet" href="{% static 'search/css/header.css' %}" />
     <link rel="stylesheet" href="{% static 'search/css/general.css' %}" />
-    <link rel="stylesheet" href="{% static 'search/css/footer.css' %}" />
-<!--     <link rel="stylesheet" href="{% static 'search/css/citation.css' %}" /> -->
+    <link rel="stylesheet" href="{% static 'search/css/header.css' %}" />
     <link rel="stylesheet" href="{% static 'search/css/filters.css' %}" />
+    <link rel="stylesheet" href="{% static 'search/css/results.css' %}" />
+    <link rel="stylesheet" href="{% static 'search/css/footer.css' %}" />
+    <link rel="stylesheet" href="{% static 'search/css/citation.css' %}" />
     <title>Pride Flag Identification Guide</title>
 </head>
 <body>
@@ -59,7 +60,7 @@
                     </label>
                 </p>
                 <div>
-                    <input id="stripesFilter" class="stripe-filter" type="number" step="1" min="0" />
+                    <input id="stripesFilter" type="number" step="1" min="0" />
                 </div>
             </div>
             <div class="filter-card">
@@ -69,7 +70,7 @@
                     </label> 
                 </p>
                 <div>
-                    <select id="shapesFilter" class="shape-select">
+                    <select id="shapesFilter">
                         <option value="ignore">Any Shapes</option>
                         <option value="true">Has Shapes</option>
                         <option value="false">No Shapes</option>
@@ -108,9 +109,9 @@
                         
                         
                         <div id="jx-flag-card-disclosure-{{ forloop.counter }}" class="flag-card-citation hidden">
-                            <h4>More about this flag</h4>
+                            <h4>About this Flag</h4>
                             <div>{{ flag.citation.text }}</div>
-                            <h4>Sources</h4>
+                            <h4>Description Sources</h4>
                             <ol>
                                 {% for source in flag.citation.sourceList %}
                                     {% if "simple" == source.type %}
@@ -122,7 +123,7 @@
                                     {% endif %}
                                 {% endfor %}
                             </ol>
-                            <h4 class="citation-header">Flag Image Source</h4>
+                            <h4>Flag Image Source</h4>
                             <div>
                                 {% if "simple" == flag.citation.imageSource.type %}
                                     {{ flag.citation.imageSource.value }}
@@ -130,7 +131,7 @@
                                     {{ flag.citation.imageSource.firstPart }} from <a href='{{ flag.citation.imageSource.linkUrl }}' target='_blank'>{{ flag.citation.imageSource.linkText }}</a>{{ flag.citation.imageSource.addendum }}
                                 {% endif %}
                             </div>
-                            <h4 class="citation-header">First Authored At</h4>
+                            <h4>First Authored At</h4>
                             <div>
                                 {% if "simple" == flag.citation.firstAuthoring.type %}
                                     {{ flag.citation.firstAuthoring.value }}

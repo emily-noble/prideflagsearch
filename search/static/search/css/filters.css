@@ -1,55 +1,53 @@
-/* .color-text {
-    display: inline;
-} */
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default */
 
-.shape-select, .stripe-filter {
+/* Control properties */
+.filter-card input, .filter-card select {
     width: 50%;
     margin: 0.5em 0;
 }
 
+.color-card input[type="checkbox"], .color-card svg {
+    width: 1em;
+    height: 1em;
+}
+
+
+
+/* Filter card flexbox */
 .filter-card-container {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
-/* Extra small devices (portrait phones, less than 576px) */
-/* No media query since this is the default */
 .filter-card {
     box-sizing: border-box;
     width: calc(100% / 3);
     background-color: white;
     border-radius: 2px;
-/*     padding: 0.5em; */
 }
 
+
+
+/* Color card flexbox */
 .color-card-container {
-/*     width: 33%; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-/*     justify-content: center; */
-/*     align-content: flex-start; */
-/*     align-items: stretch; */
     background-color: white;
     border-radius: 2px;
     max-height: calc(2em * 6);
 }
 
-/* Extra small devices (portrait phones, less than 576px) */
-/* No media query since this is the default */
 .color-card {
     box-sizing: border-box;
     width: 49%;
     max-height: 2em;
     padding: 0.5em 0;
-/*     display: inline; */
 }
 
-.color-card input, .color-card svg {
-    width: 1em;
-    height: 1em;
-}
+
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -58,10 +56,7 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .color-card {
-/*         width: 23%; */
-/*         margin: 0 1% 2em 1%; */
-    }
+    
 }
 
 /* Large devices (desktops, 992px and up) */
