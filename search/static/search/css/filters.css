@@ -4,7 +4,7 @@
 
 .shape-select, .stripe-filter {
     width: 50%;
-    margin: 0.5em;
+    margin: 0.5em 0;
 }
 
 .filter-card-container {
@@ -20,7 +20,7 @@
     width: calc(100% / 3);
     background-color: white;
     border-radius: 2px;
-    padding: 0.5em;
+/*     padding: 0.5em; */
 }
 
 .color-card-container {
@@ -42,7 +42,7 @@
     box-sizing: border-box;
     width: 49%;
     max-height: 2em;
-    padding: 0.5em;
+    padding: 0.5em 0;
 /*     display: inline; */
 }
 
