@@ -25,12 +25,12 @@
     </header>
     
     <main>
-        <h2>
-            Filter Flags
-        </h2>
-        <p class="alert alert-warning jx-javascript-required">
+        <p class="jx-javascript-required javascript-required-message">
             It looks like JavaScript might not be running on your computer. JavaScript is required to use the interactive search features.
         </p>
+        <h2 class="jx-javascript-required hidden">
+            Filter Flags
+        </h2>
         <p class="lead jx-javascript-required hidden">
             Select filters below to search for flags. Search results will update automatically.
         </p>
@@ -100,7 +100,7 @@
                         <h3 class="flag-card-title">{{ flag.name }}</h3>
                         <img class="flag-img" src="{{ flag.src }}" alt="">
                         <button 
-                            class="jx-disclosure flag-citation-control" 
+                            class="jx-javascript-required hidden jx-disclosure flag-citation-control" 
                             aria-expanded="false" 
                             aria-controls="jx-flag-card-disclosure-{{ forloop.counter }}"
                         >
