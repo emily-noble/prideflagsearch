@@ -1,5 +1,5 @@
 {% load staticfiles %}
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,42 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#343a40"/>
     <meta name="Description" content="Filter a database of pride flags by color, number of stripes, and special shapes. This ever growing list will help you identify and learn about flags you see at pride festivals and in the lesbian, gay, bisexual, and transgender community.">
-    
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'search/css/normalize.css' %}" />
     <link rel="stylesheet" href="{% static 'search/css/general.css' %}" />
+    <link rel="stylesheet" href="{% static 'search/css/header.css' %}" />
+    <link rel="stylesheet" href="{% static 'search/css/filters.css' %}" />
+    <link rel="stylesheet" href="{% static 'search/css/results.css' %}" />
     <link rel="stylesheet" href="{% static 'search/css/footer.css' %}" />
     <link rel="stylesheet" href="{% static 'search/css/citation.css' %}" />
-    <link rel="stylesheet" href="{% static 'search/css/filters.css' %}" />
     <title>Pride Flag Identification Guide</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <nav class="navbar">
             <div class="navbar-brand"><h1>Pride Flag Identification Guide</h1></div>
-<!--             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button> -->
-<!--             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">2018 <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
-                    </li>
-                </ul>
-            </div> -->
         </nav>
     </header>
     
-    <main role="main" class="container">
-        <p class="alert alert-warning jx-javascript-required" role="alert">
-            It looks like JavaScript might not be running on your computer. JavaScript is required to use the interactive search features.
+    <main>
+        <p class="jx-javascript-required javascript-required-message">
+            It looks like JavaScript might not be running on your computer or you may be using an older browser. JavaScript is required to use the interactive search features.
         </p>
         <h2 class="jx-javascript-required hidden">
             Filter Flags
@@ -50,156 +34,41 @@
         <p class="lead jx-javascript-required hidden">
             Select filters below to search for flags. Search results will update automatically.
         </p>
-        <div class="row jx-javascript-required hidden">
-            <div class="col-md-12 col-lg-4">
-                Colors
-                <div id="colorFilter">
-                    <div class="row">
-                        <div class="col-6 col-sm-3 col-lg-6">
+        <div class="jx-javascript-required hidden filter-card-container">
+            <div class="filter-card">
+                <p>
+                    <strong>Colors</strong>
+                </p>
+                <div id="colorFilter" class="color-card-container">
+                    {% for color in colorList %}
+                        <div class="color-card">
                             <label>
-                                <input type="checkbox" value="red">
-                                <svg width="20" height="20">
-                                    <rect width="20" height="20" style="fill:red;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
+                                <input type="checkbox" value="{{ color.value }}">
+                                <svg viewbox="0 0 20 20">
+                                    <rect width="20" height="20" style="fill:{{ color.fill }};stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
                                 </svg>
-                                <div class="color-text">
-                                    Red
-                                </div>
+                                {{ color.label }}
                             </label>
                         </div>
-                        <div class="col-6 col-sm-3 col-lg-6">
-                            <label>
-                                <input type="checkbox" value="orange">
-                                <svg width="20" height="20">
-                                    <rect width="20" height="20" style="fill:orange;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
-                                </svg>
-                                <div class="color-text">
-                                    Orange
-                                </div>
-                            </label>
-                        </div>
-                        <div class="col-6 col-sm-3 col-lg-6">
-                            <label>
-                                <input type="checkbox" value="yellow">
-                                <svg width="20" height="20">
-                                    <rect width="20" height="20" style="fill:yellow;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
-                                </svg>
-                                <div class="color-text">
-                                    Yellow
-                                </div>
-                            </label>
-                        </div>
-                        <div class="col-6 col-sm-3 col-lg-6">
-                            <label>
-                                <input type="checkbox" value="green">
-                                <svg width="20" height="20">
-                                    <rect width="20" height="20" style="fill:green;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
-                                </svg>
-                                <div class="color-text">
-                                    Green
-                                </div>
-                            </label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6 col-sm-3 col-lg-6">
-                            <label>
-                                <input type="checkbox" value="blue">
-                                <svg width="20" height="20">
-                                    <rect width="20" height="20" style="fill:blue;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
-                                </svg>
-                                <div class="color-text">
-                                    Blue
-                                </div>
-                            </label>
-                        </div>
-                        <div class="col-6 col-sm-3 col-lg-6">
-                            <label>
-                                <input type="checkbox" value="purple">
-                                <svg width="20" height="20">
-                                    <rect width="20" height="20" style="fill:purple;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
-                                </svg>
-                                <div class="color-text">
-                                    Purple
-                                </div>
-                            </label>
-                        </div>
-                        <div class="col-6 col-sm-3 col-lg-6">
-                            <label>
-                                <input type="checkbox" value="pink">
-                                <svg width="20" height="20">
-                                    <rect width="20" height="20" style="fill:pink;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
-                                </svg>
-                                <div class="color-text">
-                                    Pink
-                                </div>
-                            </label>
-                        </div>
-                        <div class="col-6 col-sm-3 col-lg-6">
-                            <label>
-                                <input type="checkbox" value="black">
-                                <svg width="20" height="20">
-                                    <rect width="20" height="20" style="fill:black;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
-                                </svg>
-                                <div class="color-text">
-                                    Black
-                                </div>
-                            </label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6 col-sm-3 col-lg-6">
-                            <label>
-                                <input type="checkbox" value="grey">
-                                <svg width="20" height="20">
-                                    <rect width="20" height="20" style="fill:grey;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
-                                </svg>
-                                <div class="color-text">
-                                    Grey
-                                </div>
-                            </label>
-                        </div>
-                        <div class="col-6 col-sm-3 col-lg-6">
-                            <label>
-                                <input type="checkbox" value="white">
-                                <svg width="20" height="20">
-                                    <rect width="20" height="20" style="fill:white;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
-                                </svg>
-                                <div class="color-text">
-                                    White
-                                </div>
-                            </label>
-                        </div>
-                        <div class="col-6 col-sm-3 col-lg-6">
-                            <label>
-                                <input type="checkbox" value="brown">
-                                <svg width="20" height="20">
-                                    <rect width="20" height="20" style="fill:brown;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
-                                </svg>
-                                Brown
-                            </label>
-                        </div>
-                        <div class="col-6 col-sm-3 col-lg-6">
-                            <label>
-                                <input type="checkbox" value="tan">
-                                <svg width="20" height="20">
-                                    <rect width="20" height="20" style="fill:tan;stroke-width:1;stroke:rgba(0, 0, 0, .5)" />
-                                </svg>
-                                <div class="color-text">
-                                    Tan
-                                </div>
-                            </label>
-                        </div>
-                    </div>
+                    {% endfor %}
                 </div>
             </div>
-            <div class="col-md-12 col-lg-4">
-                <label for="stripesFilter">Stripes</label>
+            <div class="filter-card">
+                <p>
+                    <label for="stripesFilter">
+                        <strong>Stripes</strong>
+                    </label>
+                </p>
                 <div>
                     <input id="stripesFilter" type="number" step="1" min="0" />
                 </div>
             </div>
-            <div class="col-md-12 col-lg-4">
-                <label for="shapesFilter">Special Shapes</label>
+            <div class="filter-card">
+                <p>
+                    <label for="shapesFilter">
+                        <strong>Special Shapes</strong>
+                    </label> 
+                </p>
                 <div>
                     <select id="shapesFilter">
                         <option value="ignore">Any Shapes</option>
@@ -214,31 +83,75 @@
             <h2 class="jx-javascript-required hidden">
                 Search Results
             </h2>
+            <h2 class="jx-javascript-required">
+                All Pride Flags
+            </h2>
             <p>
                 <span id="resultsCount">{{ flagCount }}</span> <span id="resultsWord">{{ flagWord }}</span> found.
             </p>
-            <div id="searchResults">
-                {% for flagRow in flagData %}
-                    <div class="row">
-                        {% for flag in flagRow %}
-                            <div class="col-lg-6 col-xl-3 flag-col">
-                                <h3 class="citation-header">{{ flag.name }}</h3>
-                                <img src="{{ flag.src }}" alt="" class="img-fluid">
+            <div id="searchResults" class="flag-card-container">
+                {% for flag in flagData %}
+                    <div 
+                         class="flag-card jx-flag-card" 
+                         data-colors="{{ flag.colors }}" 
+                         data-stripes="{{ flag.stripes }}" 
+                         data-shapes="{{ flag.shapes }}"
+                     >
+                        <h3 class="flag-card-title">{{ flag.name }}</h3>
+                        <img class="flag-img" src="{{ flag.src }}" alt="">
+                        <button 
+                            class="jx-javascript-required hidden jx-disclosure flag-citation-control" 
+                            aria-expanded="false" 
+                            aria-controls="jx-flag-card-disclosure-{{ forloop.counter }}"
+                        >
+                            Details
+                            <i class="fas fa-caret-right"></i> 
+                        </button>
+                        <div id="jx-flag-card-disclosure-{{ forloop.counter }}" class="flag-card-citation hidden">
+                            <h4>About the {{ flag.name }}</h4>
+                            <div>{{ flag.citation.text }}</div>
+                            <h4>Description Sources</h4>
+                            <ol>
+                                {% for source in flag.citation.sourceList %}
+                                    {% if "simple" == source.type %}
+                                        <li>{{ source.value }}</li>
+                                    {% else %}
+                                        <li>
+                                            {{ source.firstPart }} from <a href='{{ source.linkUrl }}' target='_blank'>{{ source.linkText }}</a>{{ source.addendum }}
+                                        </li>
+                                    {% endif %}
+                                {% endfor %}
+                            </ol>
+                            <h4>Flag Image Source</h4>
+                            <div>
+                                {% if "simple" == flag.citation.imageSource.type %}
+                                    {{ flag.citation.imageSource.value }}
+                                {% else %}
+                                    {{ flag.citation.imageSource.firstPart }} from <a href='{{ flag.citation.imageSource.linkUrl }}' target='_blank'>{{ flag.citation.imageSource.linkText }}</a>{{ flag.citation.imageSource.addendum }}
+                                {% endif %}
                             </div>
-                        {% endfor %}
+                            <h4>First Authored At</h4>
+                            <div>
+                                {% if "simple" == flag.citation.firstAuthoring.type %}
+                                    {{ flag.citation.firstAuthoring.value }}
+                                {% else %}
+                                    {{ flag.citation.firstAuthoring.firstPart }} from <a href='{{ flag.citation.firstAuthoring.linkUrl }}' target='_blank'>{{ flag.citation.firstAuthoring.linkText }}</a>{{ flag.citation.firstAuthoring.addendum }}
+                                {% endif %}
+                            </div>
+                        </div>   
                     </div>
                 {% endfor %}
             </div>
         </div>
     </main>
     <footer class="footer">
-        <div class="container">
+        <div>
             <span class="text-muted"> 
                 <p>
                     This is an open source project managed by Emily Noble (<a href="mailto:admin@prideflags.org?subject=Pride Flags" target="_blank" rel="noreferrer" >admin@prideflags.org</a>).
                 </p>
                 <p>
-                    Licensed under the GNU General Public License v3.0. Code and flag list last updated 2020/12/26.
+                    Licensed under the GNU General Public License v3.0. Code and flag list last updated 2021/01/09.
                 </p>
                 <p>
                     <a href="https://github.com/emily-noble/prideflagsearch" target="_blank" rel="noreferrer" >Contribute to this project on GitHub</a>
@@ -246,13 +159,6 @@
             </span>
         </div>
     </footer>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
-    <script src="{% static 'search/js/citationFactory.js' %}" type="text/javascript"></script>
-    <script src="{% static 'search/js/flagCardFactory.js' %}" type="text/javascript"></script>
-    <script src="{% static 'search/js/resultDisplay.js' %}" type="text/javascript"></script>
     <script src="{% static 'search/js/disclosure.js' %}" type="text/javascript"></script>
     <script src="{% static 'search/js/exclusiveDisclosure.js' %}" type="text/javascript"></script>
     <script src="{% static 'search/js/searchForm.js' %}" type="text/javascript"></script>

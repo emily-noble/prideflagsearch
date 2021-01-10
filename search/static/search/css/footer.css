@@ -1,6 +1,7 @@
 .footer {
+    box-sizing: border-box;
     margin-top: 3em;
-    padding: 3em 0em;
+    padding: 1em 2em;
     width: 100%;
     background-color: #f5f5f5;
 }
@@ -9,6 +10,25 @@
     color: #42484c !important;
 }
 
-a {
-    color: #004793;
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .footer {
+        padding: 1em 10em;
+    }   
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
 }

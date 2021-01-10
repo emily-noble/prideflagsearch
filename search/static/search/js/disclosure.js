@@ -2,46 +2,6 @@
 
 (() => {
     /**
-     * Converts a text APA citation into a linked APA style citation
-     * @param {DOMElement} element The disclosure content element
-     * @returns {array} The bounds of the disclosure content
-     */
-    function calculateBounds(element) {
-        const origBounds = element.getBoundingClientRect();
-        const origLeft = origBounds.left;
-
-        let leftOffset = Infinity;
-        let leftPadding = null;
-        let rightOffset = 0;
-        let rightPadding = null;
-
-        const columnList = element.closest(".row").querySelectorAll(".flag-col");
-
-        columnList.forEach((flagColumn) => {
-            const rectangle = flagColumn.getBoundingClientRect();
-
-            if (rectangle.left < leftOffset) {
-                leftOffset = rectangle.left;
-
-                const rawPaddingLeft = window.getComputedStyle(flagColumn, null).paddingLeft;
-                leftPadding = parseInt(rawPaddingLeft.substring(0, rawPaddingLeft.length - 2));
-            }
-
-            if (rectangle.right > rightOffset) {
-                rightOffset = rectangle.right;
-
-                const rawPaddingRight = window.getComputedStyle(flagColumn, null).paddingRight;
-                rightPadding = parseInt(rawPaddingRight.substring(0, rawPaddingRight.length - 2));
-            }
-        });
-
-        return [
-            leftOffset - origLeft + leftPadding,
-            rightOffset - leftOffset - leftPadding - rightPadding
-        ];
-    }
-
-    /**
      * A Disclosure element.
      */
     class Disclosure {
@@ -50,11 +10,11 @@
          * @param {DOMElement} toggleElement - The element controlling the disclosure.
          * @param {Function} contentCallback - The function to call to get the disclosure's content.
          */
-        constructor(toggleElement, contentCallback) {
+        constructor(toggleElement) {
             this.toggleElement = toggleElement;
-
-            this.content = null;
-            this.contentCallback = contentCallback;
+            this.contentElement = document.getElementById(this.toggleElement.getAttribute("aria-controls"));
+            
+            this.toggleElement.addEventListener("click", () => this.toggle());
 
             this.hide();
         }
@@ -76,24 +36,24 @@
          * Shows the disclosure
          */
         show() {
-            // Get content if not already populated
-            if (null === this.content) {
-                this.content = this.contentCallback();
-                this.content.style.position = "relative";
-                this.content.style.outline = "1px solid black";
-            }
-
             // Change disclosure caret
-            this.toggleElement.innerHTML = "<i class='fas fa-caret-down'></i> Details";
+            this.toggleElement.innerHTML = "Details <i class='fas fa-caret-down'></i>";
             this.toggleElement.setAttribute("aria-expanded", "true");
+            
+            // Manually set the toggle element's top margin so it doesn't move
+            this.toggleElement.style.marginTop = window.getComputedStyle(this.toggleElement).marginTop;
 
-            // Add disclosure content
-            let [leftOffset, width] = calculateBounds(this.toggleElement);
-
-            this.content.style.left = leftOffset + "px";
-            this.content.style.width = width + "px";
-
-            this.toggleElement.after(this.content);
+            // Show disclosure content
+            this.contentElement.classList.remove("hidden");
+            
+            // Set the content element's offset so it aligns with everything else
+            const mainElement = document.getElementsByTagName("main")[0];
+            const leftOffset = this.toggleElement.offsetLeft - mainElement.offsetLeft;
+            const width = mainElement.offsetWidth;
+            
+            this.contentElement.style.left = `-${leftOffset}px`;
+            this.contentElement.style.width = `${width}px`;
+            
         }
 
         /**
@@ -101,13 +61,14 @@
          */
         hide() {
             // Change disclosure caret
-            this.toggleElement.innerHTML = "<i class='fas fa-caret-right'></i> Details";
+            this.toggleElement.innerHTML = "Details <i class='fas fa-caret-right'></i>";
             this.toggleElement.setAttribute("aria-expanded", "false");
+            
+            // Clear manually set margin top
+            this.toggleElement.style.marginTop = "";
 
-            // Remove the content element from the DOM
-            if (this.content && this.content.parentElement) {
-                this.content.parentElement.removeChild(this.content);
-            }
+            // Hide disclosure content
+            this.contentElement.classList.add("hidden");
         }
 
         /**

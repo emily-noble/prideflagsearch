@@ -1,3 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial,sans-serif;
+    color: #444444;
+}
+
+button {
+    color: #444444;
+}
+
+hr {
+    border-top: 1px solid #444444;
+    margin: 1em 0;
+}
+
+h1 {
+    
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+h4 {
+    font-size: 1em;
+    margin-top: 0.5em;
+    font-weight: bolder;
+}
+
+input, select {
+    border: 1px solid #444444;
+}
+
+input:focus, select:focus, button:focus, a:focus {
+    border: 2px solid #000000;
+}
+
+input[type="checkbox"]:focus {
+    outline: 2px solid #000000;
+}
+
+p {
+    font-size: 1em;
+    margin: 0.1em 0;
+}
+
+a {
+    color: #004793;
+}
+
+main {
+    margin: 0 2em;
+}
+
 .hidden {
-    display: none;
+    display: none !important;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    main {
+        margin: 0 10em;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
 }

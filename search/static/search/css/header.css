@@ -1,0 +1,10 @@
+.navbar {
+    background-color: #343a40;
+    margin: 0 0 1em 0;
+}
+
+.navbar-brand h1 {
+    padding: .5em 0 .5em .5em;
+    color: #FFFFFF;
+    font-size: 2.5em;
+}

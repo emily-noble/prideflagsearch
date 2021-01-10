@@ -8,11 +8,11 @@
         /**
          * Create a FlagSearchApp.
          * @param {array} flagList - List of flag objects
-         * @param {PFS.ResultDisplay} flagDisplay
          */
-        constructor(flagList, flagDisplay) {
+        constructor(flagList, countElement, wordElement) {
             this.flagList = flagList;
-            this.flagDisplay = flagDisplay;
+            this.countElement = countElement;
+            this.wordElement = wordElement;
         }
 
         /**
@@ -28,64 +28,53 @@
                 stripeFilter: null,
                 colorFilter: [],
             }
-
+        
+            let visibleCards = 0;
+            
             filters = filters || defaultFilters;
+            
+            this.flagList.forEach((flagElement) => {
+                flagElement.classList.remove("hidden");
+                
+                // Search by shapes
+                if (null !== filters.shapeFilter) {
+                    const hasShapes = flagElement.dataset.shapes === "True";
+                    if (filters.shapeFilter !== hasShapes) {
+                        flagElement.classList.add("hidden");
+                        
+                        return;
+                    }
+                }
 
-            let filteredFlagList = this.flagList;
+                // Search by stripes
+                if (filters.stripeFilter && !isNaN(filters.stripeFilter)) {
+                    const stripeCount = parseInt(flagElement.dataset.stripes, 10);
+                    if (filters.stripeFilter !== stripeCount && !isNaN(stripeCount)) {
+                        flagElement.classList.add("hidden");
+                        
+                        return;
+                    }
+                }
 
-            // Search by shapes
-            const shouldHaveShapes = filters.shapeFilter;
-            if (null !== shouldHaveShapes) {
-                filteredFlagList = filteredFlagList.filter((flag) => {
-                    return flag.shapes === shouldHaveShapes;
-                });
-            }
-
-            // Search by stripes
-            const numberOfStripes = filters.stripeFilter;
-            if (numberOfStripes && !isNaN(numberOfStripes)) {
-                filteredFlagList = filteredFlagList.filter((flag) => {
-                    return flag.stripes === numberOfStripes;
-                });
-            }
-
-            // Search by colors
-            const requiredColors = filters.colorFilter;
-            if (requiredColors.length) {
-                filteredFlagList = filteredFlagList.filter((flag) => {
-                    const differenceList = requiredColors.filter((i) => {
-                        return flag.colors.indexOf(i) < 0;
+                // Search by colors
+                if (filters.colorFilter.length) {
+                    const colorList = JSON.parse(flagElement.dataset.colors);
+                    const differenceList = filters.colorFilter.filter((i) => {
+                        return colorList.indexOf(i) < 0;
                     });
 
-                    return 0 === differenceList.length;
-                });
-            }
-
-            filteredFlagList = this.sortFlagList(filteredFlagList);
-
-            this.flagDisplay.update(filteredFlagList);
-        }
-
-        /**
-         * Sorts a list of flags alphabetically
-         * @private
-         * @param {array} flagList
-         * @returns {array}
-         */
-        sortFlagList(flagList) {
-            const sortedFlagList = flagList.sort((a, b) => {
-                if (a.name < b.name) {
-                    return -1;
+                    if (differenceList.length) {
+                        flagElement.classList.add("hidden");
+                        
+                        return;
+                    }
                 }
-
-                if (a.name > b.name) {
-                    return 1;
-                }
-
-                return 0;
+                
+                visibleCards += 1;
             });
 
-            return sortedFlagList;
+            this.countElement.innerText = visibleCards;
+            this.wordElement.innerText = 1 === visibleCards ? "flag" : "flags";
         }
     }
 

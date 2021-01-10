@@ -1,3 +1,91 @@
-.color-text {
-    display: inline;
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default */
+
+/* Control properties */
+.filter-card input, .filter-card select {
+    width: 90%;
+    margin: 0.5em 0;
+}
+
+.color-card input[type="checkbox"], .color-card svg {
+    width: 1em;
+    height: 1em;
+}
+
+/* Filter card flexbox */
+.filter-card-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.filter-card {
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.filter-card:nth-child(1) {
+    width: 100%;
+}
+
+.filter-card:nth-child(2) {
+    width: 49%;
+}
+
+.filter-card:nth-child(3) {
+    width: 49%;
+}
+
+
+
+/* Color card flexbox */
+.color-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 2px;
+    max-height: calc(2em * 6);
+    margin-bottom: 0.5em;
+}
+
+.color-card {
+    box-sizing: border-box;
+    width: 49%;
+    max-height: 2em;
+    padding: 0.5em 0;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .filter-card input, .filter-card select {
+        width: 65%;
+        margin: 0.5em 0;
+    }
+    
+    .filter-card:nth-child(1n) {
+        width: 32%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .filter-card input, .filter-card select {
+        width: 40%;
+        margin: 0.5em 0;
+    }
 }
