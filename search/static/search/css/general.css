@@ -32,12 +32,16 @@ h4 {
     font-weight: bolder;
 }
 
-input {
+input, select {
     border: 1px solid #444444;
 }
 
-select {
-    border: 1px solid #444444;
+input:focus, select:focus, button:focus, a:focus {
+    border: 2px solid #000000;
+}
+
+input[type="checkbox"]:focus {
+    outline: 2px solid #000000;
 }
 
 p {
