@@ -583,14 +583,75 @@
             "name": "Intersex Pride Flag (Natalie Phox)",
             "src": "/static/search/data/img/bigender_pride_flag.svg",
             "citation": {
-                "text": "\"Intersex people are born with any of several variations in sex characteristics including chromosomes, gonads, sex hormones, or genitals that, according to the UN Office of the High Commissioner for Human Rights, \"do not fit the typical definitions for male or female bodies\". Such variations may involve genital ambiguity, and combinations of chromosomal genotype and sexual phenotype other than XY-male and XX-female.\" [1] While the Wikimedia source for this flag identifies this as a Bigender Pride Flag, other sources identify this as an Intersex Pride Flag, claiming that the creator, Natalie Phox, renamed the flag later to clarify the identity it represents. [2], [3]. On this website, it is listed as both a Bigender Pride Flag and an Intersex Pride Flag ",
+                "text": "\"Intersex people are born with any of several variations in sex characteristics including chromosomes, gonads, sex hormones, or genitals that, according to the UN Office of the High Commissioner for Human Rights, \"do not fit the typical definitions for male or female bodies\". Such variations may involve genital ambiguity, and combinations of chromosomal genotype and sexual phenotype other than XY-male and XX-female.\" [1] While the Wikimedia source for this flag identifies this as a Bigender Pride Flag, other sources identify this as an Intersex Pride Flag, claiming that the creator, Natalie Phox, renamed the flag later to clarify the identity it represents. [2], [3]. On this website, it is listed as both a Bigender Pride Flag and an Intersex Pride Flag.",
                 "sourceList": [
                     "Intersex. (2018, Sep 11). In Wikipedia. Retrieved December 24, 2018, from [en.wikipedia.org](hhttps://en.wikipedia.org/w/index.php?title=Intersex&oldid=874876499)",
                     "Pride Flags. (2018, Feb 28). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)",
-                    "TRANSPRIDE. (2010, Nob 10). I was curious where the flag came from because… [Tumblr post]. Retrieved January 16, 2021, from [transpride.tumblr.com](https://transpride.tumblr.com/post/1531378118)"
+                    "TRANSPRIDE. (2010, Nov 10). I was curious where the flag came from because… [Tumblr post]. Retrieved January 16, 2021, from [transpride.tumblr.com](https://transpride.tumblr.com/post/1531378118)"
                 ],
                 "imageSource": "Bigender pride flag.svg. (2015, Feb 22). In Wikimedia Commons. Retrieved January 1, 2019, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Bigender_pride_flag.svg&oldid=323639719)",
                 "firstAuthoring": false
+            }
+        },
+        {
+            "colors": [
+                "pink",
+                "white",
+                "blue",
+                "yellow",
+                "purple"
+            ],
+            "stripes": 6,
+            "shapes": false,
+            "name": "Trans Intersex Pride Flag",
+            "src": "/static/search/data/img/trans_intersex_pride_flag.svg",
+            "citation": {
+                "text": "\"I was talking w/ intersex folx who're also trans. They said there wasn't a trans-intersex flag, so I made one! The transgender pride flag has been inserted within the circle of the intersex pride flag to signify the inner identities of intersex people who do not identify with the gender their doctors and/or parents assigned them at birth.\" [1]",
+                "sourceList": [
+                    "Jesse Bananasaurus. (2017, July 6). The trans-intersex flag I created. I was talking w/ intersex folx who're also trans. They said there wasn't a [Image attached] [Status update]. Facebook. [facebook.com](https://www.facebook.com/JesseBananasaurus/photos/292569341213530)"
+                ],
+                "imageSource": "Trans intersex pride flag.svg (2021, Jan 16). In Wikimedia Commons. Retrieved January 16, 2021, from [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Trans_intersex_pride_flag.svg)",
+                "firstAuthoring": "Jesse Bananasaurus. (2017, July 6). The trans-intersex flag I created. I was talking w/ intersex folx who're also trans. They said there wasn't a [Image attached] [Status update]. Facebook. [facebook.com](https://www.facebook.com/JesseBananasaurus/photos/292569341213530)"
+            }
+        },
+        {
+            "colors": [
+                "black",
+                "white"
+            ],
+            "stripes": 3,
+            "shapes": false,
+            "name": "Agender Pride Flag (Rumpus Parable)",
+            "src": "/static/search/data/img/agender_pride_flag_rumpus_parable.svg",
+            "citation": {
+                "text": "\"An agender person... is someone who identifies as having no gender or being without a gender identity. Although this category includes a broad range of identities which do not conform to traditional gender norms, scholar Finn Enke states that people who identify with any of these positions may not necessarily self-identify as transgender. Agender people have no specific set of pronouns; singular they is typically used, but it is not the default.\" [1] According to uncited text on Gender Wiki, it was \"[c]reated 2014 by Rumpus Parable... Black is to indicate a distinct identity in those without gender. The color black for agender persons is chosen for its correspondence with black being the total absence of color in the light spectrum. White acknowledges the historical use as an all-inclusive color for anyone who is non-binary in sex and/or gender and the identity color of black to be placed against to indicate its specific grouping within that traditionally generalized non-binary color.\" [2]",
+                "sourceList": [
+                    "Genderqueer. (2018, July 8). In Wikipedia. Retrieved December 23, 2018, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Genderqueer&oldid=874316981)",
+                    "Pride Flags. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)"
+                ],
+                "imageSource": "Pride Flags. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)",
+                "firstAuthoring": false
+            }
+        },
+        {
+            "colors": [
+                "black",
+                "white",
+                "grey", 
+                "green"
+            ],
+            "stripes": 4,
+            "shapes": false,
+            "name": "Agender Pride Flag (agender.info)",
+            "src": "/static/search/data/img/agender_pride_flag_agender_info.svg",
+            "citation": {
+                "text": "\"An agender person... is someone who identifies as having no gender or being without a gender identity. Although this category includes a broad range of identities which do not conform to traditional gender norms, scholar Finn Enke states that people who identify with any of these positions may not necessarily self-identify as transgender. Agender people have no specific set of pronouns; singular they is typically used, but it is not the default.\" [1] \"The four-stripe agender flag is an homage to the original, widely-used seven-stripe agender flag created by Salem in 2014... They're similar in color scheme (black, gray, white, green). However, the new flag has a deliberately higher-contrast design with fewer stripes and emphasizes solidarity of agender people who may also be lesbian, gay, bi, nonbinary, trans, ace, etc. by representing agenderness in one stripe. No matter what else we are, all agender people are wholly equally agender.\" [2]",
+                "sourceList": [
+                    "Genderqueer. (2018, July 8). In Wikipedia. Retrieved December 23, 2018, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Genderqueer&oldid=874316981)",
+                    "Why make a new flag?. (n.d). agender.info. Retrieved January 16, 2021, from [agender.info](https://agender.info/#flag)"
+                ],
+                "imageSource": "Agender pride flag agender info.svg. (2021, Jan 16). In Wikimedia Commons. Retrieved January 16, 2021, from [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Agender_pride_flag_agender_info.svg)",
+                "firstAuthoring": "Why make a new flag?. (n.d). agender.info. Retrieved January 16, 2021, from [agender.info](https://agender.info/#flag)"
             }
         }
     ]
