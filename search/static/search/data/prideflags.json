@@ -231,9 +231,11 @@
             "name": "Bigender Pride Flag",
             "src": "/static/search/data/img/bigender_pride_flag.svg",
             "citation": {
-                "text": "\"Bigender, bi-gender or dual gender is a gender identity that includes any two gender identities and behaviors. Some bigender individuals express two distinct personas, which may be feminine, masculine, agender, androgyne, or other gender identities; others find that they identify as two genders simultaneously. A 1999 survey conducted by the San Francisco Department of Public Health observed that, among the transgender community, less than 3% of those who were assigned male at birth and less than 8% of those who were assigned female at birth identified as bigender.\" [1]",
+                "text": "\"Bigender, bi-gender or dual gender is a gender identity that includes any two gender identities and behaviors. Some bigender individuals express two distinct personas, which may be feminine, masculine, agender, androgyne, or other gender identities; others find that they identify as two genders simultaneously. A 1999 survey conducted by the San Francisco Department of Public Health observed that, among the transgender community, less than 3% of those who were assigned male at birth and less than 8% of those who were assigned female at birth identified as bigender.\" [1] Several sources identify this as an Intersex Pride Flag, claiming that the creator, Natalie Phox, renamed the flag later to clarify the identity it represents. [2], [3]. On this website, it is listed as both a Bigender Pride Flag and an Intersex Pride Flag ",
                 "sourceList": [
-                    "Bigender. (2018, Feb 28). In Wikipedia. Retrieved January 1, 2019, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Bigender&oldid=875947825)"
+                    "Bigender. (2018, Feb 28). In Wikipedia. Retrieved January 1, 2019, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Bigender&oldid=875947825)",
+                    "Pride Flags. (2018, Feb 28). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)",
+                    "TRANSPRIDE. (2010, Nob 10). I was curious where the flag came from because… [Tumblr post]. Retrieved January 16, 2021, from [transpride.tumblr.com](https://transpride.tumblr.com/post/1531378118)"
                 ],
                 "imageSource": "Bigender pride flag.svg. (2015, Feb 22). In Wikimedia Commons. Retrieved January 1, 2019, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Bigender_pride_flag.svg&oldid=323639719)",
                 "firstAuthoring": false
@@ -568,6 +570,27 @@
                 ],
                 "imageSource": "Jennifer Pellinen Transgender Flag.svg. (2018, April 10). In Wikimedia Commons. Retrieved Jan 16, 2021, from [commons.wikimedia.org](https://en.wikipedia.org/wiki/File:Jennifer_Pellinen_Transgender_Flag.svg)",
                 "firstAuthoring": "Jennifer. (n.d.). Transgender Flags and symbols. Retrieved January 16, 2021, from [web.archive.org](https://web.archive.org/web/20110728123810/http://www.transflag.org/graphics2.html)"
+            }
+        },
+        {
+            "colors": [
+                "pink",
+                "white",
+                "blue"
+            ],
+            "stripes": 6,
+            "shapes": false,
+            "name": "Intersex Pride Flag (Natalie Phox)",
+            "src": "/static/search/data/img/bigender_pride_flag.svg",
+            "citation": {
+                "text": "\"Intersex people are born with any of several variations in sex characteristics including chromosomes, gonads, sex hormones, or genitals that, according to the UN Office of the High Commissioner for Human Rights, \"do not fit the typical definitions for male or female bodies\". Such variations may involve genital ambiguity, and combinations of chromosomal genotype and sexual phenotype other than XY-male and XX-female.\" [1] While the Wikimedia source for this flag identifies this as a Bigender Pride Flag, other sources identify this as an Intersex Pride Flag, claiming that the creator, Natalie Phox, renamed the flag later to clarify the identity it represents. [2], [3]. On this website, it is listed as both a Bigender Pride Flag and an Intersex Pride Flag ",
+                "sourceList": [
+                    "Intersex. (2018, Sep 11). In Wikipedia. Retrieved December 24, 2018, from [en.wikipedia.org](hhttps://en.wikipedia.org/w/index.php?title=Intersex&oldid=874876499)",
+                    "Pride Flags. (2018, Feb 28). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)",
+                    "TRANSPRIDE. (2010, Nob 10). I was curious where the flag came from because… [Tumblr post]. Retrieved January 16, 2021, from [transpride.tumblr.com](https://transpride.tumblr.com/post/1531378118)"
+                ],
+                "imageSource": "Bigender pride flag.svg. (2015, Feb 22). In Wikimedia Commons. Retrieved January 1, 2019, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Bigender_pride_flag.svg&oldid=323639719)",
+                "firstAuthoring": false
             }
         }
     ]
