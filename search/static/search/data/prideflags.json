@@ -532,6 +532,24 @@
                 "imageSource": "Demiromantic Pride Flag.svg. (2019, Nov 11). In Wikimedia Commons. Retrieved June 26, 2020, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Demiromantic_Pride_Flag.svg)",
                 "firstAuthoring": false
             }
+        },
+        {
+            "colors": [
+                "purple",
+                "white"
+            ],
+            "stripes": 3,
+            "shapes": false,
+            "name": "Gendercreative Pride Flag",
+            "src": "/static/search/data/img/gendercreative_pride_flag.svg",
+            "citation": {
+                "text": "A gender creative person is \"a person whose conception of their gender intrinsically differs from the prevailing social norms\". \"The gender creative pride flag is constructed of two exterior lavender fields in opposition, a composite of the pink and blue fields found in the transgender pride flag and an interior white field one-fifth the proportion to the remainder. Lavender represents the blurring of binary gender norms whereas white represents freedom of gender expression.\" [1]",
+                "sourceList": [
+                    "Gender Creative Pride. (2015, July 19). Today I am proposing a pride flag and an icon for gender nonconforming people, and I am recommending the formation [Image attached] [Status update]. Facebook. [facebook.com](https://www.facebook.com/gendercreativepride/photos/a.1082412285144180/1086036191448456/)"
+                ],
+                "imageSource": "Gendercreative pride flag.svg. (2021, Jan 16). In Wikimedia Commons. Retrieved Jan 16, 2021, from [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Gendercreative_pride_flag.svg)",
+                "firstAuthoring": "Gender Creative Pride. (2015, July 19). Today I am proposing a pride flag and an icon for gender nonconforming people, and I am recommending the formation [Image attached] [Status update]. Facebook. [facebook.com](https://www.facebook.com/gendercreativepride/photos/a.1082412285144180/1086036191448456/)"
+            }
         }
     ]
 }

@@ -117,7 +117,7 @@
                                         <li>{{ source.value }}</li>
                                     {% else %}
                                         <li>
-                                            {{ source.firstPart }} from <a href='{{ source.linkUrl }}' target='_blank'>{{ source.linkText }}</a>{{ source.addendum }}
+                                            {{ source.firstPart }} <a href='{{ source.linkUrl }}' target='_blank'>{{ source.linkText }}</a>{{ source.addendum }}
                                         </li>
                                     {% endif %}
                                 {% endfor %}
@@ -127,7 +127,7 @@
                                 {% if "simple" == flag.citation.imageSource.type %}
                                     {{ flag.citation.imageSource.value }}
                                 {% else %}
-                                    {{ flag.citation.imageSource.firstPart }} from <a href='{{ flag.citation.imageSource.linkUrl }}' target='_blank'>{{ flag.citation.imageSource.linkText }}</a>{{ flag.citation.imageSource.addendum }}
+                                    {{ flag.citation.imageSource.firstPart }} <a href='{{ flag.citation.imageSource.linkUrl }}' target='_blank'>{{ flag.citation.imageSource.linkText }}</a>{{ flag.citation.imageSource.addendum }}
                                 {% endif %}
                             </div>
                             <h4>First Authored At</h4>
@@ -135,7 +135,7 @@
                                 {% if "simple" == flag.citation.firstAuthoring.type %}
                                     {{ flag.citation.firstAuthoring.value }}
                                 {% else %}
-                                    {{ flag.citation.firstAuthoring.firstPart }} from <a href='{{ flag.citation.firstAuthoring.linkUrl }}' target='_blank'>{{ flag.citation.firstAuthoring.linkText }}</a>{{ flag.citation.firstAuthoring.addendum }}
+                                    {{ flag.citation.firstAuthoring.firstPart }} <a href='{{ flag.citation.firstAuthoring.linkUrl }}' target='_blank'>{{ flag.citation.firstAuthoring.linkText }}</a>{{ flag.citation.firstAuthoring.addendum }}
                                 {% endif %}
                             </div>
                         </div>   

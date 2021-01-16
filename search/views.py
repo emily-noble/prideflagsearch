@@ -111,7 +111,7 @@ def createCitationStructure(rawCitation):
             "value": "Unknown"
         }
     
-    apaCitationPartsRegex = re.compile('^(.*) from \[(.*)\]\((.*)\)(.*)$');
+    apaCitationPartsRegex = re.compile('^(.*) \[(.*)\]\((.*)\)(.*)');
     thisCitationParts = apaCitationPartsRegex.search(rawCitation);
             
     if thisCitationParts is None or 4 != len(thisCitationParts.groups()):
