@@ -831,6 +831,45 @@
                 "imageSource": "Neutrois Flag.svg. (2018, April 7). In Wikimedia Commons. Retrieved December 17, 2020, from [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Neutrois_Flag.svg)",
                 "firstAuthoring": false
             }
+        },
+        {
+            "colors": [
+                "blue",
+                "yellow",
+                "purple"
+            ],
+            "stripes": 7,
+            "shapes": false,
+            "name": "Nonbinary Pride Flag (transrants)",
+            "src": "/static/search/data/img/nonbinary_pride_flag_transrants.svg",
+            "citation": {
+                "text": "\"Genderqueer, also known as non-binary, is a catch-all category for gender identities that are not exclusively masculine or feminine‍—‌identities which are outside the gender binary and cisnormativity. Genderqueer people may express a combination of masculinity and femininity, or neither, in their gender expression.\" [1]",
+                "sourceList": [
+                    "Genderqueer. (2018, July 8). In Wikipedia. Retrieved December 23, 2018, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Genderqueer&oldid=874316981)"
+                ],
+                "imageSource": "Pride Flags. (n.d). In Gender Wiki. Retrieved January 17, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)",
+                "firstAuthoring": false
+            }
+        },
+        {
+            "colors": [
+                "black",
+                "grey",
+                "white",
+                "green"
+            ],
+            "stripes": 7,
+            "shapes": false,
+            "name": "Agender Pride Flag (9 stripe)",
+            "src": "/static/search/data/img/agender_pride_flag_9_stripe.svg",
+            "citation": {
+                "text": "\"An agender person... is someone who identifies as having no gender or being without a gender identity. Although this category includes a broad range of identities which do not conform to traditional gender norms, scholar Finn Enke states that people who identify with any of these positions may not necessarily self-identify as transgender. Agender people have no specific set of pronouns; singular they is typically used, but it is not the default.\" [1]",
+                "sourceList": [
+                    "Genderqueer. (2018, July 8). In Wikipedia. Retrieved December 23, 2018, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Genderqueer&oldid=874316981)"
+                ],
+                "imageSource": "Pride Flags. (n.d). In Gender Wiki. Retrieved January 17, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)",
+                "firstAuthoring": false
+            }
         }
     ]
 }
