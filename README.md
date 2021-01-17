@@ -41,7 +41,6 @@ To get a flag accepted in a merge request, you'll need to:
 - https://www.deviantart.com/pride-flags?fbclid=IwAR1etYmg5R84Reed3MT1aX4wlhjTBlJVQ2uPy-aGkDTu9O-9Nm5oE94YJ-M
 - https://beyond-mogai-pride-flags.tumblr.com/?fbclid=IwAR3vsLCXQ2bwKxAuyvUt8shy3ZzxLw6L97572EtTjCTzoOskaHC56Jt-cjI
 - https://pride-flags-for-us.tumblr.com/?fbclid=IwAR3ETJfoNNeMMnfa17GdhYt_Amb2zbnHfIlkZiLik8_4As0sVHDuqhxuXR8
-- http://gender.wikia.com/wiki/Pride_Flags
 
 ## Contributing Flag Details
 
