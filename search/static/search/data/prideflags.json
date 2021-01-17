@@ -856,9 +856,10 @@
                 "black",
                 "grey",
                 "white",
-                "green"
+                "green",
+                "purple"
             ],
-            "stripes": 7,
+            "stripes": 9,
             "shapes": false,
             "name": "Agender Pride Flag (9 stripe)",
             "src": "/static/search/data/img/agender_pride_flag_9_stripe.svg",
@@ -868,6 +869,27 @@
                     "Genderqueer. (2018, July 8). In Wikipedia. Retrieved December 23, 2018, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Genderqueer&oldid=874316981)"
                 ],
                 "imageSource": "Pride Flags. (n.d). In Gender Wiki. Retrieved January 17, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)",
+                "firstAuthoring": false
+            }
+        },
+        {
+            "colors": [
+                "red",
+                "pink",
+                "grey",
+                "blue",
+                "yellow"
+            ],
+            "stripes": 6,
+            "shapes": false,
+            "name": "Genderflux Pride Flag",
+            "src": "/static/search/data/img/genderflux_pride_flag.svg",
+            "citation": {
+                "text": "\"Genderflux is an umbrella term for gender identities in which the gender or one’s perception of the gender’s intensity varies over time. It can be seen as a form of genderfluid on a spectrum from agender to one or more other gender identities. Genderflux people may also identify as nonbinary, genderqueer and/or transgender.\" [1]",
+                "sourceList": [
+                    "Genderflux. (n.d). In Gender Wiki. Retrieved January 17, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Genderflux)"
+                ],
+                "imageSource": "Genderflux. (n.d). In Gender Wiki. Retrieved January 17, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Genderflux)",
                 "firstAuthoring": false
             }
         }
