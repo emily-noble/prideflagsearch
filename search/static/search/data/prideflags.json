@@ -949,7 +949,7 @@
                     "Nxnbinary (2). (2017, Jan 18). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Nxnbinary-2-657852683)"
                 ],
                 "imageSource": "Nxnbinary (2). (2017, Jan 18). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Nxnbinary-2-657852683)",
-                "firstAuthoring": false
+                "firstAuthoring": "Nxnbinary (2). (2017, Jan 18). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Nxnbinary-2-657852683)"
             }
         },
         {
@@ -988,6 +988,44 @@
                 ],
                 "imageSource": "Nxnbinary. (2017, Jan 18). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Nxnbinary-657852725)",
                 "firstAuthoring": "Nxnbinary. (2017, Jan 18). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Nxnbinary-657852725)"
+            }
+        },
+        {
+            "colors": [
+                "black",
+                "grey",
+                "pink"
+            ],
+            "stripes": 7,
+            "shapes": false,
+            "name": "Gxrl Pride Flag",
+            "src": "/static/search/data/img/gxrl_pride_flag.svg",
+            "citation": {
+                "text": "\"Gxrl (pronounced like girl-x) [is] a gender that is both girl and agender/no gender. You can be a girl and agender/no gender at the same time, go between them, or fluctuate between feeling female and not feeling gender. Emphasizes being female. Spelled gxrl with an X instead of an I as if you’re crossing out that you’re a girl. Kinda similar to demigirl (where agender/no gender is the non-girl part), agenderflux (with fluctuations between agender and female), or being genderfluid between agender/no gender and female. Can be used as transgxrl if you chose to, but only if you’re amab (similar to trans feminine being exclusively for amab trans people). Coined by www.deviantart.com/ayumi-hino in conjunction with sadghostbxy.tumblr.com coining bxy.\" [1]",
+                "sourceList": [
+                    "Gxrl. (2017, Jan 17). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Gxrl-657852708)"
+                ],
+                "imageSource": "Gxrl. (2017, Jan 17). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Gxrl-657852708)",
+                "firstAuthoring": "Gxrl. (2017, Jan 17). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Gxrl-657852708)"
+            }
+        },
+        {
+            "colors": [
+                "black",
+                "grey",
+                "blue"
+            ],
+            "stripes": 7,
+            "shapes": false,
+            "name": "Bxy Pride Flag",
+            "src": "/static/search/data/img/bxy_pride_flag.svg",
+            "citation": {
+                "text": "\"Bxy (pronounced like boy) [is] [a] gender that is both boy and agender/no gender. You can be a boy and agender/no gender at the same time, go between them, or fluctuate between feeling male and not feeling gender. Emphasizes being male. Spelled bxy with an X instead of an O as if you’re crossing out that you’re a boy. Kinda similar to demiboy (where agender/no gender is the non-boy part), agenderflux (with fluctuations between agender and male), or being genderfluid between agender/no gender and male. Can be used as trans bxy if you chose to, but only if you’re afab (similar to trans masculine being exclusively for afab trans people).\" [1]",
+                "sourceList": [
+                    "Bxy. (2017, Jan 17). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Bxy-657852717)"
+                ],
+                "imageSource": "Bxy. (2017, Jan 17). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Bxy-657852717)",
+                "firstAuthoring": "Bxy. (2017, Jan 17). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Bxy-657852717)"
             }
         }
     ]
