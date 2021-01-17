@@ -736,6 +736,23 @@
                 "imageSource": "Pocket Genders. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pocket_Gender)",
                 "firstAuthoring": "Pocket Genders. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pocket_Gender)"
             }
+        },
+        {
+            "colors": [
+                "white"
+            ],
+            "stripes": 1,
+            "shapes": false,
+            "name": "Ingender Pride Flag",
+            "src": "/static/search/data/img/ingender_pride_flag.svg",
+            "citation": {
+                "text": "\"As IngenDerism is about the unity of humanity, rather than separating people by their differences, a white flag is used, as all colours are merely part of white.\" [1]",
+                "sourceList": [
+                    "Pride Flags. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)"
+                ],
+                "imageSource": "Pride Flags. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)",
+                "firstAuthoring": "Pride Flags. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)"
+            }
         }
     ]
 }
