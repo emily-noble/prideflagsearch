@@ -892,6 +892,25 @@
                 "imageSource": "Genderflux. (n.d). In Gender Wiki. Retrieved January 17, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Genderflux)",
                 "firstAuthoring": false
             }
+        },
+        {
+            "colors": [
+                "pink",
+                "purple",
+                "yellow"
+            ],
+            "stripes": 1,
+            "shapes": true,
+            "name": "Doe Pride Flag",
+            "src": "/static/search/data/img/doe_pride_flag.svg",
+            "citation": {
+                "text": "Does are \"people whose identity or expression is feminine, without necessarily being women or femmes.\" [1]",
+                "sourceList": [
+                    "Pride Flags. (n.d). In Gender Wiki. Retrieved January 17, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)"
+                ],
+                "imageSource": "Pride Flags. (n.d). In Gender Wiki. Retrieved January 17, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)",
+                "firstAuthoring": false
+            }
         }
     ]
 }
