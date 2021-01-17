@@ -36,7 +36,6 @@ To get a flag accepted in a merge request, you'll need to:
 
 ### Places to Find New Flags
 
-- Progress pride flag
 - Bigender: https://66.media.tumblr.com/3d86267d5d6ee6a42b9424c2aa514a6c/tumblr_inline_nwlg22va1T1snljqo_500.png?fbclid=IwAR2brjJLiNYDTfgYKWnFv_6nowHpiq2EtcTtkOion1ARfux8WQB1qPpVXKg
 - Bigender: https://66.media.tumblr.com/91941b330fbbfa81a94408d1035fc1a4/tumblr_inline_nwlgbgLNlI1snljqo_500.png?fbclid=IwAR1nQ7E_cWE4TS_KHpoLTJPBYVJtUteGt84_R6O2DAyr-yd7mXNT44p20N4
 - https://www.deviantart.com/pride-flags?fbclid=IwAR1etYmg5R84Reed3MT1aX4wlhjTBlJVQ2uPy-aGkDTu9O-9Nm5oE94YJ-M

@@ -231,9 +231,11 @@
             "name": "Bigender Pride Flag",
             "src": "/static/search/data/img/bigender_pride_flag.svg",
             "citation": {
-                "text": "\"Bigender, bi-gender or dual gender is a gender identity that includes any two gender identities and behaviors. Some bigender individuals express two distinct personas, which may be feminine, masculine, agender, androgyne, or other gender identities; others find that they identify as two genders simultaneously. A 1999 survey conducted by the San Francisco Department of Public Health observed that, among the transgender community, less than 3% of those who were assigned male at birth and less than 8% of those who were assigned female at birth identified as bigender.\" [1]",
+                "text": "\"Bigender, bi-gender or dual gender is a gender identity that includes any two gender identities and behaviors. Some bigender individuals express two distinct personas, which may be feminine, masculine, agender, androgyne, or other gender identities; others find that they identify as two genders simultaneously. A 1999 survey conducted by the San Francisco Department of Public Health observed that, among the transgender community, less than 3% of those who were assigned male at birth and less than 8% of those who were assigned female at birth identified as bigender.\" [1] Several sources identify this as an Intersex Pride Flag, claiming that the creator, Natalie Phox, renamed the flag later to clarify the identity it represents. [2], [3]. On this website, it is listed as both a Bigender Pride Flag and an Intersex Pride Flag ",
                 "sourceList": [
-                    "Bigender. (2018, Feb 28). In Wikipedia. Retrieved January 1, 2019, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Bigender&oldid=875947825)"
+                    "Bigender. (2018, Feb 28). In Wikipedia. Retrieved January 1, 2019, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Bigender&oldid=875947825)",
+                    "Pride Flags. (2018, Feb 28). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)",
+                    "TRANSPRIDE. (2010, Nob 10). I was curious where the flag came from because… [Tumblr post]. Retrieved January 16, 2021, from [transpride.tumblr.com](https://transpride.tumblr.com/post/1531378118)"
                 ],
                 "imageSource": "Bigender pride flag.svg. (2015, Feb 22). In Wikimedia Commons. Retrieved January 1, 2019, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Bigender_pride_flag.svg&oldid=323639719)",
                 "firstAuthoring": false
@@ -531,6 +533,499 @@
                 ],
                 "imageSource": "Demiromantic Pride Flag.svg. (2019, Nov 11). In Wikimedia Commons. Retrieved June 26, 2020, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Demiromantic_Pride_Flag.svg)",
                 "firstAuthoring": false
+            }
+        },
+        {
+            "colors": [
+                "purple",
+                "white"
+            ],
+            "stripes": 3,
+            "shapes": false,
+            "name": "Gendercreative Pride Flag",
+            "src": "/static/search/data/img/gendercreative_pride_flag.svg",
+            "citation": {
+                "text": "A gender creative person is \"a person whose conception of their gender intrinsically differs from the prevailing social norms\". \"The gender creative pride flag is constructed of two exterior lavender fields in opposition, a composite of the pink and blue fields found in the transgender pride flag and an interior white field one-fifth the proportion to the remainder. Lavender represents the blurring of binary gender norms whereas white represents freedom of gender expression.\" [1]",
+                "sourceList": [
+                    "Gender Creative Pride. (2015, July 19). Today I am proposing a pride flag and an icon for gender nonconforming people, and I am recommending the formation [Image attached] [Status update]. Facebook. [facebook.com](https://www.facebook.com/gendercreativepride/photos/a.1082412285144180/1086036191448456/)"
+                ],
+                "imageSource": "Gendercreative pride flag.svg. (2021, Jan 16). In Wikimedia Commons. Retrieved Jan 16, 2021, from [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Gendercreative_pride_flag.svg)",
+                "firstAuthoring": "Gender Creative Pride. (2015, July 19). Today I am proposing a pride flag and an icon for gender nonconforming people, and I am recommending the formation [Image attached] [Status update]. Facebook. [facebook.com](https://www.facebook.com/gendercreativepride/photos/a.1082412285144180/1086036191448456/)"
+            }
+        },
+        {
+            "colors": [
+                "pink",
+                "purple",
+                "blue"
+            ],
+            "stripes": 5,
+            "shapes": false,
+            "name": "Transgender Pride Flag (Jennifer Pellinen)",
+            "src": "/static/search/data/img/transgender_pride_flag_jennifer.svg",
+            "citation": {
+                "text": "\"I came up with the idea for the transgender flag a few years ago. At the time I did not know of any other flag designs. The design was created for TG pride. another reson I made the flag is that most cross dressers are not gay. If they use the rainbow flag people will think they are gay. The colors on the flag are from top to bottom. Pink, light purple, medium purple, dark purple, and blue. The pink and the blue represent male and female. The 3 purple stripes represent the diversity of the TG community as well as genders other than male and female.\" [1]",
+                "sourceList": [
+                    "Jennifer. (n.d.). Transgender Flag info. Retrieved January 16, 2021, from [web.archive.org](https://web.archive.org/web/20030713171303/http://www.transflag.org/info.html)"
+                ],
+                "imageSource": "Jennifer Pellinen Transgender Flag.svg. (2018, April 10). In Wikimedia Commons. Retrieved Jan 16, 2021, from [commons.wikimedia.org](https://en.wikipedia.org/wiki/File:Jennifer_Pellinen_Transgender_Flag.svg)",
+                "firstAuthoring": "Jennifer. (n.d.). Transgender Flags and symbols. Retrieved January 16, 2021, from [web.archive.org](https://web.archive.org/web/20110728123810/http://www.transflag.org/graphics2.html)"
+            }
+        },
+        {
+            "colors": [
+                "pink",
+                "white",
+                "blue"
+            ],
+            "stripes": 6,
+            "shapes": false,
+            "name": "Intersex Pride Flag (Natalie Phox)",
+            "src": "/static/search/data/img/bigender_pride_flag.svg",
+            "citation": {
+                "text": "\"Intersex people are born with any of several variations in sex characteristics including chromosomes, gonads, sex hormones, or genitals that, according to the UN Office of the High Commissioner for Human Rights, \"do not fit the typical definitions for male or female bodies\". Such variations may involve genital ambiguity, and combinations of chromosomal genotype and sexual phenotype other than XY-male and XX-female.\" [1] While the Wikimedia source for this flag identifies this as a Bigender Pride Flag, other sources identify this as an Intersex Pride Flag, claiming that the creator, Natalie Phox, renamed the flag later to clarify the identity it represents. [2], [3]. On this website, it is listed as both a Bigender Pride Flag and an Intersex Pride Flag.",
+                "sourceList": [
+                    "Intersex. (2018, Sep 11). In Wikipedia. Retrieved December 24, 2018, from [en.wikipedia.org](hhttps://en.wikipedia.org/w/index.php?title=Intersex&oldid=874876499)",
+                    "Pride Flags. (2018, Feb 28). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)",
+                    "TRANSPRIDE. (2010, Nov 10). I was curious where the flag came from because… [Tumblr post]. Retrieved January 16, 2021, from [transpride.tumblr.com](https://transpride.tumblr.com/post/1531378118)"
+                ],
+                "imageSource": "Bigender pride flag.svg. (2015, Feb 22). In Wikimedia Commons. Retrieved January 1, 2019, from [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Bigender_pride_flag.svg&oldid=323639719)",
+                "firstAuthoring": false
+            }
+        },
+        {
+            "colors": [
+                "pink",
+                "white",
+                "blue",
+                "yellow",
+                "purple"
+            ],
+            "stripes": 6,
+            "shapes": false,
+            "name": "Trans Intersex Pride Flag",
+            "src": "/static/search/data/img/trans_intersex_pride_flag.svg",
+            "citation": {
+                "text": "\"I was talking w/ intersex folx who're also trans. They said there wasn't a trans-intersex flag, so I made one! The transgender pride flag has been inserted within the circle of the intersex pride flag to signify the inner identities of intersex people who do not identify with the gender their doctors and/or parents assigned them at birth.\" [1]",
+                "sourceList": [
+                    "Jesse Bananasaurus. (2017, July 6). The trans-intersex flag I created. I was talking w/ intersex folx who're also trans. They said there wasn't a [Image attached] [Status update]. Facebook. [facebook.com](https://www.facebook.com/JesseBananasaurus/photos/292569341213530)"
+                ],
+                "imageSource": "Trans intersex pride flag.svg (2021, Jan 16). In Wikimedia Commons. Retrieved January 16, 2021, from [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Trans_intersex_pride_flag.svg)",
+                "firstAuthoring": "Jesse Bananasaurus. (2017, July 6). The trans-intersex flag I created. I was talking w/ intersex folx who're also trans. They said there wasn't a [Image attached] [Status update]. Facebook. [facebook.com](https://www.facebook.com/JesseBananasaurus/photos/292569341213530)"
+            }
+        },
+        {
+            "colors": [
+                "black",
+                "white"
+            ],
+            "stripes": 3,
+            "shapes": false,
+            "name": "Agender Pride Flag (Rumpus Parable)",
+            "src": "/static/search/data/img/agender_pride_flag_rumpus_parable.svg",
+            "citation": {
+                "text": "\"An agender person... is someone who identifies as having no gender or being without a gender identity. Although this category includes a broad range of identities which do not conform to traditional gender norms, scholar Finn Enke states that people who identify with any of these positions may not necessarily self-identify as transgender. Agender people have no specific set of pronouns; singular they is typically used, but it is not the default.\" [1] According to uncited text on Gender Wiki, it was \"[c]reated 2014 by Rumpus Parable... Black is to indicate a distinct identity in those without gender. The color black for agender persons is chosen for its correspondence with black being the total absence of color in the light spectrum. White acknowledges the historical use as an all-inclusive color for anyone who is non-binary in sex and/or gender and the identity color of black to be placed against to indicate its specific grouping within that traditionally generalized non-binary color.\" [2]",
+                "sourceList": [
+                    "Genderqueer. (2018, July 8). In Wikipedia. Retrieved December 23, 2018, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Genderqueer&oldid=874316981)",
+                    "Pride Flags. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)"
+                ],
+                "imageSource": "Pride Flags. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)",
+                "firstAuthoring": false
+            }
+        },
+        {
+            "colors": [
+                "black",
+                "white",
+                "grey", 
+                "green"
+            ],
+            "stripes": 4,
+            "shapes": false,
+            "name": "Agender Pride Flag (agender.info)",
+            "src": "/static/search/data/img/agender_pride_flag_agender_info.svg",
+            "citation": {
+                "text": "\"An agender person... is someone who identifies as having no gender or being without a gender identity. Although this category includes a broad range of identities which do not conform to traditional gender norms, scholar Finn Enke states that people who identify with any of these positions may not necessarily self-identify as transgender. Agender people have no specific set of pronouns; singular they is typically used, but it is not the default.\" [1] \"The four-stripe agender flag is an homage to the original, widely-used seven-stripe agender flag created by Salem in 2014... They're similar in color scheme (black, gray, white, green). However, the new flag has a deliberately higher-contrast design with fewer stripes and emphasizes solidarity of agender people who may also be lesbian, gay, bi, nonbinary, trans, ace, etc. by representing agenderness in one stripe. No matter what else we are, all agender people are wholly equally agender.\" [2]",
+                "sourceList": [
+                    "Genderqueer. (2018, July 8). In Wikipedia. Retrieved December 23, 2018, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Genderqueer&oldid=874316981)",
+                    "Why make a new flag?. (n.d). agender.info. Retrieved January 16, 2021, from [agender.info](https://agender.info/#flag)"
+                ],
+                "imageSource": "Agender pride flag agender info.svg. (2021, Jan 16). In Wikimedia Commons. Retrieved January 16, 2021, from [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Agender_pride_flag_agender_info.svg)",
+                "firstAuthoring": "Why make a new flag?. (n.d). agender.info. Retrieved January 16, 2021, from [agender.info](https://agender.info/#flag)"
+            }
+        },
+        {
+            "colors": [
+                "yellow",
+                "red",
+                "pink",
+                "white"
+            ],
+            "stripes": 7,
+            "shapes": false,
+            "name": "Pangender Pride Flag (white center)",
+            "src": "/static/search/data/img/pangender_pride_flag_white_center.svg",
+            "citation": {
+                "text": "\"Pangender refers to a vast and diverse multiplicity of genders in the same individual that can infinitely extend, being always within the person's own culture and life experience. This experience can be either simultaneously or over time. Pangender is a multigender that is very expansive and not very specific, meaning that there are so many genders that it’s difficult or impossible to list all of them. There is no maximum limit to the amount of genders. Being pangender is feeling an entire infinite gender spectrum that is possible for an individual to have. The pangender experience can go beyond the current knowledge of genders. The Greek prefix \"pan\" refers to \"everything\" or \"all\". Therefore, pangender means \"having all genders it’s possible to have\" and other similar definitions.\" [1]",
+                "sourceList": [
+                    "pangendering. (2015, Jan 8). Possible pangender pride flags… [Tumblr post]. Retrieved January 1, 2021, from [pangendering.tumblr.com](https://pangendering.tumblr.com/post/109400686126/possible-pangender-pride-flags)"
+                ],
+                "imageSource": "pangendering. (2015, Jan 8). Possible pangender pride flags… [Tumblr post]. Retrieved January 1, 2021, from [pangendering.tumblr.com](https://pangendering.tumblr.com/post/109400686126/possible-pangender-pride-flags)",
+                "firstAuthoring": "pangendering. (2015, Jan 8). Possible pangender pride flags… [Tumblr post]. Retrieved January 1, 2021, from [pangendering.tumblr.com](https://pangendering.tumblr.com/post/109400686126/possible-pangender-pride-flags)"
+            }
+        },
+        {
+            "colors": [
+                "yellow",
+                "red",
+                "pink",
+                "white"
+            ],
+            "stripes": 7,
+            "shapes": false,
+            "name": "Pangender Pride Flag (yellow center)",
+            "src": "/static/search/data/img/pangender_pride_flag_yellow_center.svg",
+            "citation": {
+                "text": "\"Pangender refers to a vast and diverse multiplicity of genders in the same individual that can infinitely extend, being always within the person's own culture and life experience. This experience can be either simultaneously or over time. Pangender is a multigender that is very expansive and not very specific, meaning that there are so many genders that it’s difficult or impossible to list all of them. There is no maximum limit to the amount of genders. Being pangender is feeling an entire infinite gender spectrum that is possible for an individual to have. The pangender experience can go beyond the current knowledge of genders. The Greek prefix \"pan\" refers to \"everything\" or \"all\". Therefore, pangender means \"having all genders it’s possible to have\" and other similar definitions.\" [1]",
+                "sourceList": [
+                    "pangendering. (2015, Jan 8). Possible pangender pride flags… [Tumblr post]. Retrieved January 1, 2021, from [pangendering.tumblr.com](https://pangendering.tumblr.com/post/109400686126/possible-pangender-pride-flags)"
+                ],
+                "imageSource": "pangendering. (2015, Jan 8). Possible pangender pride flags… [Tumblr post]. Retrieved January 1, 2021, from [pangendering.tumblr.com](https://pangendering.tumblr.com/post/109400686126/possible-pangender-pride-flags)",
+                "firstAuthoring": "pangendering. (2015, Jan 8). Possible pangender pride flags… [Tumblr post]. Retrieved January 1, 2021, from [pangendering.tumblr.com](https://pangendering.tumblr.com/post/109400686126/possible-pangender-pride-flags)"
+            }
+        },
+        {
+            "colors": [
+                "yellow",
+                "purple",
+                "blue",
+                "black",
+                "pink",
+                "orange"
+            ],
+            "stripes": 0,
+            "shapes": true,
+            "name": "Pocket Gender Pride Flag",
+            "src": "/static/search/data/img/pocket_gender_pride_flag.svg",
+            "citation": {
+                "text": "\"Pocket gender is a series of gender identities that are used by either one person or a small group of people.\" [1] \"The pink and blue represent masculinity and feminity. They are shaped in (semi) triangles to represent the varying amounts of masculinity and feminity. The purple represents a mix of both (feminity and masculinity and/or genderlessness), the black represents a lack of either or a mix including some form of genderlessness, and the orange represents Maverique, the separation of any gender including genderlessness.\" [2]",
+                "sourceList": [
+                    "Pocket Genders. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pocket_Gender)",
+                    "Pride Flags. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)"
+                ],
+                "imageSource": "Pride Flags. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)",
+                "firstAuthoring": "Pride Flags. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)"
+            }
+        },
+        {
+            "colors": [
+                "yellow",
+                "blue",
+                "orange",
+                "pink"
+            ],
+            "stripes": 0,
+            "shapes": true,
+            "name": "Pocket Gender Pride Flag",
+            "src": "/static/search/data/img/pocket_gender_pride_flag_sleepygender.svg",
+            "citation": {
+                "text": "\"Pocket gender is a series of gender identities that are used by either one person or a small group of people.\" [1]",
+                "sourceList": [
+                    "Pocket Genders. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pocket_Gender)"
+                ],
+                "imageSource": "Pocket Genders. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pocket_Gender)",
+                "firstAuthoring": "Pocket Genders. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pocket_Gender)"
+            }
+        },
+        {
+            "colors": [
+                "white"
+            ],
+            "stripes": 1,
+            "shapes": false,
+            "name": "Ingender Pride Flag",
+            "src": "/static/search/data/img/ingender_pride_flag.svg",
+            "citation": {
+                "text": "\"As IngenDerism is about the unity of humanity, rather than separating people by their differences, a white flag is used, as all colours are merely part of white.\" [1]",
+                "sourceList": [
+                    "Pride Flags. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)"
+                ],
+                "imageSource": "Pride Flags. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)",
+                "firstAuthoring": "Pride Flags. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)"
+            }
+        },
+        {
+            "colors": [
+                "red",
+                "pink",
+                "purple",
+                "white",
+                "blue"
+            ],
+            "stripes": 7,
+            "shapes": false,
+            "name": "Bigender Pride Flag (7 stripe)",
+            "src": "/static/search/data/img/bigender_pride_flag_7_stripe.svg",
+            "citation": {
+                "text": "\"Bigender, bi-gender or dual gender is a gender identity that includes any two gender identities and behaviors. Some bigender individuals express two distinct personas, which may be feminine, masculine, agender, androgyne, or other gender identities; others find that they identify as two genders simultaneously. A 1999 survey conducted by the San Francisco Department of Public Health observed that, among the transgender community, less than 3% of those who were assigned male at birth and less than 8% of those who were assigned female at birth identified as bigender.\" [1]",
+                "sourceList": [
+                    "Bigender. (2018, Feb 28). In Wikipedia. Retrieved January 1, 2019, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Bigender&oldid=875947825)"
+                ],
+                "imageSource": "Pride Flags. (n.d). In Gender Wiki. Retrieved January 17, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)",
+                "firstAuthoring": false
+            }
+        },
+        {
+            "colors": [
+                "grey",
+                "white",
+                "pink"
+            ],
+            "stripes": 7,
+            "shapes": false,
+            "name": "Demigirl Pride Flag",
+            "src": "/static/search/data/img/demigirl_pride_flag.svg",
+            "citation": {
+                "text": "\"Demigender is a gender identity of a person identifying partially or mostly with one gender and at the same time with another gender. There are several subcategories of the identity. A demi-boy or demi-man, for example, identifies at least partially with being a boy or a man, no matter the sex and gender they were assigned at birth, while other parts of their identity might be assigned to other genders, genderfluid or no other gender (agender). A demiflux person feels that the stable part of their identity is non-binary.\" [1]",
+                "sourceList": [
+                    "Non-binary gender. (2021, Jan 5). In Wikipedia. Retrieved January 17, 2021, from [en.wikipedia.org](https://en.wikipedia.org/wiki/Non-binary_gender#Definitions_and_identity)"
+                ],
+                "imageSource": "Pride Flags. (n.d). In Gender Wiki. Retrieved January 17, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)",
+                "firstAuthoring": false
+            }
+        },
+        {
+            "colors": [
+                "grey",
+                "white",
+                "blue"
+            ],
+            "stripes": 7,
+            "shapes": false,
+            "name": "Demiboy Pride Flag",
+            "src": "/static/search/data/img/demiboy_pride_flag.svg",
+            "citation": {
+                "text": "\"Demigender is a gender identity of a person identifying partially or mostly with one gender and at the same time with another gender. There are several subcategories of the identity. A demi-boy or demi-man, for example, identifies at least partially with being a boy or a man, no matter the sex and gender they were assigned at birth, while other parts of their identity might be assigned to other genders, genderfluid or no other gender (agender). A demiflux person feels that the stable part of their identity is non-binary.\" [1]",
+                "sourceList": [
+                    "Non-binary gender. (2021, Jan 5). In Wikipedia. Retrieved January 17, 2021, from [en.wikipedia.org](https://en.wikipedia.org/wiki/Non-binary_gender#Definitions_and_identity)"
+                ],
+                "imageSource": "Pride Flags. (n.d). In Gender Wiki. Retrieved January 17, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)",
+                "firstAuthoring": false
+            }
+        },
+        {
+            "colors": [
+                "white",
+                "green",
+                "black"
+            ],
+            "stripes": 3,
+            "shapes": false,
+            "name": "Neutrois Pride Flag",
+            "src": "/static/search/data/img/neutrois_pride_flag.svg",
+            "citation": {
+                "text": "\"Neutrois is a non-binary gender identity which is often associated with a \"neutral\" or \"null\" gender. It may also be associated with genderlessness, and shares many similarities with agender - people who consider themselves neutrally gendered or genderless, but some may identify as both, while others may prefer one term or the other. \" [1]",
+                "sourceList": [
+                    "Neutrois. (n.d). In Gender Wiki. Retrieved January 17, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Neutroiss)"
+                ],
+                "imageSource": "Neutrois Flag.svg. (2018, April 7). In Wikimedia Commons. Retrieved December 17, 2020, from [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Neutrois_Flag.svg)",
+                "firstAuthoring": false
+            }
+        },
+        {
+            "colors": [
+                "blue",
+                "yellow",
+                "purple"
+            ],
+            "stripes": 7,
+            "shapes": false,
+            "name": "Nonbinary Pride Flag (transrants)",
+            "src": "/static/search/data/img/nonbinary_pride_flag_transrants.svg",
+            "citation": {
+                "text": "\"Genderqueer, also known as non-binary, is a catch-all category for gender identities that are not exclusively masculine or feminine‍—‌identities which are outside the gender binary and cisnormativity. Genderqueer people may express a combination of masculinity and femininity, or neither, in their gender expression.\" [1]",
+                "sourceList": [
+                    "Genderqueer. (2018, July 8). In Wikipedia. Retrieved December 23, 2018, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Genderqueer&oldid=874316981)"
+                ],
+                "imageSource": "Pride Flags. (n.d). In Gender Wiki. Retrieved January 17, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)",
+                "firstAuthoring": false
+            }
+        },
+        {
+            "colors": [
+                "black",
+                "grey",
+                "white",
+                "green",
+                "purple"
+            ],
+            "stripes": 9,
+            "shapes": false,
+            "name": "Agender Pride Flag (9 stripe)",
+            "src": "/static/search/data/img/agender_pride_flag_9_stripe.svg",
+            "citation": {
+                "text": "\"An agender person... is someone who identifies as having no gender or being without a gender identity. Although this category includes a broad range of identities which do not conform to traditional gender norms, scholar Finn Enke states that people who identify with any of these positions may not necessarily self-identify as transgender. Agender people have no specific set of pronouns; singular they is typically used, but it is not the default.\" [1]",
+                "sourceList": [
+                    "Genderqueer. (2018, July 8). In Wikipedia. Retrieved December 23, 2018, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Genderqueer&oldid=874316981)"
+                ],
+                "imageSource": "Pride Flags. (n.d). In Gender Wiki. Retrieved January 17, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)",
+                "firstAuthoring": false
+            }
+        },
+        {
+            "colors": [
+                "red",
+                "pink",
+                "grey",
+                "blue",
+                "yellow"
+            ],
+            "stripes": 6,
+            "shapes": false,
+            "name": "Genderflux Pride Flag",
+            "src": "/static/search/data/img/genderflux_pride_flag.svg",
+            "citation": {
+                "text": "\"Genderflux is an umbrella term for gender identities in which the gender or one’s perception of the gender’s intensity varies over time. It can be seen as a form of genderfluid on a spectrum from agender to one or more other gender identities. Genderflux people may also identify as nonbinary, genderqueer and/or transgender.\" [1]",
+                "sourceList": [
+                    "Genderflux. (n.d). In Gender Wiki. Retrieved January 17, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Genderflux)"
+                ],
+                "imageSource": "Genderflux. (n.d). In Gender Wiki. Retrieved January 17, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Genderflux)",
+                "firstAuthoring": false
+            }
+        },
+        {
+            "colors": [
+                "pink",
+                "purple",
+                "yellow"
+            ],
+            "stripes": 1,
+            "shapes": true,
+            "name": "Doe Pride Flag",
+            "src": "/static/search/data/img/doe_pride_flag.svg",
+            "citation": {
+                "text": "Does are \"people whose identity or expression is feminine, without necessarily being women or femmes.\" [1]",
+                "sourceList": [
+                    "Pride Flags. (n.d). In Gender Wiki. Retrieved January 17, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)"
+                ],
+                "imageSource": "Pride Flags. (n.d). In Gender Wiki. Retrieved January 17, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)",
+                "firstAuthoring": false
+            }
+        },
+        {
+            "colors": [
+                "blue",
+                "pink",
+                "white",
+                "purple",
+                "yellow"
+            ],
+            "stripes": 5,
+            "shapes": false,
+            "name": "Littlefluid Pride Flag",
+            "src": "/static/search/data/img/littlefluid_pride_flag.svg",
+            "citation": {
+                "text": "\"Littlefluid describes a gender identity where your gender changes with switching from a normal headspace to littlespace. Littlefluid people may use alternating pronouns and names.\" [1]",
+                "sourceList": [
+                    "Littlefluid. (n.d). In Gender Wiki. Retrieved January 17, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Littlefluid)"
+                ],
+                "imageSource": "Littlefluid. (n.d). In Gender Wiki. Retrieved January 17, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Littlefluid)",
+                "firstAuthoring": false
+            }
+        },
+        {
+            "colors": [
+                "black",
+                "grey",
+                "yellow"
+            ],
+            "stripes": 7,
+            "shapes": false,
+            "name": "Nxnbinary Pride Flag",
+            "src": "/static/search/data/img/nxnbinary_pride_flag.svg",
+            "citation": {
+                "text": "\"A gender that is both a nonbinary gender (such as maverique) and agender/no gender. You can be a nonbinary gender and agender/no gender at the same time, go between them, or fluctuate between feeling a gender and not feeling gender. Emphasizes being a nonbinary gender. Spelled nxnbinary with an X instead of an O as if you’re crossing out that you’re a gender. Kinda similar to demigender (where agender/no gender is the non-gendered part), agenderflux (with fluctuations between agender and a gender), or being genderfluid between agender/no gender and a nonbinary gender. \" [1]",
+                "sourceList": [
+                    "Nxnbinary (2). (2017, Jan 18). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Nxnbinary-2-657852683)"
+                ],
+                "imageSource": "Nxnbinary (2). (2017, Jan 18). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Nxnbinary-2-657852683)",
+                "firstAuthoring": "Nxnbinary (2). (2017, Jan 18). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Nxnbinary-2-657852683)"
+            }
+        },
+        {
+            "colors": [
+                "black",
+                "grey",
+                "purple"
+            ],
+            "stripes": 7,
+            "shapes": false,
+            "name": "Nxnbinary Pride Flag (purple)",
+            "src": "/static/search/data/img/nxnbinary_pride_flag_purple.svg",
+            "citation": {
+                "text": "\"A gender that is both a nonbinary gender (such as maverique) and agender/no gender. You can be a nonbinary gender and agender/no gender at the same time, go between them, or fluctuate between feeling a gender and not feeling gender. Emphasizes being a nonbinary gender. Spelled nxnbinary with an X instead of an O as if you’re crossing out that you’re a gender. Kinda similar to demigender (where agender/no gender is the non-gendered part), agenderflux (with fluctuations between agender and a gender), or being genderfluid between agender/no gender and a nonbinary gender. \" [1]",
+                "sourceList": [
+                    "Nxnbinary (3). (2017, Jan 18). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Nxnbinary-3-657852679)"
+                ],
+                "imageSource": "Nxnbinary (3). (2017, Jan 18). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Nxnbinary-3-657852679)",
+                "firstAuthoring": "Nxnbinary (3). (2017, Jan 18). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Nxnbinary-3-657852679)"
+            }
+        },
+        {
+            "colors": [
+                "black",
+                "grey",
+                "green"
+            ],
+            "stripes": 7,
+            "shapes": false,
+            "name": "Nxnbinary Pride Flag (green)",
+            "src": "/static/search/data/img/nxnbinary_pride_flag_green.svg",
+            "citation": {
+                "text": "\"A gender that is both a nonbinary gender (such as maverique) and agender/no gender. You can be a nonbinary gender and agender/no gender at the same time, go between them, or fluctuate between feeling a gender and not feeling gender. Emphasizes being a nonbinary gender. Spelled nxnbinary with an X instead of an O as if you’re crossing out that you’re a gender. Kinda similar to demigender (where agender/no gender is the non-gendered part), agenderflux (with fluctuations between agender and a gender), or being genderfluid between agender/no gender and a nonbinary gender. \" [1]",
+                "sourceList": [
+                    "Nxnbinary. (2017, Jan 18). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Nxnbinary-657852725)"
+                ],
+                "imageSource": "Nxnbinary. (2017, Jan 18). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Nxnbinary-657852725)",
+                "firstAuthoring": "Nxnbinary. (2017, Jan 18). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Nxnbinary-657852725)"
+            }
+        },
+        {
+            "colors": [
+                "black",
+                "grey",
+                "pink"
+            ],
+            "stripes": 7,
+            "shapes": false,
+            "name": "Gxrl Pride Flag",
+            "src": "/static/search/data/img/gxrl_pride_flag.svg",
+            "citation": {
+                "text": "\"Gxrl (pronounced like girl-x) [is] a gender that is both girl and agender/no gender. You can be a girl and agender/no gender at the same time, go between them, or fluctuate between feeling female and not feeling gender. Emphasizes being female. Spelled gxrl with an X instead of an I as if you’re crossing out that you’re a girl. Kinda similar to demigirl (where agender/no gender is the non-girl part), agenderflux (with fluctuations between agender and female), or being genderfluid between agender/no gender and female. Can be used as transgxrl if you chose to, but only if you’re amab (similar to trans feminine being exclusively for amab trans people). Coined by www.deviantart.com/ayumi-hino in conjunction with sadghostbxy.tumblr.com coining bxy.\" [1]",
+                "sourceList": [
+                    "Gxrl. (2017, Jan 17). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Gxrl-657852708)"
+                ],
+                "imageSource": "Gxrl. (2017, Jan 17). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Gxrl-657852708)",
+                "firstAuthoring": "Gxrl. (2017, Jan 17). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Gxrl-657852708)"
+            }
+        },
+        {
+            "colors": [
+                "black",
+                "grey",
+                "blue"
+            ],
+            "stripes": 7,
+            "shapes": false,
+            "name": "Bxy Pride Flag",
+            "src": "/static/search/data/img/bxy_pride_flag.svg",
+            "citation": {
+                "text": "\"Bxy (pronounced like boy) [is] [a] gender that is both boy and agender/no gender. You can be a boy and agender/no gender at the same time, go between them, or fluctuate between feeling male and not feeling gender. Emphasizes being male. Spelled bxy with an X instead of an O as if you’re crossing out that you’re a boy. Kinda similar to demiboy (where agender/no gender is the non-boy part), agenderflux (with fluctuations between agender and male), or being genderfluid between agender/no gender and male. Can be used as trans bxy if you chose to, but only if you’re afab (similar to trans masculine being exclusively for afab trans people).\" [1]",
+                "sourceList": [
+                    "Bxy. (2017, Jan 17). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Bxy-657852717)"
+                ],
+                "imageSource": "Bxy. (2017, Jan 17). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Bxy-657852717)",
+                "firstAuthoring": "Bxy. (2017, Jan 17). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Bxy-657852717)"
             }
         }
     ]
