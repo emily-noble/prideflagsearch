@@ -771,7 +771,39 @@
                 "sourceList": [
                     "Bigender. (2018, Feb 28). In Wikipedia. Retrieved January 1, 2019, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Bigender&oldid=875947825)"
                 ],
-                "imageSource": "Pride Flags. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)",
+                "imageSource": "Pride Flags. (n.d). In Gender Wiki. Retrieved January 17, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)",
+                "firstAuthoring": false
+            }
+        },
+        {
+            "colors": [
+            ],
+            "stripes": 7,
+            "shapes": false,
+            "name": "Demigirl Pride Flag",
+            "src": "/static/search/data/img/demigirl_pride_flag.svg",
+            "citation": {
+                "text": "\"Demigender is a gender identity of a person identifying partially or mostly with one gender and at the same time with another gender. There are several subcategories of the identity. A demi-boy or demi-man, for example, identifies at least partially with being a boy or a man, no matter the sex and gender they were assigned at birth, while other parts of their identity might be assigned to other genders, genderfluid or no other gender (agender). A demiflux person feels that the stable part of their identity is non-binary.\" [1]",
+                "sourceList": [
+                    "Non-binary gender. (2021, Jan 5). In Wikipedia. Retrieved January 17, 2021, from [en.wikipedia.org](https://en.wikipedia.org/wiki/Non-binary_gender#Definitions_and_identity)"
+                ],
+                "imageSource": "Pride Flags. (n.d). In Gender Wiki. Retrieved January 17, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)",
+                "firstAuthoring": false
+            }
+        },
+        {
+            "colors": [
+            ],
+            "stripes": 7,
+            "shapes": false,
+            "name": "Demiboy Pride Flag",
+            "src": "/static/search/data/img/demiboy_pride_flag.svg",
+            "citation": {
+                "text": "\"Demigender is a gender identity of a person identifying partially or mostly with one gender and at the same time with another gender. There are several subcategories of the identity. A demi-boy or demi-man, for example, identifies at least partially with being a boy or a man, no matter the sex and gender they were assigned at birth, while other parts of their identity might be assigned to other genders, genderfluid or no other gender (agender). A demiflux person feels that the stable part of their identity is non-binary.\" [1]",
+                "sourceList": [
+                    "Non-binary gender. (2021, Jan 5). In Wikipedia. Retrieved January 17, 2021, from [en.wikipedia.org](https://en.wikipedia.org/wiki/Non-binary_gender#Definitions_and_identity)"
+                ],
+                "imageSource": "Pride Flags. (n.d). In Gender Wiki. Retrieved January 17, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)",
                 "firstAuthoring": false
             }
         }
