@@ -693,6 +693,49 @@
                 "imageSource": "pangendering. (2015, Jan 8). Possible pangender pride flags… [Tumblr post]. Retrieved January 1, 2021, from [pangendering.tumblr.com](https://pangendering.tumblr.com/post/109400686126/possible-pangender-pride-flags)",
                 "firstAuthoring": "pangendering. (2015, Jan 8). Possible pangender pride flags… [Tumblr post]. Retrieved January 1, 2021, from [pangendering.tumblr.com](https://pangendering.tumblr.com/post/109400686126/possible-pangender-pride-flags)"
             }
+        },
+        {
+            "colors": [
+                "yellow",
+                "purple",
+                "blue",
+                "black",
+                "pink",
+                "orange"
+            ],
+            "stripes": 0,
+            "shapes": true,
+            "name": "Pocket Gender Pride Flag",
+            "src": "/static/search/data/img/pocket_gender_pride_flag.svg",
+            "citation": {
+                "text": "\"Pocket gender is a series of gender identities that are used by either one person or a small group of people.\" [1] \"The pink and blue represent masculinity and feminity. They are shaped in (semi) triangles to represent the varying amounts of masculinity and feminity. The purple represents a mix of both (feminity and masculinity and/or genderlessness), the black represents a lack of either or a mix including some form of genderlessness, and the orange represents Maverique, the separation of any gender including genderlessness.\" [2]",
+                "sourceList": [
+                    "Pocket Genders. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pocket_Gender)",
+                    "Pride Flags. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)"
+                ],
+                "imageSource": "Pride Flags. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)",
+                "firstAuthoring": "Pride Flags. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)"
+            }
+        },
+        {
+            "colors": [
+                "yellow",
+                "blue",
+                "orange",
+                "pink"
+            ],
+            "stripes": 0,
+            "shapes": true,
+            "name": "Pocket Gender Pride Flag",
+            "src": "/static/search/data/img/pocket_gender_pride_flag_sleepygender.svg",
+            "citation": {
+                "text": "\"Pocket gender is a series of gender identities that are used by either one person or a small group of people.\" [1]",
+                "sourceList": [
+                    "Pocket Genders. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pocket_Gender)"
+                ],
+                "imageSource": "Pocket Genders. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pocket_Gender)",
+                "firstAuthoring": "Pocket Genders. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pocket_Gender)"
+            }
         }
     ]
 }
