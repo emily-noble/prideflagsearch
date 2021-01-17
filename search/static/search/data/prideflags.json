@@ -911,6 +911,27 @@
                 "imageSource": "Pride Flags. (n.d). In Gender Wiki. Retrieved January 17, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)",
                 "firstAuthoring": false
             }
+        },
+        {
+            "colors": [
+                "blue",
+                "pink",
+                "white",
+                "purple",
+                "yellow"
+            ],
+            "stripes": 5,
+            "shapes": false,
+            "name": "Littlefluid Pride Flag",
+            "src": "/static/search/data/img/littlefluid_pride_flag.svg",
+            "citation": {
+                "text": "\"Littlefluid describes a gender identity where your gender changes with switching from a normal headspace to littlespace. Littlefluid people may use alternating pronouns and names.\" [1]",
+                "sourceList": [
+                    "Littlefluid. (n.d). In Gender Wiki. Retrieved January 17, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Littlefluid)"
+                ],
+                "imageSource": "Littlefluid. (n.d). In Gender Wiki. Retrieved January 17, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Littlefluid)",
+                "firstAuthoring": false
+            }
         }
     ]
 }
