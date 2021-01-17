@@ -777,6 +777,9 @@
         },
         {
             "colors": [
+                "grey",
+                "white",
+                "pink"
             ],
             "stripes": 7,
             "shapes": false,
@@ -793,6 +796,9 @@
         },
         {
             "colors": [
+                "grey",
+                "white",
+                "blue"
             ],
             "stripes": 7,
             "shapes": false,
@@ -804,6 +810,25 @@
                     "Non-binary gender. (2021, Jan 5). In Wikipedia. Retrieved January 17, 2021, from [en.wikipedia.org](https://en.wikipedia.org/wiki/Non-binary_gender#Definitions_and_identity)"
                 ],
                 "imageSource": "Pride Flags. (n.d). In Gender Wiki. Retrieved January 17, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)",
+                "firstAuthoring": false
+            }
+        },
+        {
+            "colors": [
+                "white",
+                "green",
+                "black"
+            ],
+            "stripes": 3,
+            "shapes": false,
+            "name": "Neutrois Pride Flag",
+            "src": "/static/search/data/img/neutrois_pride_flag.svg",
+            "citation": {
+                "text": "\"Neutrois is a non-binary gender identity which is often associated with a \"neutral\" or \"null\" gender. It may also be associated with genderlessness, and shares many similarities with agender - people who consider themselves neutrally gendered or genderless, but some may identify as both, while others may prefer one term or the other. \" [1]",
+                "sourceList": [
+                    "Neutrois. (n.d). In Gender Wiki. Retrieved January 17, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Neutroiss)"
+                ],
+                "imageSource": "Neutrois Flag.svg. (2018, April 7). In Wikimedia Commons. Retrieved December 17, 2020, from [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Neutrois_Flag.svg)",
                 "firstAuthoring": false
             }
         }
