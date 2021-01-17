@@ -653,6 +653,46 @@
                 "imageSource": "Agender pride flag agender info.svg. (2021, Jan 16). In Wikimedia Commons. Retrieved January 16, 2021, from [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Agender_pride_flag_agender_info.svg)",
                 "firstAuthoring": "Why make a new flag?. (n.d). agender.info. Retrieved January 16, 2021, from [agender.info](https://agender.info/#flag)"
             }
+        },
+        {
+            "colors": [
+                "yellow",
+                "red",
+                "pink",
+                "white"
+            ],
+            "stripes": 7,
+            "shapes": false,
+            "name": "Pangender Pride Flag (white center)",
+            "src": "/static/search/data/img/pangender_pride_flag_white_center.svg",
+            "citation": {
+                "text": "\"Pangender refers to a vast and diverse multiplicity of genders in the same individual that can infinitely extend, being always within the person's own culture and life experience. This experience can be either simultaneously or over time. Pangender is a multigender that is very expansive and not very specific, meaning that there are so many genders that it’s difficult or impossible to list all of them. There is no maximum limit to the amount of genders. Being pangender is feeling an entire infinite gender spectrum that is possible for an individual to have. The pangender experience can go beyond the current knowledge of genders. The Greek prefix \"pan\" refers to \"everything\" or \"all\". Therefore, pangender means \"having all genders it’s possible to have\" and other similar definitions.\" [1]",
+                "sourceList": [
+                    "pangendering. (2015, Jan 8). Possible pangender pride flags… [Tumblr post]. Retrieved January 1, 2021, from [pangendering.tumblr.com](https://pangendering.tumblr.com/post/109400686126/possible-pangender-pride-flags)"
+                ],
+                "imageSource": "pangendering. (2015, Jan 8). Possible pangender pride flags… [Tumblr post]. Retrieved January 1, 2021, from [pangendering.tumblr.com](https://pangendering.tumblr.com/post/109400686126/possible-pangender-pride-flags)",
+                "firstAuthoring": "pangendering. (2015, Jan 8). Possible pangender pride flags… [Tumblr post]. Retrieved January 1, 2021, from [pangendering.tumblr.com](https://pangendering.tumblr.com/post/109400686126/possible-pangender-pride-flags)"
+            }
+        },
+        {
+            "colors": [
+                "yellow",
+                "red",
+                "pink",
+                "white"
+            ],
+            "stripes": 7,
+            "shapes": false,
+            "name": "Pangender Pride Flag (yellow center)",
+            "src": "/static/search/data/img/pangender_pride_flag_yellow_center.svg",
+            "citation": {
+                "text": "\"Pangender refers to a vast and diverse multiplicity of genders in the same individual that can infinitely extend, being always within the person's own culture and life experience. This experience can be either simultaneously or over time. Pangender is a multigender that is very expansive and not very specific, meaning that there are so many genders that it’s difficult or impossible to list all of them. There is no maximum limit to the amount of genders. Being pangender is feeling an entire infinite gender spectrum that is possible for an individual to have. The pangender experience can go beyond the current knowledge of genders. The Greek prefix \"pan\" refers to \"everything\" or \"all\". Therefore, pangender means \"having all genders it’s possible to have\" and other similar definitions.\" [1]",
+                "sourceList": [
+                    "pangendering. (2015, Jan 8). Possible pangender pride flags… [Tumblr post]. Retrieved January 1, 2021, from [pangendering.tumblr.com](https://pangendering.tumblr.com/post/109400686126/possible-pangender-pride-flags)"
+                ],
+                "imageSource": "pangendering. (2015, Jan 8). Possible pangender pride flags… [Tumblr post]. Retrieved January 1, 2021, from [pangendering.tumblr.com](https://pangendering.tumblr.com/post/109400686126/possible-pangender-pride-flags)",
+                "firstAuthoring": "pangendering. (2015, Jan 8). Possible pangender pride flags… [Tumblr post]. Retrieved January 1, 2021, from [pangendering.tumblr.com](https://pangendering.tumblr.com/post/109400686126/possible-pangender-pride-flags)"
+            }
         }
     ]
 }
