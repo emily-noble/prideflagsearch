@@ -932,6 +932,63 @@
                 "imageSource": "Littlefluid. (n.d). In Gender Wiki. Retrieved January 17, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Littlefluid)",
                 "firstAuthoring": false
             }
+        },
+        {
+            "colors": [
+                "black",
+                "grey",
+                "yellow"
+            ],
+            "stripes": 7,
+            "shapes": false,
+            "name": "Nxnbinary Pride Flag",
+            "src": "/static/search/data/img/nxnbinary_pride_flag.svg",
+            "citation": {
+                "text": "\"A gender that is both a nonbinary gender (such as maverique) and agender/no gender. You can be a nonbinary gender and agender/no gender at the same time, go between them, or fluctuate between feeling a gender and not feeling gender. Emphasizes being a nonbinary gender. Spelled nxnbinary with an X instead of an O as if you’re crossing out that you’re a gender. Kinda similar to demigender (where agender/no gender is the non-gendered part), agenderflux (with fluctuations between agender and a gender), or being genderfluid between agender/no gender and a nonbinary gender. \" [1]",
+                "sourceList": [
+                    "Nxnbinary (2). (2017, Jan 18). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Nxnbinary-2-657852683)"
+                ],
+                "imageSource": "Nxnbinary (2). (2017, Jan 18). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Nxnbinary-2-657852683)",
+                "firstAuthoring": false
+            }
+        },
+        {
+            "colors": [
+                "black",
+                "grey",
+                "purple"
+            ],
+            "stripes": 7,
+            "shapes": false,
+            "name": "Nxnbinary Pride Flag (purple)",
+            "src": "/static/search/data/img/nxnbinary_pride_flag_purple.svg",
+            "citation": {
+                "text": "\"A gender that is both a nonbinary gender (such as maverique) and agender/no gender. You can be a nonbinary gender and agender/no gender at the same time, go between them, or fluctuate between feeling a gender and not feeling gender. Emphasizes being a nonbinary gender. Spelled nxnbinary with an X instead of an O as if you’re crossing out that you’re a gender. Kinda similar to demigender (where agender/no gender is the non-gendered part), agenderflux (with fluctuations between agender and a gender), or being genderfluid between agender/no gender and a nonbinary gender. \" [1]",
+                "sourceList": [
+                    "Nxnbinary (3). (2017, Jan 18). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Nxnbinary-3-657852679)"
+                ],
+                "imageSource": "Nxnbinary (3). (2017, Jan 18). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Nxnbinary-3-657852679)",
+                "firstAuthoring": "Nxnbinary (3). (2017, Jan 18). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Nxnbinary-3-657852679)"
+            }
+        },
+        {
+            "colors": [
+                "black",
+                "grey",
+                "green"
+            ],
+            "stripes": 7,
+            "shapes": false,
+            "name": "Nxnbinary Pride Flag (green)",
+            "src": "/static/search/data/img/nxnbinary_pride_flag_green.svg",
+            "citation": {
+                "text": "\"A gender that is both a nonbinary gender (such as maverique) and agender/no gender. You can be a nonbinary gender and agender/no gender at the same time, go between them, or fluctuate between feeling a gender and not feeling gender. Emphasizes being a nonbinary gender. Spelled nxnbinary with an X instead of an O as if you’re crossing out that you’re a gender. Kinda similar to demigender (where agender/no gender is the non-gendered part), agenderflux (with fluctuations between agender and a gender), or being genderfluid between agender/no gender and a nonbinary gender. \" [1]",
+                "sourceList": [
+                    "Nxnbinary. (2017, Jan 18). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Nxnbinary-657852725)"
+                ],
+                "imageSource": "Nxnbinary. (2017, Jan 18). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Nxnbinary-657852725)",
+                "firstAuthoring": "Nxnbinary. (2017, Jan 18). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Nxnbinary-657852725)"
+            }
         }
     ]
 }
