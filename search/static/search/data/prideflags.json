@@ -753,6 +753,27 @@
                 "imageSource": "Pride Flags. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)",
                 "firstAuthoring": "Pride Flags. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)"
             }
+        },
+        {
+            "colors": [
+                "red",
+                "pink",
+                "purple",
+                "white",
+                "blue"
+            ],
+            "stripes": 7,
+            "shapes": false,
+            "name": "Bigender Pride Flag (7 stripe)",
+            "src": "/static/search/data/img/bigender_pride_flag_7_stripe.svg",
+            "citation": {
+                "text": "\"Bigender, bi-gender or dual gender is a gender identity that includes any two gender identities and behaviors. Some bigender individuals express two distinct personas, which may be feminine, masculine, agender, androgyne, or other gender identities; others find that they identify as two genders simultaneously. A 1999 survey conducted by the San Francisco Department of Public Health observed that, among the transgender community, less than 3% of those who were assigned male at birth and less than 8% of those who were assigned female at birth identified as bigender.\" [1]",
+                "sourceList": [
+                    "Bigender. (2018, Feb 28). In Wikipedia. Retrieved January 1, 2019, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Bigender&oldid=875947825)"
+                ],
+                "imageSource": "Pride Flags. (n.d). In Gender Wiki. Retrieved January 16, 2021, from [gender.wikia.org](https://gender.wikia.org/wiki/Pride_Flags)",
+                "firstAuthoring": false
+            }
         }
     ]
 }
