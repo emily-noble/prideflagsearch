@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" height="800" width="800">
+    <g fill="transparent">
+        <path id="ribbon5" d="M 0,0 C 800,0 0,200 800,200 V 308 C 0,308 800,108 0,108 V 0"/>
+        <path id="ribbon6" d="M 0,0 C 800,0 0,200 800,200 V 289 C 0,289 800,89 0,89 V 0"/>
+    </g>
+    
+    <!-- sky -->
+    <rect fill="#BCE9FA" width="100%" height="100%"/>
+    
+    <!-- grass -->
+    <path fill="#1A9B16" d="M 10, 800 L 800, 200 V 800 H 0"/>
+    
+    <!-- final flag pole -->
+    <rect fill="#9B5416" x="700" y="-250" width="10" height="550" rx="5" />
+    
+    <!-- intersex pride -->
+    <rect fill="#9B5416" x="500" y="-100" width="10" height="550" rx="5" />
+    <g transform="translate(500, -100) scale(.5)">
+        <path fill="#FFD800" d="M 0,0 C 800,0 0,200 800,200 V 740 C 0,740 800,540 0,540 V 0" />
+        <circle cx="450" cy="370" r="132" fill="none" stroke-width="45" stroke="#7902aa" transform="scale(.88, 1)"/>
+    </g>
+    
+    <!-- trans pride -->
+    <rect fill="#9B5416" x="300" y="50" width="10" height="550" rx="5" />
+    <g transform="translate(300, 50) scale(.5)">
+        <use href="#ribbon5" fill="#5BCEFA"/>
+        <use href="#ribbon5" fill="#F5A9B8" transform="translate(0,107)"/>
+        <use href="#ribbon5" fill="#FFF" transform="translate(0,214)"/>
+        <use href="#ribbon5" fill="#F5A9B8" transform="translate(0,321)"/>
+        <use href="#ribbon5" fill="#5BCEFA" transform="translate(0,428)"/>
+    </g>
+    
+    <!-- gay pride -->
+    <rect fill="#9B5416" x="100" y="200" width="10" height="550" rx="5" />
+    <g transform="translate(100, 200) scale(.5)">
+        <use href="#ribbon6" fill="#750787"/>
+        <use href="#ribbon6" fill="#004dff" transform="translate(0,88)"/>
+        <use href="#ribbon6" fill="#008026" transform="translate(0,176)"/>
+        <use href="#ribbon6" fill="#ffed00" transform="translate(0,264)"/>
+        <use href="#ribbon6" fill="#ff8c00" transform="translate(0,352)"/>
+        <use href="#ribbon6" fill="#e40303" transform="translate(0,440)"/>
+    </g>
+    
+    <!-- magnifying glass -->
+    <circle cx="500" cy="300" r="250" fill="none" stroke-width="75" stroke="#FFFFFFF4"/>
+    <rect fill="#FFFFFFF4" x="450" y="600" width="100" height="400" rx="10" transform="rotate(45, 500, 300)" />
+</svg>
