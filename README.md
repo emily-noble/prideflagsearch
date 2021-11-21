@@ -21,6 +21,12 @@ The basic process for contributing to this project is:
 
 While a full explanation of using git, GitHub, or any of the technologies used in this website is beyond the scope of this document, email Brynne Farrell at brynne.farrell@gmail.com and she'll be happy to help you get started.
 
+## Developer Setup
+
+1. Create a new environment for the project (the folder "env" is already ignored by git, if you'd like to use the same folder)
+1. Install requirements.txt
+1. Run `python manage.py runserver 0.0.0.0:3000` to start the development environment
+
 ## Contributing New Flags
 
 *Recommended skills: svg editing, json editing, ability to run a django website*
