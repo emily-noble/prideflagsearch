@@ -1,6 +1,6 @@
 # About the Pride Flag Identification Guide
 
-This project is attempting to address the difficulty in figuring out just *what* that pride flag was. The queer community has seen a recent explosion of flags and this site should be used as a tool to help identify some of them in the wild. It's an open source project run by Brynne Farrell. Anyone is able to add a flag or features to the website. In short, here's what this project is trying to do:
+This project is attempting to address the difficulty in figuring out just *what* that pride flag was. The queer community has seen a recent explosion of flags and this site should be used as a tool to help identify some of them in the wild. It's an open source project run by Emily Noble. Anyone is able to add a flag or features to the website. In short, here's what this project is trying to do:
 
 1. Collect all the (queer) pride flags possbile
 1. Make high quality, automatically scalable svg versions of those flags available on Wikimedia for use across the website
@@ -19,13 +19,13 @@ The basic process for contributing to this project is:
 1. Commit and push that branch to your repository
 1. Make a merge request to merge your branch into the main project's master branch
 
-While a full explanation of using git, GitHub, or any of the technologies used in this website is beyond the scope of this document, email Brynne Farrell at brynne.farrell@gmail.com and she'll be happy to help you get started.
+While a full explanation of using git, GitHub, or any of the technologies used in this website is beyond the scope of this document, email Emily Noble at emily.c.noble@protonmail.com and xe will be happy to help you get started.
 
-## Developer Setup
+## Developer Setup (In VS Code)
 
-1. Create a new environment for the project (the folder "env" is already ignored by git, if you'd like to use the same folder)
+1. Create a new environment for the project (the folder ".venv" is already ignored by git, if you'd like to use the same folder)
 1. Install requirements.txt
-1. Run `python manage.py runserver 0.0.0.0:3000` to start the development environment
+1. Run the Python run configuration to start the development environment
 
 ## Contributing New Flags
 
