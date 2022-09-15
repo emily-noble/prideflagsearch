@@ -1,4 +1,31 @@
+# ============================
+# Environment settings ignores
+# ============================
 *__settings.py
+
+# ========================
+# Local Django dev ignores
+# ========================
+db.sqlite3
+
+# ==============
+# Python ignores
+# ==============
 *.pyc
-*.sqlite3
-env/
+.venv/
+
+# ===============
+# VS Code ignores
+# ===============
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
