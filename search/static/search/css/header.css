@@ -10,11 +10,16 @@
 }
 
 .navbar-link-wrapper {
-    padding: 0.5rem 0 0.5rem 0;
+    padding: 0.5rem 0.25rem 0.5rem 0.25rem;
 }
 
 a.navbar-link {
     color: #FFFFFF;
     font-size: 1rem;
-    padding-left: 0.5rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+
+a.navbar-link:focus {
+    border-color: #FFFFFF;
 }
