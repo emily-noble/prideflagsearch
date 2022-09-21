@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from prideflagsearch.settings import DATA_FILE
+from django.views.generic import TemplateView
 import json
 import re
 
@@ -39,6 +40,9 @@ def index(request):
         'colorList': getColorFilters()
     }
     return render(request, 'search/index.html', context)
+
+class PrivacyView(TemplateView):
+    template_name = "search/privacy.html"
 
 def getColorFilters():
     return [
