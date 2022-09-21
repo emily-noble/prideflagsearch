@@ -1,6 +1,7 @@
 from . import views
-from django.urls import path 
+from django.urls import path
 
 urlpatterns = [
-    path('', views.index),
+    path("", views.index, name="search"),
+    path("privacy/", views.PrivacyView.as_view(), name="privacy"),
 ]

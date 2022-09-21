@@ -10,10 +10,12 @@
             "request": "launch",
             "program": "${workspaceFolder}\\manage.py",
             "args": [
-                "runserver"
+                "runserver",
+                "0.0.0.0:8000"
             ],
             "env": {
-                "DEBUG": "True"
+                "DEBUG": "True",
+                "DJANGO_ALLOWED_HOSTS": "*"
             },
             "django": true,
             "justMyCode": true

@@ -1,10 +1,30 @@
 .navbar {
     background-color: #343a40;
-    margin: 0 0 1em 0;
+    margin: 0 0 1rem 0;
 }
 
 .navbar-brand h1 {
-    padding: .5em 0 .5em .5em;
+    padding: .5rem 0 .5rem .5rem;
     color: #FFFFFF;
-    font-size: 2.5em;
+    font-size: 2.5rem;
+}
+
+.navbar-brand img {
+    height: 1.8rem;
+    vertical-align: baseline;
+}
+
+.navbar-link-wrapper {
+    padding: 0.5rem 0.25rem 0.5rem 0.25rem;
+}
+
+a.navbar-link {
+    color: #FFFFFF;
+    font-size: 1rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+
+a.navbar-link:focus {
+    border-color: #FFFFFF;
 }
