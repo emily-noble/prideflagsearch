@@ -9,6 +9,11 @@
     font-size: 2.5rem;
 }
 
+.navbar-brand img {
+    height: 1.8rem;
+    vertical-align: baseline;
+}
+
 .navbar-link-wrapper {
     padding: 0.5rem 0.25rem 0.5rem 0.25rem;
 }

@@ -26,7 +26,12 @@
 <body>
     <header>
         <nav class="navbar">
-            <div class="navbar-brand"><h1>Pride Flag Identification Guide</h1></div>
+            <div class="navbar-brand">
+                <h1>
+                    <img src="{% static 'icon.svg' %}" alt="" />
+                    Pride Flag Identification Guide
+                </h1>
+            </div>
             <div class="navbar-link-wrapper">
                 <a class="navbar-link" href="{% url 'search' %}">Search</a>
                 <a class="navbar-link" href="{% url 'privacy' %}">Privacy</a>
