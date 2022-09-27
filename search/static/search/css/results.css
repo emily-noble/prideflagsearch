@@ -33,14 +33,6 @@
     box-shadow: 2px 2px 5px 0px rgba(70,70,70,0.5);
 }
 
-.flag-citation-control {
-    margin-top: auto;
-    background-color: white;
-    border: none;
-    padding-bottom: 0.5em;
-    text-align: left;
-}
-
 .javascript-required-message {
     position: relative;
     padding: 0.5rem 0.5rem;
