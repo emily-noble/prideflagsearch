@@ -1027,6 +1027,25 @@
                 "imageSource": "Bxy. (2017, Jan 17). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Bxy-657852717)",
                 "firstAuthoring": "Bxy. (2017, Jan 17). pride-flags. Retrieved January 17, 2021, from [deviantart.com](https://www.deviantart.com/pride-flags/art/Bxy-657852717)"
             }
-        }
+        },
+        {
+            "colors": [
+                "blue",
+                "tan",
+                "green"
+            ],
+            "stripes": 4,
+            "shapes": false,
+            "name": "Nebulous Pride Flag",
+            "src": "/static/search/data/img/nebulous_pride_flag.svg",
+            "citation": {
+                "text": "\"I don't enjoy strict boxes and labels. I'm just a lil' dude and I wanna vibe. ... I've always gravitated to nebulas. Their everlasting beauty and many forms know no human bounds. That's kind of how I feel. Ever changing. Weird and a little scary. Nebulous.\" [1]",
+                "sourceList": [
+                    "Artist \"Jaws\" on Bluesky. (n.d.). Bluesky Social. Retrieved February 10, 2024, from [bsky.app](https://bsky.app/profile/jaws-stone.bsky.social/post/3kjyiw7rlt325)"
+                ],
+                "imageSource": "Wikiagius. (2024, February 10). English: Originally conceived by artist \"Jaws\" on the BlueSky social app, the \"Nebulous\" flag is free for anyone to draw and use if they feel it matches their identity. [bsky.app](https://bsky.app/profile/jaws-stone.bsky.social/post/3kjyiw7rlt325). Wikimedia Commons. [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Nebulous-flag.svg)",
+                "firstAuthoring": "Artist \"Jaws\" on Bluesky. (n.d.). Bluesky Social. Retrieved February 10, 2024, from [bsky.app](https://bsky.app/profile/jaws-stone.bsky.social/post/3kjyiw7rlt325)"
+            }
+        },
     ]
 }
