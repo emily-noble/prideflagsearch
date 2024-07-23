@@ -282,6 +282,44 @@
         },
         {
             "colors": [
+                "orange",
+                "white",
+                "pink"
+            ],
+            "stripes": 7,
+            "shapes": false,
+            "name": "Lesbian Pride Flag (2018 7 stripes \"Sunset\")",
+            "src": "/static/search/data/img/lesbian_pride_flag_2018.svg",
+            "citation": {
+                "text": "\"The \"orange-pink\" lesbian flag, modeled after the seven-band pink flag, was introduced on Tumblr by blogger Emily Gwen in 2018. The colors include dark orange for \"gender non-conformity\", orange for \"independence\", light orange for \"community\", white for \"unique relationships to womanhood\", pink for \"serenity and peace\", dusty pink for \"love and sex\", and dark rose for \"femininity\".[1]",
+                "sourceList": [
+                    "Lesbian Flags. (2024, July 22). In Wikipedia. Retrieved July 22, 2024, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Lesbian_flags&oldid=1232052284#Orange-Pink_flag)"
+                ],
+                "imageSource": "Orange-pink lesbian flag derived from the pink flag in 2018[17]). In Wikimedia Commons. Retrieved July 22, 2024, from [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Lesbian_pride_flag_2018.svg)",
+                "firstAuthoring": false
+            }
+        },
+        {
+            "colors": [
+                "orange",
+                "white",
+                "pink"
+            ],
+            "stripes": 5,
+            "shapes": false,
+            "name": "Lesbian Pride Flag (2019 5 stripes \"Sunset\")",
+            "src": "/static/search/data/img/lesbian_pride_flag_2019.svg",
+            "citation": {
+                "text": "\"The \"orange-pink\" lesbian flag, modeled after the seven-band pink flag, was introduced on Tumblr by blogger Emily Gwen in 2018. The colors include dark orange for \"gender non-conformity\", orange for \"independence\", light orange for \"community\", white for \"unique relationships to womanhood\", pink for \"serenity and peace\", dusty pink for \"love and sex\", and dark rose for \"femininity\". A five-stripes version was soon derived from the 2018 colors.[1]",
+                "sourceList": [
+                    "Lesbian Flags. (2024, July 22). In Wikipedia. Retrieved July 22, 2024, from [en.wikipedia.org](https://en.wikipedia.org/w/index.php?title=Lesbian_flags&oldid=1232052284#Orange-Pink_flag)"
+                ],
+                "imageSource": "Five-stripes variant of orange-pink flag. In Wikimedia Commons. Retrieved July 22, 2024, from [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Lesbian_pride_flag_2018.svg)",
+                "firstAuthoring": false
+            }
+        },
+        {
+            "colors": [
                 "purple",
                 "pink",
                 "white",
